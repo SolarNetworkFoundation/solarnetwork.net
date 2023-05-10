@@ -1,0 +1,24 @@
+{{/*
+  Renders inner content as Markdown.
+
+  Named parameters:
+
+   * class (optional)    - additional CSS class for section
+   * title (optional)    - the section title
+   * subtitle (optional) - the section subtitle
+
+ */}}
+<section class="sn-content sn-row{{ with .Get "class" }} {{ . }}{{ end }}" style="column-gap: 80px">
+  <div>
+    {{ with .Get "title" }}
+      <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
+    {{end}}
+    {{ with .Get "subtitle" }}
+      <div class="uk-text-small">{{ . }}</div>
+    {{end}}
+  </div>
+  <div class="sn-scroll-hint uk-inline">
+    {{ .Inner | markdownify }}
+    <span uk-icon="icon: chevron-down" class="uk-position-bottom-right sn-scroll-hint-down"></span>
+  </div>
+</section>

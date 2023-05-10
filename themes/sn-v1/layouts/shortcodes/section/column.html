@@ -8,6 +8,6 @@
 
  */}}
 <section class="sn-col{{ with .Get "class" }} {{ . }}{{ end }}">
-  {{ with .Get "title" }}<h1>{{ . }}</h1>{{end}}
+  {{ with .Get "title" }}<h1 id="{{ partial "hid" . }}">{{ . }}</h1>{{end}}
   {{ .Inner }}
 </section>

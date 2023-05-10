@@ -1,0 +1,5 @@
+{{/*
+  Renders a "header id" value from text, by replacing non-alphanumeric character with dashes.
+
+ */}}
+{{ trim (replaceRE `-+` `-` (replaceRE `[^a-zA-Z0-9._-]` `-` (.Get 0))) `-` }}

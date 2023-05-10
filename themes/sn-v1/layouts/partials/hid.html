@@ -1,0 +1,5 @@
+{{/*
+  Return a "header id" value from text, by replacing non-alphanumeric character with dashes.
+
+ */}}
+{{ return lower (trim (replaceRE `-+` `-` (replaceRE `[^a-zA-Z0-9._-]` `-` .)) `-`) }}

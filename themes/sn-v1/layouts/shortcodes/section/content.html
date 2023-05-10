@@ -1,0 +1,19 @@
+{{/*
+  Renders inner content as HTML.
+
+  Named parameters:
+
+   * class (optional)    - additional CSS class for section
+   * title (optional)    - the section title
+   * subtitle (optional) - the section subtitle
+
+ */}}
+<section class="sn-content{{ with .Get "class" }} {{ . }}{{ end }}">
+  {{ with .Get "title" }}
+    <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
+  {{end}}
+  {{ with .Get "subtitle" }}
+    <div class="uk-text-small">{{ . }}</div>
+  {{end}}
+  {{ .Inner | markdownify }}
+</section>
