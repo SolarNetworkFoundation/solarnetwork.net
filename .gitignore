@@ -1,4 +1,5 @@
 .DS_Store
 .vscode
+*.lock
 *.swp
 node_modules
