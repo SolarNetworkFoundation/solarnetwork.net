@@ -1,0 +1,9 @@
+{{/*
+  Named parameters:
+
+   * class (optional) - additional CSS class for section
+
+ */}}
+<div class="sn-button-bar{{ with .Get "class" }} {{ . }}{{ end }}">
+  {{ .Inner }}
+</section>

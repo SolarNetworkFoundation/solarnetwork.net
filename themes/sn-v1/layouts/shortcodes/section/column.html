@@ -1,0 +1,13 @@
+{{/*
+  Renders inner content as HTML.
+
+  Named parameters:
+
+   * class (optional) - additional CSS class for section
+   * title (optional) - the section title
+
+ */}}
+<section class="sn-col{{ with .Get "class" }} {{ . }}{{ end }}">
+  {{ with .Get "title" }}<h1>{{ . }}</h1>{{end}}
+  {{ .Inner }}
+</section>
