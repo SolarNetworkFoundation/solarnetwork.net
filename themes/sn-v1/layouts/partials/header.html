@@ -1,0 +1,45 @@
+<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+  <nav class="uk-navbar-container" uk-navbar="dropbar: true; dropbar-anchor: !.uk-navbar-container; target-y: !.uk-navbar-container">
+    <div class="uk-navbar-left">
+      <a class="uk-navbar-item uk-logo" href="/">
+        <img src="/img/solarnetwork-logo.svg" alt="SolarNetwork" width="200" height="30" />
+      </a>
+    </div>
+    <div class="uk-navbar-right">
+      <ul class="uk-navbar-nav uk-visible@m">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+          <li{{ if (eq $currentPage.RelPermalink .URL) }} class="sn-selected"{{end}}>
+            <a class="uk-button" href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+        {{end}}
+      </ul>
+      <div class="uk-navbar-item uk-visible@l sn-buttons">
+        <a class="uk-button uk-button-default" href="#">Book a demo</a>
+        <a class="uk-button uk-button-primary sn-main" href="#">Get in touch</a>
+      </div>
+      <a
+        href="#"
+        class="uk-navbar-toggle uk-navbar-toggle-animate uk-hidden@m"
+        uk-navbar-toggle-icon
+      ></a>
+      <nav
+        class="uk-navbar-dropdown"
+        uk-drop="mode: click; cls-drop: uk-navbar-dropdown; boundary: !.uk-navbar; stretch: x; offset: -8; flip: false; target-y: !.uk-navbar-container"
+      >
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.main }}
+            <li{{ if (eq $currentPage.RelPermalink .URL) }} class="sn-selected"{{end}}>
+              <a class="uk-button" href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+          {{end}}
+        </ul>
+        <div class="sn-buttons">
+          <a class="uk-button uk-button-default" href="#">Book a demo</a>
+          <a class="uk-button uk-button-primary sn-main" href="#">Get in touch</a>
+        </div>
+      </nav>
+    </div>
+  </nav>
+</div>

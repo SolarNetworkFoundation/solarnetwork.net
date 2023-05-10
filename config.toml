@@ -1,0 +1,28 @@
+baseURL = "https://stage.solarnetwork.net/"
+languageCode = "en-us"
+title = "SolarNetwork"
+theme = "sn-v1"
+description = "SolarNetwork is an open-source platform helping individuals and organisations to track and transform their energy circulation so they can take meaningful action that supports a sustainable future."
+Paginate = 4
+uglyURLs = true
+
+[params]
+  author = "SolarNetwork"
+  github = "SolarNetworkFoundation"
+  twitter = ""
+  email = "info@solarnetwork.net"
+
+[markup.goldmark.renderer]
+    unsafe= true
+
+[[menu.main]]
+    name = "About"
+    weight = 400
+    identifier = "about"
+    url = "/about.html"
+
+[[menu.main]]
+    name = "Legal"
+    weight = 500
+    identifier = "legal"
+    url = "/legal.html"

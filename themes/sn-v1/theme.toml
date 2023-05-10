@@ -1,0 +1,12 @@
+name = "SolarNetwork v1"
+license = "MIT"
+licenselink = "https://github.com/SolarNetworkFoundation/solarnetwork.net/master/LICENSE"
+description = "SNv1  is a theme specific to SolarNetwork."
+homepage = "https://solarnetwork.net/"
+min_version = "0.111"
+
+[author]
+  name = "Matt Magoffin"
+  homepage = ""
+
+
