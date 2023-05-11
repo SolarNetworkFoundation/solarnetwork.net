@@ -1,0 +1,14 @@
+{{/*
+  An image "card" where the image is shown on the background.
+
+  Expects a dict parameter with the following items:
+
+   * img              - the image URL
+   * alt   (optional) - the image descripiton
+
+ */}}
+<div
+  class="sn-col sn-img-card"
+  style="background-image: url({{ .img }})"
+  {{ with .alt }}title="{{ . }}"{{ end }}
+></div>

@@ -15,8 +15,5 @@
     {{ .Inner | markdownify }}
     <span  uk-icon="icon: chevron-down" class="uk-position-bottom-right uk-position-medium sn-scroll-hint-down"></span>
   </div>
-  <div
-    class="sn-col sn-img-card"
-    style="background-image: url({{ .Get "img" }})"
-    {{ with .Get "alt" }}title="{{ . }}"{{ end }}></div>
+  {{ partial "img-card" (dict "img" (.Get "img") "alt" (.Get "alt")) }}
 </section>
