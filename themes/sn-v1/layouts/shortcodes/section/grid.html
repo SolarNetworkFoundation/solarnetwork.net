@@ -14,7 +14,7 @@
 <section class="sn-grid{{ with .Get "class" }} {{ . }}{{ end }}">
   <div class="sn-col sn-info-card">
     {{ with .Get "title" }}
-      {{ printf `<%[1]s id="%[1]s">%s</%[1]s>` (partial "hid" $htag) . | safeHTML }}
+       {{ printf `<%s id="%s">%s</%[1]s>` $htag (partial "hid" .) . | safeHTML }}
     {{end}}
     {{ with .Get "subtitle" }}
       <p class="sn-subhead">{{ . }}</p>
