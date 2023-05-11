@@ -1,0 +1,13 @@
+{{/*
+  Context item is map with keys:
+
+   * type (optional)  - additional type (default, primary)
+   * url              - link URL
+   * title (optional) - link title
+   * text             - link text
+ */}}
+<a class="uk-button{{ with .type }} uk-button-{{ . }}{{ end }}"
+  href="{{ .url }}"
+  {{ with .title }}title="{{ . }}"{{ end }}>
+  {{ .text }}
+</a>

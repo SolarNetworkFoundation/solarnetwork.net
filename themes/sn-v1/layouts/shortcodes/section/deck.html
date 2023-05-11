@@ -5,6 +5,16 @@
    * title    (optional) - the section title
    * subtitle (optional) - the section subtitle
    * h1       (optional) - if present, then use h1 instead of h2
+   * buttons  (optional) - key within page map parameter "buttons" of buttons partial map
+
+  Page buttons:
+
+    Define a button partial map under a "buttons" key, for example in YAML:
+
+    buttons:
+      mybuttons:
+        url: link/to/something.html
+        text: My Button
  */}}
 {{ $htag := (cond (and .IsNamedParams (isset .Params "h1")) "h1" "h2") }}
 <section class="sn-deck{{ with .Get "class" }} {{ . }}{{ end }}">
@@ -18,5 +28,8 @@
     <div class="sn-grid">
       {{ .Inner }}
     </div>
+    {{ if and (and (isset .Params "buttons") (isset .Page.Params "buttons")) (isset .Page.Params.buttons (.Get "buttons")) }}
+      {{ partial "button-bar" (dict "buttons" (index .Page.Params.buttons (.Get "buttons"))) | safeHTML }}
+    {{ end }}
   </div>
 </section>

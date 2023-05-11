@@ -1,0 +1,15 @@
+{{/*
+  Context item is map with keys:
+
+   * class (optional) - additional CSS class
+   * buttons          - slice of maps, each with:
+     * type (optional)  - additional type (default, primary)
+     * url              - link URL
+     * title (optional) - link title
+     * text             - link text
+ */}}
+<div class="sn-button-bar{{ with .class }} {{ . }}{{ end }}">
+  {{ range .buttons }}
+    {{ partial "button" . }}
+  {{ end }}
+</div>

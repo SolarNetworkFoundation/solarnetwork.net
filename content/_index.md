@@ -2,6 +2,11 @@
 title: "SolarNetwork"
 weight: 100
 audience: main
+buttons:
+  deck:
+    - type: primary
+      url:  "#"
+      text: Explore all features
 ---
 {{<section/grid
   h1="true"
@@ -13,7 +18,7 @@ audience: main
 
 {{<button-bar>}}
   {{<button type="default" url="#">}}Get in touch{{</button>}}
-  {{<button type="primary" url="#">}}How it works{{</button>}}
+  {{<button type="primary" url="/how-it-works.html">}}How it works{{</button>}}
 {{</button-bar>}}
 
 {{</section/grid>}}
@@ -28,7 +33,8 @@ their energy circulation so they can take meaningful action that supports a sust
 
 {{</section/grid>}}
 
-{{<section/deck title="Powerful energy management for your business">}}
+{{<section/deck title="Powerful energy management for your business"
+    buttons="deck">}}
 
   {{<deck-card title="Scales to every size"
     img="/img/SN-CTO-Scale.svg"
@@ -51,7 +57,7 @@ their energy circulation so they can take meaningful action that supports a sust
 
   {{<deck-card title="Keep your solar data secure"
     img="/img/SN-CTO-Data-Security.svg"
-    alt="Diagram of padlock surrounded by orbiting arrows."  >}}
+    alt="Diagram of padlock surrounded by orbiting arrows." >}}
 
     What you share is up to you. Your solar energy data is protected with robust security measures
     and access controls that support multiple sites.

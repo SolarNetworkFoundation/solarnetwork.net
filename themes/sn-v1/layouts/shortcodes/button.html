@@ -6,8 +6,4 @@
    * title (optional) - link title
 
  */}}
-<a class="uk-button{{ with .Get "type" }} uk-button-{{ . }}{{ end }}"
-  href="{{ .Get "url" }}"
-  {{ with .Get "title" }}title="{{ . }}"{{ end }}>
-  {{ .Inner }}
-</a>
+{{ partial "button" (merge .Params (dict "text" .InnerDeindent)) }}
