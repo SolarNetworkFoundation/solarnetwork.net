@@ -1,4 +1,6 @@
 {{/*
+  Inner context is treated as Markdown.
+
   Named parameters:
 
    * class    (optional) - additional CSS class for section
@@ -20,6 +22,6 @@
     {{ with .Get "subtitle" }}
       <p class="sn-subhead">{{ . }}</p>
     {{ end }}
-    {{ .Inner }}
+    {{ .InnerDeindent | markdownify }}
   </div>
 </div>
