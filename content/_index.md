@@ -28,8 +28,8 @@ buttons:
   img="/img/stock/thomas-coker-Jt5Pk0V65wc-unsplash@0.5x.jpg"
   alt="Field filled with solar panels." >}}
 
-SolarNetwork is an open-source platform helping individuals and organisations to track and transform
-their energy circulation so they can take meaningful action that supports a sustainable future.
+<p>SolarNetwork is an open-source platform helping individuals and organisations to track and transform
+their energy circulation so they can take meaningful action that supports a sustainable future.</p>
 
 {{</section/grid>}}
 
@@ -65,3 +65,15 @@ their energy circulation so they can take meaningful action that supports a sust
   {{</deck-card>}}
 
 {{</section/deck>}}
+
+{{<section/topic title="Camp Glenorchy" subtitle="Case Study"
+  class="sn-alt"
+  img="/img/stock/camp-glenorchy.jpg"
+  alt="Photograph of eco-cabin at Camp Glenorchy." >}}
+
+<p>New Zealand's first net-negative energy accommodation, which means the site will on average use less
+energy than it generates.</p>
+
+<p>{{<button type="link" url="#todo">}}Learn more{{</button>}}</p>
+
+{{</section/topic>}}
