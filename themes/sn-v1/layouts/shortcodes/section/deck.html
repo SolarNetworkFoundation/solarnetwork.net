@@ -1,0 +1,22 @@
+{{/*
+  Named parameters:
+
+   * class    (optional) - additional CSS class for section
+   * title    (optional) - the section title
+   * subtitle (optional) - the section subtitle
+   * h1       (optional) - if present, then use h1 instead of h2
+ */}}
+{{ $htag := (cond (and .IsNamedParams (isset .Params "h1")) "h1" "h2") }}
+<section class="sn-deck{{ with .Get "class" }} {{ . }}{{ end }}">
+  <div class="sn-info-card">
+    {{ with .Get "title" }}
+      {{ printf `<%s id="%s">%s</%[1]s>` $htag (partial "hid" .) . | safeHTML }}
+    {{end}}
+    {{ with .Get "subtitle" }}
+      <p class="sn-subhead">{{ . }}</p>
+    {{ end }}
+    <div class="sn-grid">
+      {{ .Inner }}
+    </div>
+  </div>
+</section>

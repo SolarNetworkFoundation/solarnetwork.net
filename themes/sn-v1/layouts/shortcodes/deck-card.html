@@ -1,0 +1,25 @@
+{{/*
+  Named parameters:
+
+   * class    (optional) - additional CSS class for section
+   * title    (optional) - the section title
+   * subtitle (optional) - the section subtitle
+   * img                 - the image URL
+   * alt      (optional) - the image descripiton
+   * h2       (optional) - if present, then use h2 instead of h3
+ */}}
+{{ $htag := (cond (isset .Params "h2") "h2" "h3") }}
+<div class="sn-col">
+  {{ if (isset .Params "img") }}
+    <img src="{{ .Get "img" }}"{{ with .Get "alt" }} alt="{{ . }}"{{ end }}>
+  {{ end }}
+  <div>
+    {{ with .Get "title" }}
+       {{ printf `<%s id="%s">%s</%[1]s>` $htag (partial "hid" .) . | safeHTML }}
+    {{end}}
+    {{ with .Get "subtitle" }}
+      <p class="sn-subhead">{{ . }}</p>
+    {{ end }}
+    {{ .Inner }}
+  </div>
+</div>
