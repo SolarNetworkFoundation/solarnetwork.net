@@ -16,6 +16,12 @@ uglyURLs = true
     unsafe= true
 
 [[menu.main]]
+    name = "How it works"
+    weight = 100
+    identifier = "how-it-works"
+    url = "/how-it-works.html"
+
+[[menu.main]]
     name = "About"
     weight = 400
     identifier = "about"
