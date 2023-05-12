@@ -3,15 +3,16 @@
 
   Named parameters:
 
-   * class (optional)    - additional CSS class for section
-   * title (optional)    - the section title
+   * id       (optional) - section id attribute value
+   * class    (optional) - additional CSS class for section
+   * title    (optional) - the section title
    * subtitle (optional) - the section subtitle
 
  */}}
-<section class="sn-content sn-row{{ with .Get "class" }} {{ . }}{{ end }}" style="column-gap: 80px">
+<section{{ with .Get "id" }} id="{{ . }}"{{ end }} class="sn-content sn-row{{ with .Get "class" }} {{ . }}{{ end }}" style="column-gap: 80px">
   <div>
     {{ with .Get "title" }}
-      <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
+      <h1 id="{{ partial "hid" . }}">{{ . }}</h1>
     {{end}}
     {{ with .Get "subtitle" }}
       <div class="uk-text-small">{{ . }}</div>

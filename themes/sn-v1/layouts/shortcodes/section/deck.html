@@ -1,10 +1,10 @@
 {{/*
   Named parameters:
 
+   * id       (optional) - section id attribute value
    * class    (optional) - additional CSS class for section
    * title    (optional) - the section title
    * subtitle (optional) - the section subtitle
-   * h1       (optional) - if present, then use h1 instead of h2
    * buttons  (optional) - key within page map parameter "buttons" of buttons partial map
 
   Page buttons:
@@ -16,11 +16,10 @@
         url: link/to/something.html
         text: My Button
  */}}
-{{ $htag := (cond (and .IsNamedParams (isset .Params "h1")) "h1" "h2") }}
-<section class="sn-deck{{ with .Get "class" }} {{ . }}{{ end }}">
+<section{{ with .Get "id" }} id="{{ . }}"{{ end }} class="sn-deck{{ with .Get "class" }} {{ . }}{{ end }}">
   <div class="sn-info-card">
     {{ with .Get "title" }}
-      {{ printf `<%s id="%s">%s</%[1]s>` $htag (partial "hid" .) . | safeHTML }}
+      <h1 id="{{ partial "hid" . }}">{{ . }}</h1>
     {{end}}
     {{ with .Get "subtitle" }}
       <p class="sn-subhead">{{ . }}</p>

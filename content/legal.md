@@ -26,12 +26,12 @@ published by that node available only via security tokens you create in your Sol
 
 SNF does not make any claims of ownership to any of the data collected by SolarNetwork. Please
 contact info@solarnetwork.net if you would like any of your data extracted or removed from
-SolarNetwork. For more detailed information, please refer to our [Privacy Policy](#privacy-policy)
-and [Terms of Service](#terms-of-service).
+SolarNetwork. For more detailed information, please refer to our [Privacy Policy](#privacy)
+and [Terms of Service](#tos).
 
 {{</section/content>}}
 
-{{<section/content-row class="sn-alt" title="Privacy Policy" subtitle="Last updated: May 10, 2023">}}
+{{<section/content-row id="privacy" class="sn-alt" title="Privacy Policy" subtitle="Last updated: May 10, 2023">}}
 
 <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
 <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
@@ -304,7 +304,7 @@ For the purpose of the GDPR, Service Providers are considered Data Processors.</
 </ul>
 {{</section/content-row>}}
 
-{{<section/content-row title="Terms of Service" subtitle="Last updated: May 10, 2023">}}
+{{<section/content-row id="tos" title="Terms of Service" subtitle="Last updated: May 10, 2023">}}
 
 <p>Please read these terms and conditions carefully before using Our Service.</p>
 <h1>Interpretation and Definitions</h1>

@@ -3,28 +3,27 @@
 
   Named parameters:
 
+   * id       (optional) - section id attribute value
    * class    (optional) - additional CSS class for section
    * title    (optional) - the section title
    * subtitle (optional) - the section subtitle
    * img                 - the image URL
-   * alt      (optional) - the image descripiton
-   * h1       (optional) - if present, then use h1 instead of h2
+   * alt      (optional) - the image description
+
  */}}
-{{ $htag := (cond (isset .Params "h1") "h1" "h2") }}
-{{ $h2tag := (cond (isset .Params "h1") "h2" "h3") }}
-<section class="sn-grid sn-topic{{ with .Get "class" }} {{ . }}{{ end }}">
+<section{{ with .Get "id" }} id="{{ . }}"{{ end }} class="sn-grid sn-topic{{ with .Get "class" }} {{ . }}{{ end }}">
   <div class="sn-col sn-info-card">
     {{ if or (.Get "title") (.Get "subtitle") }}
       <header>
         {{ with .Get "title" }}
-          {{ printf `<%s id="%s">%s</%[1]s>` $htag (partial "hid" .) . | safeHTML }}
+          <h1 id="{{ partial "hid" . }}">{{ . }}</h1>
         {{end}}
         {{ with .Get "subtitle" }}
-          {{ printf `<%s id="%s">%s</%[1]s>` $h2tag (partial "hid" .) . | safeHTML }}
+          <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
         {{ end }}
       </header>
     {{ end }}
     {{ .InnerDeindent }}
   </div>
-  {{ partial "img-card" (dict "img" (.Get "img") "alt" (.Get "alt")) }}
+  {{ partial "img-card" (dict "class" "sn-col" "img" (.Get "img") "alt" (.Get "alt")) }}
 </section>

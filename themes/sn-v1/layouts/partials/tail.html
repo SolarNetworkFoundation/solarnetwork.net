@@ -1,29 +1,26 @@
 <section class="sn-grid sn-alt sn-topic">
-  <div
-    class="sn-col sn-img-card"
-    style="background-image: url(/img/stock/kishan-modi-QCUfbE3QuCc-unsplash@0.5x.jpg)"
-    title="Photograph of wind turbine farm on a green, mountainous coastline."
-  ></div>
+  {{ partial "img-card" (dict
+    "class" "sn-col"
+    "img" "/img/stock/kishan-modi-QCUfbE3QuCc-unsplash@0.5x.jpg"
+    "alt" "Photograph of wind turbine farm on a green, mountainous coastline.") }}
   <div class="sn-col sn-info-card">
-    <header>
-      <h2>For people and planet</h2>
-      <h3>SolarNetwork Foundation</h3>
-    </header>
+    <h1>SolarNetwork Foundation</h1>
+    <h2>For people and planet</h2>
     <p>
       Our charitable aim is to protect the environment through supporting energy education and
       using technology to help people understand energy conservation and renewable energy.
     </p>
     <p>
-      <a class="uk-button uk-button-link" href="#">Learn more</a>
+      {{ partial "button" (dict "type" "link" "url" "#todo" "text" "Learn more") }}
     </p>
   </div>
 </section>
 
 <section class="sn-col">
-  <h2>Ready to revolutionise your energy management?</h2>
+  <h1>Ready to revolutionise your energy management?</h1>
   <p>Take control of your energy usage and costs with our powerful platform.</p>
-  <div class="sn-button-bar">
-    <a class="uk-button uk-button-default" href="#">Get in touch</a>
-    <a class="uk-button uk-button-primary" href="#">How it works</a>
-  </div>
+  {{ partial "button-bar" (dict "buttons" (slice
+      (dict "type" "default" "url" "#todo" "text" "Get in touch")
+      (dict "type" "primary" "url" "#todo" "text" "How it works")
+  ))}}
 </section>

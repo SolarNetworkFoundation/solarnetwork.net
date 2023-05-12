@@ -9,7 +9,6 @@ buttons:
       text: Explore all features
 ---
 {{<section/grid
-  h1="true"
   class="sn-hero"
   title="Your energy environment made simple."
   subtitle="Improve every element of your energy usage with our powerful platform."
@@ -66,7 +65,7 @@ their energy circulation so they can take meaningful action that supports a sust
 
 {{</section/deck>}}
 
-{{<section/topic title="Camp Glenorchy" subtitle="Case Study"
+{{<section/topic title="Case Study" subtitle="Camp Glenorchy"
   class="sn-alt"
   img="/img/stock/camp-glenorchy.jpg"
   alt="Photograph of eco-cabin at Camp Glenorchy." >}}
