@@ -16,5 +16,7 @@
   {{ with .Get "subtitle" }}
     <div class="uk-text-small">{{ . }}</div>
   {{end}}
-  {{ .Inner | markdownify }}
+  {{ with .InnerDeindent }}
+    {{ . | $.Page.RenderString (dict "display" "block") }}
+  {{ end }}
 </section>

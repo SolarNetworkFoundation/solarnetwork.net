@@ -13,15 +13,11 @@
  */}}
 <section{{ with .Get "id" }} id="{{ . }}"{{ end }} class="sn-grid sn-topic{{ with .Get "class" }} {{ . }}{{ end }}">
   <div class="sn-col sn-info-card">
-    {{ if or (.Get "title") (.Get "subtitle") }}
-      <header>
-        {{ with .Get "title" }}
-          <h1 id="{{ partial "hid" . }}">{{ . }}</h1>
-        {{end}}
-        {{ with .Get "subtitle" }}
-          <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
-        {{ end }}
-      </header>
+    {{ with .Get "title" }}
+      <h1 id="{{ partial "hid" . }}">{{ . }}</h1>
+    {{end}}
+    {{ with .Get "subtitle" }}
+      <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
     {{ end }}
     {{ .InnerDeindent }}
   </div>

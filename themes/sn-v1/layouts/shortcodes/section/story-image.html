@@ -13,7 +13,9 @@
 <section{{ with .Get "id" }} id="{{ . }}"{{ end }} class="sn-grid sn-story{{ with .Get "class" }} {{ . }}{{ end }}">
   <div class="sn-info-card sn-scroll-hint uk-inline">
     {{ with .Get "title" }}<h1 id="{{ partial "hid" . }}">{{ . }}</h1>{{ end }}
-    {{ .Inner | markdownify }}
+    {{ with .InnerDeindent }}
+      {{ . | $.Page.RenderString (dict "display" "block") }}
+    {{ end }}
     <span  uk-icon="icon: chevron-down" class="uk-position-bottom-right uk-position-medium sn-scroll-hint-down"></span>
   </div>
   {{ partial "img-card" (dict "class" "sn-col" "img" (.Get "img") "alt" (.Get "alt")) }}

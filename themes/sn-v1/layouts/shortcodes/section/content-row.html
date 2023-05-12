@@ -19,7 +19,9 @@
     {{end}}
   </div>
   <div class="sn-scroll-hint uk-inline">
-    {{ .Inner | markdownify }}
+    {{ with .InnerDeindent }}
+      {{ . | $.Page.RenderString (dict "display" "block") }}
+    {{ end }}
     <span uk-icon="icon: chevron-down" class="uk-position-bottom-right sn-scroll-hint-down"></span>
   </div>
 </section>

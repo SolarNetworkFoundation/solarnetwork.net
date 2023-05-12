@@ -70,9 +70,8 @@ their energy circulation so they can take meaningful action that supports a sust
   img="/img/stock/camp-glenorchy.jpg"
   alt="Photograph of eco-cabin at Camp Glenorchy." >}}
 
-<p>New Zealand's first net-negative energy accommodation, which means the site will on average use less
-energy than it generates.</p>
+<p>New Zealand's first net-negative energy accommodation, which means the site will on average use
+less energy than it generates.</p>
 
 <p>{{<button type="link" url="#todo">}}Learn more{{</button>}}</p>
-
 {{</section/topic>}}
