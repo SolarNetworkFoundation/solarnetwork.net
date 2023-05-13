@@ -5,7 +5,7 @@ audience: main
 buttons:
   deck:
     - type: primary
-      url:  "#"
+      url:  "#todo"
       text: Explore all features
 ---
 {{<section/grid

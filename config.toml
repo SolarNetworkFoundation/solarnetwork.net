@@ -22,6 +22,12 @@ uglyURLs = true
     url = "/how-it-works.html"
 
 [[menu.main]]
+    name = "For Developers"
+    weight = 200
+    identifier = "developers"
+    url = "/developers.html"
+
+[[menu.main]]
     name = "About"
     weight = 400
     identifier = "about"

@@ -1,5 +1,5 @@
 {{/*
-  Renders inner content as Markdown.
+  Renders inner content as HTML.
 
   Named parameters:
 
@@ -18,7 +18,7 @@
     {{ with .Get "subtitle" }}
       <p class="sn-subhead">{{ . }}</p>
     {{ end }}
-    {{ .Inner }}
+    {{ .InnerDeindent }}
   </div>
   {{ partial "img-card" (dict "class" "sn-col" "img" (.Get "img") "alt" (.Get "alt")) }}
 </section>

@@ -1,0 +1,20 @@
+{{/*
+  Inner context is treated as Markdown.
+
+  Named parameters:
+
+   * class    (optional) - additional CSS class for div
+   * title    (optional) - the section title
+   * subtitle (optional) - the section subtitle
+ */}}
+<div class="sn-col{{ with .Get "class" }} {{ . }}{{ end }}">
+  {{ with .Get "title" }}
+    <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
+  {{end}}
+  {{ with .Get "subtitle" }}
+    <p class="sn-subhead">{{ . }}</p>
+  {{ end }}
+  {{ with .InnerDeindent }}
+    {{ . | $.Page.RenderString (dict "display" "block") }}
+  {{ end }}
+</div>

@@ -1,11 +1,12 @@
 {{/*
   Named parameters:
 
-   * id       (optional) - section id attribute value
-   * class    (optional) - additional CSS class for section
-   * title    (optional) - the section title
-   * subtitle (optional) - the section subtitle
-   * buttons  (optional) - key within page map parameter "buttons" of buttons partial map
+   * id         (optional) - section id attribute value
+   * class      (optional) - additional CSS class for section
+   * title      (optional) - the section title
+   * subtitle   (optional) - the section subtitle
+   * buttons    (optional) - key within page map parameter "buttons" of buttons partial map
+   * grid-class (optional) - additional CSS class for grid
 
   Page buttons:
 
@@ -24,7 +25,7 @@
     {{ with .Get "subtitle" }}
       <p class="sn-subhead">{{ . }}</p>
     {{ end }}
-    <div class="sn-grid">
+    <div class="sn-grid{{ with .Get "grid-class" }} {{ . }}{{ end }}">
       {{ .Inner }}
     </div>
     {{ if and (and (isset .Params "buttons") (isset .Page.Params "buttons")) (isset .Page.Params.buttons (.Get "buttons")) }}

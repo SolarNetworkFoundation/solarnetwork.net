@@ -1,5 +1,5 @@
 {{/*
-  Renders inner content as Markdown.
+  Renders inner content as HTML.
 
   Named parameters:
 
@@ -9,14 +9,12 @@
    * subtitle (optional) - the section subtitle
 
  */}}
-<section{{ with .Get "id" }} id="{{ . }}"{{ end }} class="sn-content{{ with .Get "class" }} {{ . }}{{ end }}">
+<section{{ with .Get "id" }} id="{{ . }}"{{ end }}{{ with .Get "class" }} class="{{ . }}"{{ end }}>
   {{ with .Get "title" }}
     <h1 id="{{ partial "hid" . }}">{{ . }}</h1>
   {{end}}
   {{ with .Get "subtitle" }}
-    <div class="uk-text-small">{{ . }}</div>
-  {{end}}
-  {{ with .InnerDeindent }}
-    {{ . | $.Page.RenderString (dict "display" "block") }}
+    <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
   {{ end }}
+  {{ .InnerDeindent }}
 </section>
