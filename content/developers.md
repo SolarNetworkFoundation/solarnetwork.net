@@ -1,5 +1,5 @@
 ---
-title: About SolarNetwork Foundation
+title: SolarNetwork - For Developers
 date: 2023-05-01
 publishdate: 2023-05-01
 audience: dev
@@ -13,13 +13,13 @@ buttons:
       text: Developer Docs
   deck:
     - type: primary
-      url:  "#todo"
+      url:  "/how-it-works.html"
       text: How it works
-  tools:
+  features:
     - type: primary
       url:  "#todo"
       text: Explore all features
-  integrations:
+  cards:
     - type: primary
       url:  "#todo"
       text: View integrations
@@ -41,9 +41,7 @@ buttons:
   subtitle="Real-time energy data monitoring and control is simple with our open-source platform."
   buttons="hero"
   img="/img/SN-Developers-Icon.svg"
-  alt="Diagram a grid of dots connected to a cloud floating with computer windows." >}}
-
-{{</section/grid>}}
+  alt="Diagram a grid of dots connected to a cloud floating with computer windows." />}}
 
 {{<section/grid
   class="sn-lead sn-alt"
@@ -93,7 +91,7 @@ buttons:
 
 {{</section/deck>}}
 
-{{<section/deck title="Streamlined development tools" buttons="tools">}}
+{{<section/deck title="Streamlined development tools" buttons="features">}}
 
   {{<deck-card title="Powerful Developer-led Tools"
       img="/img/SN-DEV-Tools.svg"
@@ -126,7 +124,7 @@ buttons:
 
 {{<section/deck class="sn-cards" grid-class="sn-dark"
   title="SolarNetwork offers an ever growing range of hardware integrations based on our user's needs"
-  buttons="integrations">}}
+  buttons="cards">}}
 
   {{<column class="sn-info-card" title="Solar Inverters" >}}
     SolarNetwork supports a wide range of solar inverters, allowing customers to monitor and manage
@@ -215,7 +213,7 @@ less energy than it generates.</p>
   {{<deck-link-card class="sn-main" title="For Business" subtitle="Sustainable business just got a little simpler."
       img="/img/SN-Business-Icon.svg"
       alt="Sun shining over a factory with solar panels, connected to a grid-scale battery, connected to an electric bus."
-      url="#todo"
+      url="/"
       link="Learn more" >}}
 
     Business around the world are using SolarNetwork to build web apps and sites that track and
@@ -228,7 +226,7 @@ less energy than it generates.</p>
   {{<deck-link-card class="sn-home" title="For Home" subtitle="Discover the benefits of solar power at home."
       img="/img/SN-Home-Icon.svg"
       alt="Sun shining over a factory with solar panels, connected to a grid-scale battery, connected to an electric bus."
-      url="#todo"
+      url="/homes.html"
       link="Learn more" >}}
 
     Our platform offers a range of features and benefits designed specifically for individuals who
