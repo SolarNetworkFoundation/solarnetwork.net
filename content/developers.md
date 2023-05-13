@@ -4,6 +4,13 @@ date: 2023-05-01
 publishdate: 2023-05-01
 audience: dev
 buttons:
+  hero:
+    - type: default
+      url: "#todo"
+      text: Get in touch
+    - type: primary
+      url: https://github.com/SolarNetwork/solarnetwork/wiki/
+      text: Developer Docs
   deck:
     - type: primary
       url:  "#todo"
@@ -15,23 +22,26 @@ buttons:
   integrations:
     - type: primary
       url:  "#todo"
-      text: View Integrations
+      text: View integrations
   help:
     - type: primary
       url:  "#todo"
       text: Get in touch
+  rev:
+    - type: default
+      url: "#todo"
+      text: Get in touch
+    - type: primary
+      url: /how-it-works.html
+      text: How it works
 ---
 {{<section/grid
   class="sn-hero"
   title="Build the future of energy."
   subtitle="Real-time energy data monitoring and control is simple with our open-source platform."
+  buttons="hero"
   img="/img/SN-Developers-Icon.svg"
   alt="Diagram a grid of dots connected to a cloud floating with computer windows." >}}
-
-{{<button-bar>}}
-  {{<button type="default" url="#todo">}}Get in touch{{</button>}}
-  {{<button type="primary" url="#todo">}}Developer Docs{{</button>}}
-{{</button-bar>}}
 
 {{</section/grid>}}
 
@@ -194,14 +204,9 @@ less energy than it generates.</p>
 
 {{<section/logos>}}
 
-{{<section/basic class="sn-col sn-dark" title="Revolutionise your energy management">}}
+{{<section/basic class="sn-col sn-dark" title="Revolutionise your energy management" buttons="rev">}}
 
   Take control of your energy usage and costs with our powerful platform.
-
-  {{<button-bar>}}
-    {{<button type="default" url="#todo">}}Get in touch{{</button>}}
-    {{<button type="primary" url="/how-it-works.html">}}How it works{{</button>}}
-  {{</button-bar>}}
 
 {{</section/basic>}}
 

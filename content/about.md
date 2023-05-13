@@ -3,6 +3,12 @@ title: About SolarNetwork Foundation
 date: 2023-05-01
 publishdate: 2023-05-01
 audience: main
+buttons:
+  more:
+    - text: Interested in finding out more?
+    - type: primary
+      url: "#todo"
+      text: Get in touch
 ---
 {{<section/column title="About SolarNetwork Foundation" />}}
 
@@ -60,11 +66,4 @@ renewable energy sources.
 
 {{</section/story-image>}}
 
-{{<section/column class="sn-light">}}
-
-<div class="sn-button-bar">
-  <span>Interested in finding out more?</span>
-  <a class="uk-button uk-button-primary" href="#">Get in touch</a>
-</div>
-
-{{</section/column>}}
+{{<section/column class="sn-light" buttons="more"/>}}

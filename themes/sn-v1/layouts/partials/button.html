@@ -1,13 +1,20 @@
 {{/*
   Context item is map with keys:
 
-   * type (optional)  - additional type (default, primary)
-   * url              - link URL
+   * type  (optional) - additional type (default, primary)
+   * url   (optional) - link URL (if not provided a plain text span is rendered)
    * title (optional) - link title
    * text             - link text
  */}}
+ {{ if .url }}
 <a class="uk-button{{ with .type }} uk-button-{{ . }}{{ end }}"
   href="{{ .url }}"
   {{ with .title }}title="{{ . }}"{{ end }}>
   {{ .text }}
 </a>
+{{ else }}
+<span{{ with .type }} class="{{ . }}"{{ end }}
+  {{ with .title }}title="{{ . }}"{{ end }}>
+  {{ .text }}
+</span>
+{{ end }}

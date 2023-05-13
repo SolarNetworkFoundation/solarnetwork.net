@@ -3,12 +3,13 @@
 
   Named parameters:
 
-   * id       (optional) - section id attribute value
-   * class    (optional) - additional CSS class for section
-   * title    (optional) - the section title
-   * subtitle (optional) - the section subtitle
-   * img                 - the image URL
-   * alt      (optional) - the image descripiton
+   * id         (optional) - section id attribute value
+   * class      (optional) - additional CSS class for section
+   * title      (optional) - the section title
+   * subtitle   (optional) - the section subtitle
+   * img                   - the image URL
+   * alt        (optional) - the image descripiton
+   * buttons    (optional) - key within page map parameter "buttons" of buttons partial map
  */}}
 <section{{ with .Get "id" }} id="{{ . }}"{{ end }} class="sn-grid{{ with .Get "class" }} {{ . }}{{ end }}">
   <div class="sn-col sn-info-card">
@@ -19,6 +20,9 @@
       <p class="sn-subhead">{{ . }}</p>
     {{ end }}
     {{ .InnerDeindent }}
+    {{ if and (and (isset .Params "buttons") (isset .Page.Params "buttons")) (isset .Page.Params.buttons (.Get "buttons")) }}
+      {{ partial "button-bar" (dict "buttons" (index .Page.Params.buttons (.Get "buttons"))) | safeHTML }}
+    {{ end }}
   </div>
   {{ partial "img-card" (dict "class" "sn-col" "img" (.Get "img") "alt" (.Get "alt")) }}
 </section>
