@@ -62,9 +62,9 @@ renewable energy sources.
 
 {{<section/column class="sn-light">}}
 
-{{<button-bar>}}
-<span>Interested in finding out more?</span>
-{{<button type="primary" url="#">}}Get in touch{{</button>}}
-{{</button-bar>}}
+<div class="sn-button-bar">
+  <span>Interested in finding out more?</span>
+  <a class="uk-button uk-button-primary" href="#">Get in touch</a>
+</div>
 
 {{</section/column>}}
