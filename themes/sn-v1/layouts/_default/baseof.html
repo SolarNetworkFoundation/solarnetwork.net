@@ -24,11 +24,11 @@
 
   {{ partial "favicon" . }}
 
-  <link href="{{ "css/solarnetwork.css" | relURL }}" rel="stylesheet" type="text/css">
-  <script src="{{ "js/uikit.min.js" | relURL }}" defer></script>
-  <script src="{{ "js/uikit-icons.min.js" | relURL }}" defer></script>
+  <link href="{{ "/css/solarnetwork.css" }}" rel="stylesheet" type="text/css">
+  <script src="{{ "/js/uikit.min.js" }}"></script>
+  <script src="{{ "/js/uikit-icons.min.js" }}"></script>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
-  <script src="{{ "js/sn.js" | relURL }}" async></script>
+  <script src="{{ "/js/sn.js" }}" async></script>
 </head>
 <body{{ if (isset .Params "audience") }} class="sn-{{ .Params.audience }}"{{end}}>
   {{ block "header" . }}{{ end }}
