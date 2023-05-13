@@ -1,0 +1,14 @@
+{
+  "name": "solarnetwork-website-hugo",
+  "description": "SolarNetwork website source (Hugo)",
+  "version": "0.0.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "author": {
+    "name": "Matt Magoffin",
+    "email": "matt@solarnetwork.net"
+  }
+}
