@@ -3,6 +3,12 @@ title: SolarNetwork - How it works
 date: 2023-05-01
 publishdate: 2023-05-01
 audience: main
+buttons:
+  more:
+    - text: Interested in finding out more?
+    - type: primary
+      url: "#todo"
+      text: Get in touch
 ---
 {{<section/column class="sn-alt" title="How it works">}}
 SolarNetwork is an open source energy management platform that enables our users to monitor,
@@ -171,3 +177,29 @@ control, and optimise their energy ecosystem in real-time.
   </ul>
 </div>
 {{</section/basic>}}
+
+
+{{<section/deck class="sn-flash" title="TODO Our products" buttons="more">}}
+
+  {{<flash-card title="SolarNode" url="#todo" link="Learn more">}}
+    The swiss army knife for IoT monitoring and control. The SolarNode software can be used across a
+    whole host of energy outputs: in buildings, vehicles, and even EV chargers.
+  {{</flash-card>}}
+
+  {{<flash-card title="SolarNet" url="#todo" link="Learn more">}}
+    A secure and scalable cloud platform for storing and sharing solar energy data from multiple
+    SolarNode devices. With SolarNet you can instruct and administer nodes remotely, no matter your
+    distance.
+  {{</flash-card>}}
+
+  {{<flash-card title="SolarQuery" url="https://github.com/SolarNetwork/solarnetwork/wiki/SolarQuery-API" link="Learn more">}}
+    The SolarQuery API consolidates all of your data from multiple sources and allows you to access
+    and query the data from in a single and simplified data set.
+  {{</flash-card>}}
+
+  {{<flash-card title="SolarQuant" url="#todo" link="Learn more">}}
+    An experimental machine learning platform that aims to allow for flexible implementations of
+    machine learning to be applied to SolarNetwork data streams.
+  {{</flash-card>}}
+
+{{</section/deck>}}

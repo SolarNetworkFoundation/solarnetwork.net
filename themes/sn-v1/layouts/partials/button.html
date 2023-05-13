@@ -9,7 +9,11 @@
  {{ if .url }}
 <a class="uk-button{{ with .type }} uk-button-{{ . }}{{ end }}"
   href="{{ .url }}"
-  {{ with .title }}title="{{ . }}"{{ end }}>
+  {{ with .title }}title="{{ . }}"{{ end }}
+  {{ if hasPrefix .url "http" }}
+  target="_blank"
+  {{ end }}
+  >
   {{ .text }}
 </a>
 {{ else }}

@@ -21,7 +21,7 @@ buttons:
       text: Explore all features
   cards:
     - type: primary
-      url:  "#todo"
+      url:  "https://github.com/SolarNetwork/solarnetwork/wiki/Node-Supported-Devices"
       text: View integrations
   help:
     - type: primary

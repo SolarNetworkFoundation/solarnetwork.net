@@ -21,7 +21,7 @@ buttons:
       text: Explore all features
   cards:
     - type: primary
-      url:  "#todo"
+      url:  "https://github.com/SolarNetwork/solarnetwork/wiki/Node-Supported-Devices"
       text: View integrations
   start:
     - type: primary
@@ -184,14 +184,14 @@ less energy than it generates.</p>
 
   {{</deck-link-card>}}
 
-  {{<deck-link-card class="sn-home" title="For Home" subtitle="Discover the benefits of solar power at home."
-      img="/img/SN-Home-Icon.svg"
-      alt="Sun shining over a factory with solar panels, connected to a grid-scale battery, connected to an electric bus."
+  {{<deck-link-card class="sn-dev" title="For Developers" subtitle="Build your own products using our powerful and easy-to-use APIs."
+      img="/img/SN-Developers-Icon.svg"
+      alt="Diagram a grid of dots connected to a cloud floating with computer windows."
       url="/developers.html"
       link="Learn more" >}}
 
-    Our platform offers a range of features and benefits designed specifically for individuals who
-    are interested in exploring solar energy solutions for their homes.
+    Integrate SolarNetwork's open-source API into your existing applications for seamless energy
+    management and monitoring.
 
   {{</deck-link-card>}}
 
