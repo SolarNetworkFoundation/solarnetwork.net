@@ -8,7 +8,6 @@ To run the Hugo developer web server, **including** draft and future content, ru
 like this:
 
 ```sh
-cd home
 hugo server -DF
 ```
 
@@ -17,7 +16,6 @@ hugo server -DF
 To build for staging, **including** draft and future content, run `hugo` like this:
 
 ```sh
-cd home
 rm -rf public && hugo -DF
 ```
 
@@ -28,7 +26,6 @@ The website will be generated in the `public/` directory.
 To build for production, **excluding** draft content, run `hugo` like this:
 
 ```sh
-cd home
 rm -rf public && hugo --baseURL https://solarnetwork.org.nz/
 ```
 

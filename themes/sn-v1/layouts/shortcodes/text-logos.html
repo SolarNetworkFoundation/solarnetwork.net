@@ -1,0 +1,11 @@
+{{/*
+  Named parameters:
+
+   * data                - site data name
+   * key                 - site data key of text-logo partial map
+
+ */}}
+{{ range $i, $v := index site.Data (.Get "data") (.Get "key") }}
+  {{ partial "text-logo" $v }}
+{{ end }}
+

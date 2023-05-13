@@ -1,0 +1,24 @@
+{{/*
+  Context item is map with keys:
+
+   * class    (optional) - additional CSS class for div
+   * h                   - hue CSS value
+   * s                   - saturation CSS value
+   * l                   - lightness CSS value
+   * logo                - logo text
+   * name                - name
+   * amount              - amount
+
+ */}}
+<div class="sn-col{{ with .class }} {{ . }}{{ end }}"
+    style="--sn-color-h: {{ .h }}; --sn-color-s: {{ .s }}; --sn-color-l: {{ .l }}">
+  <div>
+    <span class="sn-text-logo">{{ .logo }}</span>
+  </div>
+  <div>
+    {{ with .name }}
+      <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
+    {{end}}
+    <p><span class="uk-text-small">from</span> ${{ .amount }}
+  </div>
+</div>

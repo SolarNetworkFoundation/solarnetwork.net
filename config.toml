@@ -12,6 +12,10 @@ uglyURLs = true
   twitter = ""
   email = "info@solarnetwork.net"
 
+[markup.goldmark.parser.attribute]
+  block = true
+  title = true
+
 [markup.goldmark.renderer]
     unsafe= true
 

@@ -1,0 +1,55 @@
+levels:
+  - logo: Rn
+    name: Radon
+    amount: 50
+    h: "356deg"
+    s: "82%"
+    l: "51%"
+  - logo: Xe
+    name: Xenon
+    amount: 250
+    h: "217deg"
+    s: "28%"
+    l: "49%"
+  - logo: Kr
+    name: Krypton
+    amount: 500
+    h: "335deg"
+    s: "13%"
+    l: "73%"
+  - logo: Ar
+    name: Argon
+    amount: 1,000
+    h: "313deg"
+    s: "100%"
+    l: "73%"
+  - logo: Ne
+    name: Neon
+    amount: 5,000
+    h: "39deg"
+    s: "100%"
+    l: "50%"
+  - logo: O
+    name: Oxygen
+    amount: 10,000
+    h: "247deg"
+    s: "32%"
+    l: "68%"
+  - logo: "N"
+    name: Nitrogen
+    amount: 25,000
+    h: "281deg"
+    s: "100%"
+    l: "64%"
+  - logo: He
+    name: Helium
+    amount: 50,000
+    h: "10deg"
+    s: "99%"
+    l: "43%"
+  - logo: H
+    name: Hydrogen
+    amount: 100,000
+    h: "316deg"
+    s: "55%"
+    l: "42%"

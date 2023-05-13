@@ -10,37 +10,38 @@ audience: main
   img="/img/stock/thomas-coker-Jt5Pk0V65wc-unsplash@0.5x.jpg"
   alt="Field filled with solar panels.">}}
 
-It was back in 2008 when a couple of dads hanging out in an Auckland playground got to talking. The
-pair quickly realised they had a couple of things common.
+Back in 2008, when a couple of dads hanging out in an Auckland playground got to talking, the pair
+quickly realised they had some things in common.
 
-Both were U.S. expats with a keen interest in environmental technology.
+Both were U.S. expats; both had a keen interest in the environment; both were software developers.
 
-It is not everyday that you meet some one who is equally interested in an open-source, public
-infrastructure that uses the internet two bridge renewable energy data streams, regardless of
-hardware to produce energy.
+You don't meet someone who shares your interests every day. Especially when those interests include
+an open-source public infrastructure for energy management.
 
 Pretty soon the two had gathered a couple of solar panels, charge controllers, deep-cycle batteries,
-miniature PCs, and climbed their roofs to install the gear - forgetting that their children were
-still at the playground. Just kidding. Over the next weeks and months they wrote the code that would
-become the SolarNetwork platform.
+miniature PCs, and they climbed their roofs to install the gear - forgetting that their children
+were still at the playground. Just kidding. Over the next weeks and months they wrote the code that
+would become the SolarNetwork platform.
 
 Today SolarNetwork is used by schools, corporations, governments, solar integrators, and developers
 in numerous apps that display and control dynamic energy flows in new and novel ways.
 
 SolarNetwork and its founders have been recognized by awards and invitations to conferences and
-brainstorming sessions across the world: from the Asian Development Bank to the White House.
+brainstorming sessions across the world, from the Asian Development Bank to the White House.
 
 ### About the name
 
-The project began with tracking the energy produced by solar panels and collecting this data through
-the internet. But the goal has always been bigger than just solar. We want people to consider the
-entire energy ecosystem and all of the its elements: weather, market prices, electric cars, and the
-effects of these elements this on the climate.
+The SolarNetwork project began with tracking the energy produced by solar panels and collecting this
+data over the internet. But the goal has always been bigger than just solar panels. We want people
+to consider the entire energy ecosystem and all of the its elements: weather, market prices,
+electric vehicles, and the effects of these elements on the climate.
 
-We like to think of solar in the sense that this energy is part of a wider ecosystem, which directly
-or indirectly affects all aspects of an energy environment. Additionally, network can be thought of
-as both the physical network provided by the internet as well as the social aspect of people sharing
-a common interest in energy and the environment. And thus, SolarNetwork was born. Our mission
+We still use _solar_ to describe ourselves because the energy produced by the sun either provides or
+directly influences all aspects of an energy enrvironment. _Network_ can be thought of as both the
+physical network provided by the internet as well as the social aspect of people sharing a common
+interest in energy and the environment. In this way, _SolarNetwork_ was named.
+
+### Our mission
 
 SolarNetwork Foundation was established in 2017 to serve as a curator and promoter of the open
 codebase and data-driven process that comprise the SolarNetwork platform. The Foundation's work is
