@@ -3,15 +3,16 @@
 
   Named parameters:
 
-   * id         (optional) - section id attribute value
-   * class      (optional) - additional CSS class for section
-   * title      (optional) - the section title
-   * subtitle   (optional) - the section subtitle
-   * buttons    (optional) - key within page map parameter "buttons" of buttons partial map
+   * id              (optional) - section id attribute value
+   * class           (optional) - additional CSS class for section
+   * title           (optional) - the section title
+   * subtitle        (optional) - the section subtitle
+   * buttons         (optional) - key within page map parameter "buttons" of buttons partial map
+   * container-class (optional) - additional CSS class for container
 
  */}}
 <section{{ if isset .Params "id" }} id="{{ .Get "id" }}"{{ else if (isset .Params "title") }} id="{{ partial "hid" (.Get "title") }}"{{ end }}{{ with .Get "class" }} class="{{ . }}"{{ end }}>
-  <div class="sn-container">
+  <div class="sn-container{{ with .Get "container-class" }} {{ . }}{{ end }}">
     {{ with .Get "title" }}
       <h1>{{ . }}</h1>
     {{end}}

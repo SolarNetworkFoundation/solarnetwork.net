@@ -27,7 +27,7 @@ Show your support by making a donation to help fund our mission.
 
 {{</section/deck>}}
 
-{{<section/content id="donate" title="Keen to support our work?">}}
+{{<section/content class="sn-alt sn-light" id="donate" title="Keen to support our work?">}}
 
 Please contact us at info@solarnetwork.net if you are intested in making a donation.
 

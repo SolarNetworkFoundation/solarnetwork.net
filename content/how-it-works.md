@@ -15,7 +15,7 @@ SolarNetwork is an open source energy management platform that enables our users
 control, and optimise their energy ecosystem in real-time.
 {{</section/column>}}
 
-{{<section/basic class="sn-info-card sn-how" title="The SolarNetwork Ecosystem">}}
+{{<section/basic class="sn-alt sn-light" container-class="sn-info-card sn-how" title="The SolarNetwork Ecosystem">}}
 <p class="sn-todo">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
   labore et dolore magna aliqua.
@@ -179,7 +179,7 @@ control, and optimise their energy ecosystem in real-time.
 {{</section/basic>}}
 
 
-{{<section/deck class="sn-flash" title="TODO Our products" buttons="more">}}
+{{<section/deck class="sn-alt sn-light" deck-class="sn-flash" title="TODO Our products" buttons="more">}}
 
   {{<flash-card title="SolarNode" url="#todo" link="Learn more">}}
     The swiss army knife for IoT monitoring and control. The SolarNode software can be used across a
