@@ -14,7 +14,7 @@ buttons:
 Show your support by making a donation to help fund our mission.
 
  We welcome your donations of any amount, and will proudly acknowledge donations above $50 on our
- [Friends of SolarNetwork page](#todo). Donations of $5 or more are tax deductible.
+ [Friends of SolarNetwork page](/friends.html). Donations of $5 or more are tax deductible.
 
 {{</section/column>}}
 

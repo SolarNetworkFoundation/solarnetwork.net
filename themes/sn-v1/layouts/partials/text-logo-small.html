@@ -7,18 +7,9 @@
    * l                   - lightness CSS value
    * logo                - logo text
    * name                - name
-   * amount              - amount
 
  */}}
-<div class="sn-col{{ with .class }} {{ . }}{{ end }}"
+<div{{ with .class }} class="{{ . }}"{{ end }}
     style="--sn-color-h: {{ .h }}; --sn-color-s: {{ .s }}; --sn-color-l: {{ .l }}">
-  <div>
-    <span class="sn-text-logo" role="img" aria-labelledby="{{ partial "hid" .name }}">{{ .logo }}</span>
-  </div>
-  <div>
-    {{ with .name }}
-      <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
-    {{end}}
-    <p><span class="uk-text-small">from</span> ${{ .amount }}
-  </div>
+    <span class="sn-text-logo sn-text-logo-small" title="{{ .name }}" role="img" aria-label="{{ .name }}">{{ .logo }}</span>
 </div>

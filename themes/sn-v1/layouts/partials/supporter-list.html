@@ -1,0 +1,26 @@
+{{/*
+  Parameter:
+
+   * key                 - site data key of supporters list
+
+ */}}
+{{ $levels := site.Data.donations.levels }}
+{{ range $i, $level := index site.Data.supporters . }}
+  <div class="sn-container sn-row sn-content">
+    {{ range where $levels "logo" $level.level }}
+      {{ partial "text-logo-small" . }}
+    {{ end }}
+    <div>
+      <div class="sn-row" style="flex-wrap: wrap; align-items: center;">
+        {{ range $level.supporters }}
+          {{ if .img }}
+            <a href="{{ .url }}"><img alt="{{ .name }}" src="{{ .img }}"></a>
+          {{ else }}
+            <span>{{ .name }}</span>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}
+

@@ -1,0 +1,17 @@
+{{ if isset site.Data.supporters "current" }}
+<section class="sn-alt sn-dark sn-neutral sn-partners">
+  <div class="sn-container sn-row sn-content">
+    <h1>Current supporters</h1>
+  </div>
+  {{ partial "supporter-list" "current" }}
+</section>
+{{ end }}
+
+{{ if isset site.Data.supporters "past" }}
+  <section class="sn-alt sn-dark sn-neutral sn-partners">
+    <div class="sn-container sn-row sn-content">
+      <h1>Past supporters</h1>
+    </div>
+  {{ partial "supporter-list" "past" }}
+  </section>
+{{ end }}

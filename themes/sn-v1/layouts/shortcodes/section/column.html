@@ -6,6 +6,7 @@
    * id         (optional) - section id attribute value
    * class      (optional) - additional CSS class for section
    * title      (optional) - the section title
+   * subtitle   (optional) - the section subtitle
    * buttons    (optional) - key within page map parameter "buttons" of buttons partial map
 
  */}}
@@ -13,6 +14,9 @@
   <div class="sn-container sn-col">
     {{ with .Get "title" }}
       <h1>{{ . }}</h1>
+    {{end}}
+    {{ with .Get "subtitle" }}
+      <div class="sn-subhead">{{ . }}</div>
     {{end}}
     {{ with .InnerDeindent }}
       {{ . | $.Page.RenderString (dict "display" "block") }}
