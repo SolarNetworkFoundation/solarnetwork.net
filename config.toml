@@ -32,13 +32,19 @@ uglyURLs = true
     url = "/developers.html"
 
 [[menu.main]]
-    name = "For Home"
+    name = "For Homes"
     weight = 300
     identifier = "homes"
     url = "/homes.html"
 
 [[menu.main]]
+    name = "Subscriptions"
+    weight = 500
+    identifier = "subscriptions"
+    url = "/subscriptions.html"
+
+[[menu.main]]
     name = "About"
-    weight = 400
+    weight = 600
     identifier = "about"
     url = "/about.html"
