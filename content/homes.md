@@ -80,7 +80,7 @@ buttons:
 
 {{</section/deck>}}
 
-{{<section/deck title="A streamlined solution" buttons="features">}}
+{{<section/deck class="sn-alt sn-light" title="A streamlined solution" buttons="features">}}
 
   {{<deck-card title="Easy to use"
       img="/img/SN-Home-Easy.svg"
@@ -112,7 +112,7 @@ buttons:
 
 {{</section/deck>}}
 
-{{<section/deck class="sn-cards" grid-class="sn-dark"
+{{<section/deck class="sn-alt sn-light" deck-class="sn-cards" grid-class="sn-dark"
   title="SolarNetwork offers an ever growing range of hardware integrations based on our user's needs"
   buttons="cards">}}
 
@@ -161,15 +161,15 @@ less energy than it generates.</p>
 
 {{<section/logos>}}
 
-{{<section/basic class="sn-col sn-dark" title="SolarNetwork is free and open-source" buttons="start">}}
+{{<section/column class="sn-dark" title="SolarNetwork is free and open-source" buttons="start">}}
 
   SolarNetwork is an open-source solution that allows anyone to monitor and optimise their solar
   energy usage without investing in expensive hardware or software, no matter what stage of the
   journey they are at.
 
-{{</section/basic>}}
+{{</section/column>}}
 
-{{<section/deck class="sn-pair">}}
+{{<section/deck class="sn-alt sn-light" deck-class="sn-pair">}}
 
   {{<deck-link-card class="sn-main" title="For Business" subtitle="Sustainable business just got a little simpler."
       img="/img/SN-Business-Icon.svg"

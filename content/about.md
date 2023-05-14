@@ -12,7 +12,7 @@ buttons:
 ---
 {{<section/column title="About SolarNetwork Foundation" />}}
 
-{{<section/story-image title="It started with a simple idea."
+{{<section/story-image class="sn-light" title="It started with a simple idea."
   img="/img/stock/thomas-coker-Jt5Pk0V65wc-unsplash@0.5x.jpg"
   alt="Field filled with solar panels.">}}
 

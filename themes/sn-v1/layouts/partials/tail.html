@@ -1,26 +1,30 @@
-<section class="sn-grid sn-alt sn-topic">
-  {{ partial "img-card" (dict
-    "class" "sn-col"
-    "img" "/img/stock/kishan-modi-QCUfbE3QuCc-unsplash@0.5x.jpg"
-    "alt" "Photograph of wind turbine farm on a green, mountainous coastline.") }}
-  <div class="sn-col sn-info-card">
-    <h1>SolarNetwork Foundation</h1>
-    <h2>For people and planet</h2>
-    <p>
-      Our charitable aim is to protect the environment through supporting energy education and
-      using technology to help people understand energy conservation and renewable energy.
-    </p>
-    <p>
-      {{ partial "button" (dict "type" "link" "url" "/about.html" "text" "Learn more") }}
-    </p>
+<section class="sn-alt sn-topic">
+  <div class="sn-container sn-grid">
+    {{ partial "img-card" (dict
+      "class" "sn-col"
+      "img" "/img/stock/kishan-modi-QCUfbE3QuCc-unsplash@0.5x.jpg"
+      "alt" "Photograph of wind turbine farm on a green, mountainous coastline.") }}
+    <div class="sn-col sn-info-card">
+      <h1>SolarNetwork Foundation</h1>
+      <h2>For people and planet</h2>
+      <p>
+        Our charitable aim is to protect the environment through supporting energy education and
+        using technology to help people understand energy conservation and renewable energy.
+      </p>
+      <p>
+        {{ partial "button" (dict "type" "link" "url" "/about.html" "text" "Learn more") }}
+      </p>
+    </div>
   </div>
 </section>
 
-<section class="sn-col">
-  <h1>Ready to revolutionise your energy management?</h1>
-  <p>Take control of your energy usage and costs with our powerful platform.</p>
-  {{ partial "button-bar" (dict "buttons" (slice
-      (dict "type" "default" "url" "#todo" "text" "Get in touch")
-      (dict "type" "primary" "url" "/how-it-works.html" "text" "How it works")
-  ))}}
+<section>
+  <div class="sn-container sn-col">
+    <h1>Ready to revolutionise your energy management?</h1>
+    <p>Take control of your energy usage and costs with our powerful platform.</p>
+    {{ partial "button-bar" (dict "buttons" (slice
+        (dict "type" "default" "url" "#todo" "text" "Get in touch")
+        (dict "type" "primary" "url" "/how-it-works.html" "text" "How it works")
+    ))}}
+  </div>
 </section>

@@ -10,13 +10,15 @@
    * alt      (optional) - the image descripiton
 
  */}}
-<section{{ with .Get "id" }} id="{{ . }}"{{ end }} class="sn-grid sn-story{{ with .Get "class" }} {{ . }}{{ end }}">
-  <div class="sn-info-card sn-scroll-hint uk-inline">
-    {{ with .Get "title" }}<h1 id="{{ partial "hid" . }}">{{ . }}</h1>{{ end }}
-    {{ with .InnerDeindent }}
-      {{ . | $.Page.RenderString (dict "display" "block") }}
-    {{ end }}
-    <span  uk-icon="icon: chevron-down" class="uk-position-bottom-right uk-position-medium sn-scroll-hint-down"></span>
+<section{{ if isset .Params "id" }} id="{{ .Get "id" }}"{{ else if (isset .Params "title") }} id="{{ partial "hid" (.Get "title") }}"{{ end }}{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+  <div class="sn-container sn-grid sn-story">
+    <div class="sn-info-card sn-scroll-hint uk-inline">
+      {{ with .Get "title" }}<h1>{{ . }}</h1>{{ end }}
+      {{ with .InnerDeindent }}
+        {{ . | $.Page.RenderString (dict "display" "block") }}
+      {{ end }}
+      <span  uk-icon="icon: chevron-down" class="uk-position-bottom-right uk-position-medium sn-scroll-hint-down"></span>
+    </div>
+    {{ partial "img-card" (dict "class" "sn-col" "img" (.Get "img") "alt" (.Get "alt")) }}
   </div>
-  {{ partial "img-card" (dict "class" "sn-col" "img" (.Get "img") "alt" (.Get "alt")) }}
 </section>

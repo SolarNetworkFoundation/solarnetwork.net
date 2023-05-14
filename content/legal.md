@@ -304,7 +304,7 @@ For the purpose of the GDPR, Service Providers are considered Data Processors.</
 </ul>
 {{</section/content-row>}}
 
-{{<section/content-row id="tos" title="Terms of Service" subtitle="Last updated: May 10, 2023">}}
+{{<section/content-row class="sn-light" id="tos" title="Terms of Service" subtitle="Last updated: May 10, 2023">}}
 
 <p>Please read these terms and conditions carefully before using Our Service.</p>
 <h1>Interpretation and Definitions</h1>

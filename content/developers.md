@@ -91,7 +91,7 @@ buttons:
 
 {{</section/deck>}}
 
-{{<section/deck title="Streamlined development tools" buttons="features">}}
+{{<section/deck class="sn-alt sn-light" title="Streamlined development tools" buttons="features">}}
 
   {{<deck-card title="Powerful Developer-led Tools"
       img="/img/SN-DEV-Tools.svg"
@@ -122,7 +122,7 @@ buttons:
 
 {{</section/deck>}}
 
-{{<section/deck class="sn-cards" grid-class="sn-dark"
+{{<section/deck class="sn-alt sn-light" deck-class="sn-cards" grid-class="sn-dark"
   title="SolarNetwork offers an ever growing range of hardware integrations based on our user's needs"
   buttons="cards">}}
 
@@ -202,13 +202,13 @@ less energy than it generates.</p>
 
 {{<section/logos>}}
 
-{{<section/basic class="sn-col sn-dark" title="Revolutionise your energy management" buttons="rev">}}
+{{<section/column class="sn-dark" title="Revolutionise your energy management" buttons="rev">}}
 
   Take control of your energy usage and costs with our powerful platform.
 
-{{</section/basic>}}
+{{</section/column>}}
 
-{{<section/deck class="sn-pair">}}
+{{<section/deck class="sn-alt sn-light" deck-class="sn-pair">}}
 
   {{<deck-link-card class="sn-main" title="For Business" subtitle="Sustainable business just got a little simpler."
       img="/img/SN-Business-Icon.svg"

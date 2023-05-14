@@ -10,15 +10,17 @@
    * buttons    (optional) - key within page map parameter "buttons" of buttons partial map
 
  */}}
-<section{{ with .Get "id" }} id="{{ . }}"{{ end }}{{ with .Get "class" }} class="{{ . }}"{{ end }}>
-  {{ with .Get "title" }}
-    <h1 id="{{ partial "hid" . }}">{{ . }}</h1>
-  {{end}}
-  {{ with .Get "subtitle" }}
-    <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
-  {{ end }}
-  {{ .InnerDeindent }}
-  {{ if and (and (isset .Params "buttons") (isset .Page.Params "buttons")) (isset .Page.Params.buttons (.Get "buttons")) }}
-    {{ partial "button-bar" (dict "buttons" (index .Page.Params.buttons (.Get "buttons"))) | safeHTML }}
-  {{ end }}
+<section{{ if isset .Params "id" }} id="{{ .Get "id" }}"{{ else if (isset .Params "title") }} id="{{ partial "hid" (.Get "title") }}"{{ end }}{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+  <div class="sn-container">
+    {{ with .Get "title" }}
+      <h1>{{ . }}</h1>
+    {{end}}
+    {{ with .Get "subtitle" }}
+      <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
+    {{ end }}
+    {{ .InnerDeindent }}
+    {{ if and (and (isset .Params "buttons") (isset .Page.Params "buttons")) (isset .Page.Params.buttons (.Get "buttons")) }}
+      {{ partial "button-bar" (dict "buttons" (index .Page.Params.buttons (.Get "buttons"))) | safeHTML }}
+    {{ end }}
+  </div>
 </section>

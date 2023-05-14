@@ -11,15 +11,17 @@
    * alt      (optional) - the image description
 
  */}}
-<section{{ with .Get "id" }} id="{{ . }}"{{ end }} class="sn-grid sn-topic{{ with .Get "class" }} {{ . }}{{ end }}">
-  <div class="sn-col sn-info-card">
-    {{ with .Get "title" }}
-      <h1 id="{{ partial "hid" . }}">{{ . }}</h1>
-    {{end}}
-    {{ with .Get "subtitle" }}
-      <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
-    {{ end }}
-    {{ .InnerDeindent }}
+<section{{ if isset .Params "id" }} id="{{ .Get "id" }}"{{ else if (isset .Params "title") }} id="{{ partial "hid" (.Get "title") }}"{{ end }} class="sn-topic{{ with .Get "class" }} {{ . }}{{ end }}">
+  <div class="sn-container sn-grid">
+    <div class="sn-col sn-info-card">
+      {{ with .Get "title" }}
+        <h1>{{ . }}</h1>
+      {{end}}
+      {{ with .Get "subtitle" }}
+        <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
+      {{ end }}
+      {{ .InnerDeindent }}
+    </div>
+    {{ partial "img-card" (dict "class" "sn-col" "img" (.Get "img") "alt" (.Get "alt")) }}
   </div>
-  {{ partial "img-card" (dict "class" "sn-col" "img" (.Get "img") "alt" (.Get "alt")) }}
 </section>

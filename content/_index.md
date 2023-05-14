@@ -75,7 +75,7 @@ buttons:
 
 {{</section/deck>}}
 
-{{<section/deck title="Powerful energy management for your business" buttons="features">}}
+{{<section/deck class="sn-alt sn-light" title="Powerful energy management for your business" buttons="features">}}
 
   {{<deck-card title="Scales to every size"
     img="/img/SN-CTO-Scale.svg"
@@ -129,7 +129,7 @@ buttons:
 
 {{</section/column>}}
 
-{{<section/deck class="sn-pair">}}
+{{<section/deck class="sn-alt sn-light" deck-class="sn-pair">}}
 
   {{<deck-link-card class="sn-dev" title="For Developers" subtitle="Build your own products using our powerful and easy-to-use APIs."
       img="/img/SN-Developers-Icon.svg"
