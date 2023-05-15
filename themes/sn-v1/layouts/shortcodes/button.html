@@ -6,4 +6,8 @@
    * title (optional) - link title
 
  */}}
+{{ if .Inner }}
 {{ partial "button" (merge .Params (dict "text" .InnerDeindent)) }}
+{{ else }}
+{{ partial "button" .Params }}
+{{ end }}
