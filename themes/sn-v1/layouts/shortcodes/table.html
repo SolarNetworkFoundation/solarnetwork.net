@@ -1,0 +1,16 @@
+{{/*
+  Named parameters:
+
+   * class (optional) - additional CSS class for div
+
+ */}}
+{{ $class := "uk-table uk-table-striped" }}
+{{ with .Get "class" }}
+  {{ $class := printf "%s %s" $class . }}
+{{ end }}
+{{ $html := .Inner | markdownify }}
+{{ $classed := printf `<table class="%s">` $class }}
+{{ $html := replace $html "<table>" $classed }}
+<div class="uk-overflow-auto">
+  {{ $html | safeHTML }}
+</div>

@@ -24,6 +24,7 @@ amount of data collected into and queried out of the platform.
 By subscribing to SolarNetwork you gain access to the following SolarNetwork features:
 {.uk-text-large}
 
+{{<table>}}
 | Feature | Description |
 |:--------|:------------|
 | Priority support | Support straight from the SolarNetwork experts. |
@@ -32,7 +33,7 @@ By subscribing to SolarNetwork you gain access to the following SolarNetwork fea
 | Event hooks      | Integrate with external applications based on events happening within SolarNetwork. |
 | OCPP integration | Integrate electric vehicle charging stations with your SolarNetwork account via the Open Charge Point Protocol from the [Open Charge Alliance](https://www.openchargealliance.org/). SolarNetwork acts as an OCPP [Central Service](https://github.com/SolarNetwork/solarnetwork/wiki/OCPP) and offers a [robust API](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-OCPP-API) to manage the integration. |
 | OSCP integration | Receive load control signals from an [Open Smart Charging Protocol](https://www.openchargealliance.org/protocols/oscp-20/) Capacity Provider. SolarNetwork acts as an OSCP [Flexibility Provider](https://github.com/SolarNetwork/solarnetwork/wiki/OSCP) and offers a [robust API](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-OSCP-API) to integrate your own Capacity Optimizer service. |
-{.uk-table .uk-table-striped}
+{{</table>}}
 
 <sup>*</sup>Other subscriber-only features will be added over time.
 {.uk-text-small}
@@ -44,6 +45,7 @@ By subscribing to SolarNetwork you gain access to the following SolarNetwork fea
 To understand the SolarNetwork subscription costs, the following terms are used:
 {.uk-text-large}
 
+{{<table>}}
 | Term         | Definition |
 |--------------|------------|
 | **Account**  | A means to access SolarNetwork services based on registering a unique email address. |
@@ -51,7 +53,7 @@ To understand the SolarNetwork subscription costs, the following terms are used:
 | **Source**   | A unique identifier for  a stream of data captured by a node. Often a source denotes a hardware device that a node is collecting data from. Sources are given short textual identifiers by node administrators, and can be organized using slashes into meaningful hierarchies. For example _/home/weather_ might be used for a weather station source.
 | **Datum**    | A timestamped sample of data specific to a source and uploaded to SolarNetwork. |
 | **Property** | A uniquely named measurement captured in a datum. Each datum can have any number of properties within it. For example _temperature: 20℃_ and _wind speed: 20 km/hr_ might be captured in a datum from a weather station source. |
-{.uk-table .uk-table-striped}
+{{</table>}}
 
 {{</section/content>}}
 
@@ -80,13 +82,14 @@ The following sections detail the pricing tiers for each subscription category.
 
 This price is calculated from the number of properties posted into SolarNetwork over the billing period.
 
+{{<table>}}
 | Tier Start  | Tier Rate       | Tier Maximum | Tier Maximum Cost |
 |-------------|-----------------|--------------|-------------------|
 | > 0           | $5 / million    | 500,000     | $ 2.50   |
 | > 500,000     | $3 / million    | 9,500,000   | $ 28.50  |
 | > 10,000,000  | $0.80 / million | 490,000,000 | $ 392.00 |
 | > 500,000,000 | $0.20 / million | -           | -        |
-{.uk-table .uk-table-striped}
+{{</table>}}
 
 ## Datum Queried
 
@@ -97,13 +100,14 @@ response count towards the total. If a query requests aggregate values, only the
 datum returned count towards the total. For example, requesting hourly aggregated datum given 1,000
 raw datum that span 24 hours would return 24 datum that count towards the total.
 
+{{<table>}}
 | Tier Start  | Tier Rate       | Tier Maximum | Tier Maximum Cost |
 |-------------|-----------------|--------------|-------------------|
 | > 0              | $1 / 10 million    | 10,000,000     | $ 1.00   |
 | > 1,000,000      | $0.40 / 10 million | 990,000,000    | $ 39.60  |
 | > 100,000,000    | $0.04 / 10 million | 99,000,000,000 | $ 396.00 |
 | > 10,000,000,000 | $0.01 / 10 million | -              | -        |
-{.uk-table .uk-table-striped}
+{{</table>}}
 
 ## Datum Days Stored
 
@@ -112,13 +116,14 @@ billing period. As nodes post datum, this value grows. SolarNetwork also stores 
 datum derived from the raw datum—at hourly, daily, and monthly aggregate levels. Each of these
 aggregate datum are counted in this total as well.
 
+{{<table>}}
 | Tier Start  | Tier Rate       | Tier Maximum | Tier Maximum Cost |
 |-------------|-----------------|--------------|-------------------|
 | > 0               | $5 / 100 million    | 10,000,000     | $ 0.50   |
 | > 10,000,000      | $1 / 100 million    | 990,000,000    | $ 9.90   |
 | > 1,000,000,000   | $0.30 / 100 million | 99,000,000,000 | $ 297.00 |
 | > 100,000,000,000 | $0.20 / 100 million | -              | -        |
-{.uk-table .uk-table-striped}
+{{</table>}}
 
 {{</section/content>}}
 
@@ -133,34 +138,37 @@ source once per minute. Over one 30-day month that would equate to:
 
 1 _source_ × 2 _properties_ × 60 _minutes_ × 24 _hours_ × 30 _days_ = **86,400** properties
 
+{{<table>}}
 | Tier      | Calculation | Cost |
 |-----------|-------------|------|
 | 1         | 86,400 × $5 ÷ 1,000,000 | $0.43 |
 | **Total** |  | **$0.43** |
-{.uk-table .uk-table-striped}
+{{</table>}}
 
 ## Datum Queried
 
 The following example builds off the **Properties Posted** example above, in which 1 datum is posted
 every minute. A script requests the following datum:
 
+{{<table>}}
 | Query | Result Count | Schedule |
 |-------|--------------|----------|
 | all datum for the past month, aggregated daily | 30 | every hour |
 | all datum for the past 2 hours | 120 | 6 times per hour |
 | all datum for the past 24 hours, aggregated hourly | 24 | every hour |
 | most recently available datum | 1 | every minute |
-{.uk-table .uk-table-striped}
+{{</table>}}
 
 Over the course of a 30 day month that would equate to:
 
 (30 daily + (120 datum × 6) + 24 hourly + 60 most recent) × 24 hours × 30 days = **600,480** datum
 
+{{<table>}}
 | Tier      | Calculation | Cost |
 |-----------|-------------|------|
 | 1         | 600,480 × $1 ÷ 10,000,000 | $0.06 |
 | **Total** |  | **$0.06** |
-{.uk-table .uk-table-striped}
+{{</table>}}
 
 ## Datum Days Stored
 
@@ -175,25 +183,27 @@ Over the course of the next 30 day month the datum storage cost would equate to:
 
 for _d_ = 1..30: _d_ = _d<sub>prev</sub>_ + 534,737 + (_d_ × 1,465) = **16,723,335** datum
 
+{{<table>}}
 | Tier      | Calculation | Cost |
 |-----------|-------------|------|
 | 1         | 10,000,000 × $5 ÷ 100,000,000 | $0.50 |
 | 2         | 6,723,335 × $1 ÷ 100,000,000  | $0.07 |
 | **Total** |  | **$0.57** |
-{.uk-table .uk-table-striped}
+{{</table>}}
 
 ## Overall cost
 
 The overall monthly subscription cost for properties posted, datum queried, and datum stored for the
 previous examples would be:
 
+{{<table>}}
 | Subscription | Cost |
 |--------------|------|
 | Properties Posted | $0.43 |
 | Datum Queried     | $0.06 |
 | Datum Days Stored | $0.57 |
 | **Total**         | **$1.06** |
-{.uk-table .uk-table-striped}
+{{</table>}}
 
 {{</section/content>}}
 
