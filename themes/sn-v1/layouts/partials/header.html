@@ -16,8 +16,8 @@
           {{end}}
         </ul>
         <div class="uk-navbar-item uk-visible@l sn-buttons">
-          <a class="uk-button uk-button-default" href="#">Book a demo</a>
-          <a class="uk-button uk-button-primary sn-main" href="#">Get in touch</a>
+          {{ partial "button" (dict "type" "default" "link" "demo") }}
+          {{ partial "button" (dict "type" "primary sn-main" "link" "contact") }}
         </div>
         <a
           class="uk-navbar-toggle uk-navbar-toggle-animate uk-hidden@m"
@@ -35,8 +35,8 @@
             {{end}}
           </ul>
           <div class="sn-row sn-buttons">
-            <a class="uk-button uk-button-default" href="#">Book a demo</a>
-            <a class="uk-button uk-button-primary sn-main" href="#">Get in touch</a>
+            {{ partial "button" (dict "type" "default" "link" "demo") }}
+            {{ partial "button" (dict "type" "primary sn-main" "link" "contact") }}
           </div>
         </nav>
       </div>

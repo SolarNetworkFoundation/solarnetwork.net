@@ -7,8 +7,7 @@ buttons:
   donate:
     - text: "Want to sign up?"
     - type: primary
-      url:  "#todo"
-      text: Get in touch
+      link:  contact
   explorer:
     - type: primary
       url:  "https://go.solarnetwork.net/subscription-price-explorer/"

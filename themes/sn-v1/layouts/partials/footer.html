@@ -44,10 +44,10 @@
           <a class="uk-button uk-button-text" href="#">Foundation</a>
         </div>
         <div>
-          <a class="uk-button uk-button-text" href="#">Get in touch</a>
+          {{ partial "button" (dict "type" "text" "link" "contact") }}
         </div>
         <div>
-          <a class="uk-button uk-button-text" href="#">Book a demo</a>
+          {{ partial "button" (dict "type" "text" "link" "demo") }}
         </div>
         <div>
           <a class="uk-button uk-button-text" href="/legal.html">Legal</a>

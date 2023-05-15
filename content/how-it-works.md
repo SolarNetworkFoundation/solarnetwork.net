@@ -7,8 +7,7 @@ buttons:
   more:
     - text: Interested in finding out more?
     - type: primary
-      url: "#todo"
-      text: Get in touch
+      link: contact
 ---
 {{<section/column class="sn-alt" title="How it works">}}
 SolarNetwork is an open source energy management platform that enables our users to monitor,

@@ -5,20 +5,31 @@
    * url   (optional) - link URL (if not provided a plain text span is rendered)
    * title (optional) - link title
    * text             - link text
+   * link             - named link from links data
+
+   Note Scratch is necessary to manipulate the parameter map within the if block.
+   If link param is provided, we merge the input map with the link's data map.
  */}}
- {{ if .url }}
-<a class="uk-button{{ with .type }} uk-button-{{ . }}{{ end }}"
-  href="{{ .url }}"
-  {{ with .title }}title="{{ . }}"{{ end }}
-  {{ if hasPrefix .url "http" }}
-  target="_blank"
+{{ $data := newScratch }}
+{{ $data.Set "p" . }}
+{{ if and .link (index site.Data.links .link) }}
+  {{ $data.Set "p" (merge (index site.Data.links .link) .) }}
+{{ end }}
+{{ with $data.Get "p" }}
+  {{ if .url }}
+    <a class="uk-button{{ with .type }} uk-button-{{ . }}{{ end }}"
+      href="{{ .url }}"
+      {{ with .title }}title="{{ . }}"{{ end }}
+      {{ if hasPrefix .url "http" }}
+      target="_blank"
+      {{ end }}
+      >
+      {{ .text }}
+    </a>
+  {{ else }}
+    <span{{ with .type }} class="{{ . }}"{{ end }}
+      {{ with .title }}title="{{ . }}"{{ end }}>
+      {{ .text }}
+    </span>
   {{ end }}
-  >
-  {{ .text }}
-</a>
-{{ else }}
-<span{{ with .type }} class="{{ . }}"{{ end }}
-  {{ with .title }}title="{{ . }}"{{ end }}>
-  {{ .text }}
-</span>
 {{ end }}

@@ -6,34 +6,27 @@ audience: dev
 buttons:
   hero:
     - type: default
-      url: "#todo"
-      text: Get in touch
+      link: contact
     - type: primary
-      url: https://github.com/SolarNetwork/solarnetwork/wiki/
-      text: Developer Docs
+      link: dev-docs
   deck:
     - type: primary
-      url:  "/how-it-works.html"
-      text: How it works
+      link:  how-works
   features:
     - type: primary
       url:  "#todo"
       text: Explore all features
   cards:
     - type: primary
-      url:  "https://github.com/SolarNetwork/solarnetwork/wiki/Node-Supported-Devices"
-      text: View integrations
+      link: integrations
   help:
     - type: primary
-      url:  "#todo"
-      text: Get in touch
+      link: contact
   rev:
     - type: default
-      url: "#todo"
-      text: Get in touch
+      link: contact
     - type: primary
-      url: /how-it-works.html
-      text: How it works
+      link: how-works
 ---
 {{<section/grid
   class="sn-hero"

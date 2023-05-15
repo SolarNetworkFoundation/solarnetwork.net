@@ -1,0 +1,18 @@
+contact:
+  text: Get in touch
+  url: /contact.html
+demo:
+  text: Book a demo
+  url: "#todo"
+dev-docs:
+  text: Developer Docs
+  url: https://github.com/SolarNetwork/solarnetwork/wiki/
+how-works:
+  text: How it works
+  url: "#todo"
+integrations:
+  text: View integrations
+  url: https://github.com/SolarNetwork/solarnetwork/wiki/Node-Supported-Devices
+subscriptions:
+  text: Pricing plans
+  url: /subscriptions.html

@@ -6,23 +6,20 @@ audience: home
 buttons:
   hero:
     - type: default
-      url: "#todo"
-      text: Get in touch
+      link: contact
     - type: primary
       url: "#todo"
       text: Set up guide
   deck:
     - type: primary
-      url:  "/how-it-works.html"
-      text: How it works
+      link: how-works
   features:
     - type: primary
       url:  "#todo"
       text: Explore all features
   cards:
     - type: primary
-      url:  "https://github.com/SolarNetwork/solarnetwork/wiki/Node-Supported-Devices"
-      text: View integrations
+      link: integrations
   start:
     - type: primary
       url:  "#todo"

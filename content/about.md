@@ -7,8 +7,7 @@ buttons:
   more:
     - text: Interested in finding out more?
     - type: primary
-      url: "#todo"
-      text: Get in touch
+      link: contact
 ---
 {{<section/column title="About SolarNetwork Foundation" />}}
 

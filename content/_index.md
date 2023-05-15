@@ -5,11 +5,9 @@ audience: main
 buttons:
   hero:
     - type: default
-      url: "#todo"
-      text: Get in touch
+      link: contact
     - type: primary
-      url: /how-it-works.html
-      text: How it works
+      link: how-works
   deck:
     - type: primary
       url:  "#todo"
@@ -20,8 +18,8 @@ buttons:
       text: Explore all features
   pricing:
     - type: primary
-      url:  "#todo"
-      text: See our pricing plans
+      link: subscriptions
+      text: See our pricing
 ---
 {{<section/grid
   class="sn-hero"
