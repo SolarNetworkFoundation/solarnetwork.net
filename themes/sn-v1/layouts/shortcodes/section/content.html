@@ -3,11 +3,12 @@
 
   Named parameters:
 
-   * id         (optional) - section id attribute value
-   * class      (optional) - additional CSS class for section
-   * title      (optional) - the section title
-   * subtitle   (optional) - the section subtitle
-   * buttons    (optional) - key within page map parameter "buttons" of buttons partial map
+   * id            (optional) - section id attribute value
+   * class         (optional) - additional CSS class for section
+   * title         (optional) - the section title
+   * subtitle      (optional) - the section subtitle
+   * buttons       (optional) - key within page map parameter "buttons" of buttons partial map
+   * buttons-class (optional) - additional CSS class to add to button bar
 
  */}}
 <section{{ if isset .Params "id" }} id="{{ .Get "id" }}"{{ else if (isset .Params "title") }} id="{{ partial "hid" (.Get "title") }}"{{ end }}{{ with .Get "class" }} class="{{ . }}"{{ end }}>
@@ -22,7 +23,12 @@
       {{ . | $.Page.RenderString (dict "display" "block") }}
     {{ end }}
     {{ if and (and (isset .Params "buttons") (isset .Page.Params "buttons")) (isset .Page.Params.buttons (.Get "buttons")) }}
-      {{ partial "button-bar" (dict "buttons" (index .Page.Params.buttons (.Get "buttons"))) | safeHTML }}
+      {{ $data := newScratch }}
+      {{ $data.Set "p" (dict "buttons" (index .Page.Params.buttons (.Get "buttons"))) }}
+      {{ if isset .Params "buttons-class" }}
+        {{ $data.Set "p" (merge ($data.Get "p") (dict "class" (.Get "buttons-class"))) }}
+      {{ end }}
+      {{ partial "button-bar" ($data.Get "p") | safeHTML }}
     {{ end }}
   </div>
 </section>
