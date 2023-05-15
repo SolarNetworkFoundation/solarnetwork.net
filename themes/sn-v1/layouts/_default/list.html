@@ -1,0 +1,41 @@
+{{ define "title"}}{{ .Site.Title}}{{end}}
+{{ define "header"}}{{ partial "header" .}}{{end}}
+{{ define "main" }}
+<section class="sn-alt sn-light">
+  <div class="sn-container sn-deck sn-learn">
+    <div class="sn-info-card">
+      <h1>{{ with .Params.heading }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
+      {{ .Content }}
+      <div class="sn-grid">
+        {{ range .Data.Pages.ByWeight }}
+          <div class="sn-col">
+            <div
+              {{ if and (isset .Params "images") (isset .Params.images "logo") }}
+                class="sn-img-card sn-icon"
+                style="background-image: url({{ .Params.images.logo }})"
+                title="{{ .Title }}"
+              {{ else if and (and (isset .Params "images") (isset .Params.images "card")) (isset .Params.images.card "url") }}
+                class="sn-img-card"
+                style="background-image: url({{ .Params.images.card.url }})"
+                {{ with .Params.images.card.alt }}
+                  title="{{ . }}"
+                {{ end }}
+              {{ end }}
+            ></div>
+            <div>
+              <div>
+                {{ with .Params.brief }}<h2>{{ . }}</h2>{{ end }}
+              </div>
+              <div>
+                <a class="uk-button uk-button-link" href="{{ .RelPermalink }}">Learn more</a>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ define "tail" }}{{ partialCached "tail" . }}{{ end }}
+{{ define "footer" }}{{ partialCached "footer" . }}{{ end }}

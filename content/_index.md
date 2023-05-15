@@ -127,7 +127,7 @@ buttons:
 
 {{</section/column>}}
 
-{{<section/deck class="sn-alt sn-light" deck-class="sn-pair">}}
+{{<section/deck class="sn-alt sn-light" deck-class="sn-learn sn-pair">}}
 
   {{<deck-link-card class="sn-dev" title="For Developers" subtitle="Build your own products using our powerful and easy-to-use APIs."
       img="/img/SN-Developers-Icon.svg"

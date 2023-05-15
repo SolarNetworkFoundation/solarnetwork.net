@@ -1,0 +1,9 @@
+<!--
+    Named parameters:
+        url : citation URL
+        cite: citation
+-->
+<blockquote cite="{{.Get "url"}}" class="uk-card uk-card-small">
+{{ .Inner | markdownify }}
+<footer><cite>{{ .Get "cite" }}</cite></footer>
+</blockquote>

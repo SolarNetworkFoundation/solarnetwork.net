@@ -9,6 +9,7 @@
    * subtitle      (optional) - the section subtitle
    * buttons       (optional) - key within page map parameter "buttons" of buttons partial map
    * buttons-class (optional) - additional CSS class to add to button bar
+   * caption-date  (optional) - if present, add a publish date caption
 
  */}}
 <section{{ if isset .Params "id" }} id="{{ .Get "id" }}"{{ else if (isset .Params "title") }} id="{{ partial "hid" (.Get "title") }}"{{ end }}{{ with .Get "class" }} class="{{ . }}"{{ end }}>
@@ -19,6 +20,9 @@
     {{ with .Get "subtitle" }}
       <div class="uk-text-small">{{ . }}</div>
     {{end}}
+    {{ if isset .Params "caption-date" }}
+      <div class="sn-caption">{{ .Page.PublishDate.Format "1 January, 1970" }}</div>
+    {{ end }}
     {{ with .InnerDeindent }}
       {{ . | $.Page.RenderString (dict "display" "block") }}
     {{ end }}

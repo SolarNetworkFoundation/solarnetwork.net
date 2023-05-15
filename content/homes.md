@@ -166,7 +166,7 @@ less energy than it generates.</p>
 
 {{</section/column>}}
 
-{{<section/deck class="sn-alt sn-light" deck-class="sn-pair">}}
+{{<section/deck class="sn-alt sn-light" deck-class="sn-learn sn-pair">}}
 
   {{<deck-link-card class="sn-main" title="For Business" subtitle="Sustainable business just got a little simpler."
       img="/img/SN-Business-Icon.svg"

@@ -10,10 +10,12 @@
         <ul class="uk-navbar-nav uk-visible@m">
           {{ $currentPage := . }}
           {{ range .Site.Menus.main }}
-            <li{{ if (eq $currentPage.RelPermalink .URL) }} class="sn-selected"{{end}}>
-              <a class="uk-button" href="{{ .URL }}">{{ .Name }}</a>
-            </li>
-          {{end}}
+            {{ if not .Params.hidden }}
+              <li{{ if (eq $currentPage.RelPermalink .URL) }} class="sn-selected"{{end}}>
+                <a class="uk-button" href="{{ .URL }}">{{ .Name }}</a>
+              </li>
+            {{ end }}
+          {{ end }}
         </ul>
         <div class="uk-navbar-item uk-visible@l sn-buttons">
           {{ partial "button" (dict "type" "default" "link" "demo") }}
@@ -29,10 +31,12 @@
           <ul class="uk-nav uk-navbar-dropdown-nav">
             {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
-              <li{{ if (eq $currentPage.RelPermalink .URL) }} class="sn-selected"{{end}}>
-                <a class="uk-button" href="{{ .URL }}">{{ .Name }}</a>
-              </li>
-            {{end}}
+              {{ if not .Params.hidden }}
+                <li{{ if (eq $currentPage.RelPermalink .URL) }} class="sn-selected"{{end}}>
+                  <a class="uk-button" href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+              {{ end }}
+            {{ end }}
           </ul>
           <div class="sn-row sn-buttons">
             {{ partial "button" (dict "type" "default" "link" "demo") }}

@@ -17,34 +17,42 @@ uglyURLs = true
   title = true
 
 [markup.goldmark.renderer]
-    unsafe= true
+  unsafe= true
 
 [[menu.main]]
-    name = "How it works"
-    weight = 100
-    identifier = "how-it-works"
-    url = "/how-it-works.html"
+  name = "How it works"
+  weight = 100
+  identifier = "how-it-works"
+  url = "/how-it-works.html"
 
 [[menu.main]]
-    name = "For Developers"
-    weight = 200
-    identifier = "developers"
-    url = "/developers.html"
+  name = "For Developers"
+  weight = 200
+  identifier = "developers"
+  url = "/developers.html"
 
 [[menu.main]]
-    name = "For Homes"
-    weight = 300
-    identifier = "homes"
-    url = "/homes.html"
+  name = "For Homes"
+  weight = 300
+  identifier = "homes"
+  url = "/homes.html"
 
 [[menu.main]]
-    name = "Subscriptions"
-    weight = 500
-    identifier = "subscriptions"
-    url = "/subscriptions.html"
+  name = "Subscriptions"
+  weight = 500
+  identifier = "subscriptions"
+  url = "/subscriptions.html"
 
 [[menu.main]]
-    name = "About"
-    weight = 600
-    identifier = "about"
-    url = "/about.html"
+  name = "About"
+  weight = 600
+  identifier = "about"
+  url = "/about.html"
+
+[[menu.main]]
+  name = "Case Studies"
+  weight = 900
+  identifier = "case-studies"
+  url = "/case-studies.html"
+  [menu.main.params]
+    hidden = true
