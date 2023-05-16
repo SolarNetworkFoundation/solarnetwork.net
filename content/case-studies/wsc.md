@@ -6,6 +6,7 @@ weight: 100
 brief: "SolarNetwork Foundation helped Western Springs College visualise real-time building energy use with 50 kW solar array."
 toc: true
 key: wsc
+nav: "Ken Havill Centre for Learning"
 audience: main
 menu:
   main:
