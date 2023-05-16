@@ -7,7 +7,7 @@ buttons:
   more:
     - text: Interested in finding out more?
     - type: primary
-      link: contact
+      link: case-studies
 ---
 {{<section/column title="About SolarNetwork Foundation" />}}
 

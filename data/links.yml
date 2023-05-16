@@ -1,3 +1,6 @@
+case-studies:
+  text: See case studies
+  url: /case-studies.html
 contact:
   text: Get in touch
   url: /contact.html
@@ -13,6 +16,9 @@ how-works:
 integrations:
   text: View integrations
   url: https://github.com/SolarNetwork/solarnetwork/wiki/Node-Supported-Devices
+legal:
+  text: Legal
+  url: /legal.html
 subscriptions:
   text: Pricing plans
   url: /subscriptions.html
