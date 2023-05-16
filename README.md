@@ -6,7 +6,7 @@ website is built using [Hugo][hugo].
 ## Adding posts
 
 Posts are written as Markdown files within **section folders** in the [content/](./content/) folder. For example
-**Case Studies** section posts are in the [content/case-studies/](./context/case-studies/) folder.
+**Case Studies** section posts are in the [content/case-studies/](./content/case-studies/) folder.
 
 The easiest way to add a new post is to copy an existing post, named whatever you like. Then modify
 the _front matter_ (metadata) section, at the top of the file between `---` delimiters. For example
