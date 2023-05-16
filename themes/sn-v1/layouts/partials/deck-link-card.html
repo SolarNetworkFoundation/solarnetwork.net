@@ -1,0 +1,51 @@
+{{/*
+  Inner context is treated as Markdown.
+
+  Expects a dict parameter with the following items:
+
+   * class      (optional) - additional CSS class for div
+   * title      (optional) - the section title
+   * subtitle   (optional) - the section subtitle
+   * img        (optional) - the image URL
+   * alt        (optional) - the image descripiton
+   * url        (optional) - link URL
+   * link       (optional) - link text
+   * content    (optional) - the page context
+   * caption    (optional) - if present, add a header caption
+   * Page                 - the page
+ */}}
+{{ $page := .Page }}
+{{ with .url }}
+<a href="{{ . }}"
+{{ else }}
+<div
+{{ end }} class="sn-col{{ with .class }} {{ . }}{{ end }}">
+  {{ if .img }}
+    <img src="{{ .img }}"{{ with .alt }} alt="{{ . }}"{{ end }}>
+  {{ end }}
+  <div>
+    <div>
+      {{ with .title }}
+        <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
+      {{ end }}
+      {{ with .subtitle }}
+        <h3>{{ . }}</h3>
+      {{ end }}
+      {{ with .caption }}
+        <p class="uk-text-meta uk-margin-remove-top">{{ . }}</p>
+      {{ end }}
+      {{ with .content }}
+        {{ . | $page.RenderString (dict "display" "block") }}
+      {{ end }}
+    </div>
+    {{ if .url }}
+      <div>
+        <span class="uk-button uk-button-link">{{ .link }}</span>
+      </div>
+    {{ end }}
+  </div>
+{{ with .url }}
+</a>
+{{ else }}
+</div>
+{{ end }}

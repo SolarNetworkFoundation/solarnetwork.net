@@ -46,7 +46,7 @@
       </div>
     </nav>
   </div>
-  {{ if and (.IsPage) (.Section) }}
+  {{ if gt (len .Ancestors) 1 }}
       {{ partial "breadcrumbs" . }}
   {{ end }}
 </div>

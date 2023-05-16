@@ -24,12 +24,12 @@
       target="_blank"
       {{ end }}
       >
-      {{ .text }}
+      {{- .text -}}
     </a>
   {{ else }}
     <span{{ with .type }} class="{{ . }}"{{ end }}
       {{ with .title }}title="{{ . }}"{{ end }}>
-      {{ .text }}
+      {{- .text -}}
     </span>
   {{ end }}
 {{ end }}

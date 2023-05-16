@@ -1,22 +1,36 @@
 {{ define "title"}}{{ .Site.Title }}{{ end }}
 {{ define "header"}}{{ partial "header" .}}{{ end }}
 {{ define "main" }}
+{{ $page := . }}
 <section class="sn-alt sn-light">
-  <div class="sn-container sn-content">
-    <ul class="uk-list uk-list-divider">
-      {{ range .Data.Pages }}
-        <li>
-          <h3 class="uk-margin-remove-bottom">{{ with .Params.heading }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h3>
-          <p class="uk-text-meta uk-margin-remove-top">{{.Date.Format "2006-01-02"}}</p>
-          {{ .Summary }}
-          {{ if or .Truncated (isset .Params "is-subsection") }}
-          <p>
-              <a class="uk-button uk-button-text" href="{{ .RelPermalink }}">Read more</a>
-          </p>
+  <div class="sn-container sn-deck sn-learn sn-pair">
+    <div class="sn-info-card">
+      <h1>News &amp; insights</h1>
+      <div class="sn-grid">
+        {{ range .Data.Pages }}
+          {{ .Scratch.Set "p"  (dict
+            "Page" .
+            "title" (cond (isset .Params "heading") .Params.heading .Title)
+            "url" .RelPermalink
+            "content" (.Summary |plainify)
+            "link" "Read more"
+            "caption" (cond (isset . "PublishDate")
+              (.PublishDate.Format "2 January 2006")
+              (.Date.Format "2 January 2006"))
+            )}}
+          {{ if and (isset .Params "images") (isset .Params.images "logo") }}
+            {{ .Scratch.SetInMap "p" "img" .Params.images.logo }}
           {{ end }}
-        </li>
-      {{ end }}
-    </ul>
+          {{ if or .Truncated (isset .Params "is-subsection") }}
+            {{ .Scratch.SetInMap "p" "link" "Read more" }}
+          {{ end }}
+          {{ if isset .Params "audience" }}
+            {{ .Scratch.SetInMap "p" "class" (printf "sn-%s" .Params.audience) }}
+          {{ end }}
+          {{ partial "deck-link-card" (.Scratch.Get "p") }}
+        {{ end }}
+      </div>
+    </div>
   </div>
 </section>
 {{ end }}

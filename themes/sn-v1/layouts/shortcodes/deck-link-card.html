@@ -11,26 +11,8 @@
    * url      (optional) - link URL
    * link     (optional) - link text
  */}}
-<div class="sn-col{{ with .Get "class" }} {{ . }}{{ end }}">
-  {{ if (isset .Params "img") }}
-    <img src="{{ .Get "img" }}"{{ with .Get "alt" }} alt="{{ . }}"{{ end }}>
-  {{ end }}
-  <div>
-    <div>
-      {{ with .Get "title" }}
-        <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
-      {{end}}
-      {{ with .Get "subtitle" }}
-        <h3>{{ . }}</h3>
-      {{ end }}
-      {{ with .InnerDeindent }}
-        {{ . | $.Page.RenderString (dict "display" "block") }}
-      {{ end }}
-    </div>
-    {{ if (isset .Params "url") }}
-      <div>
-        <a class="uk-button uk-button-link" href="{{ .Get "url" }}">{{ .Get "link" }}</a>
-      </div>
-    {{ end }}
-  </div>
-</div>
+{{ if .Inner }}
+{{ partial "deck-link-card" (merge .Params (dict "Page" .Page "content" .InnerDeindent)) }}
+{{ else }}
+{{ partial "deck-link-card" (merge .Params (dict "Page" .Page)) }}
+{{ end }}

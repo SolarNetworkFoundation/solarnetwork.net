@@ -6,5 +6,7 @@ audience: dev
 heading: Development Blog
 nav: Development
 is-subsection: true
+images:
+  logo: /img/SN-Developers-Icon.svg
 ---
 News and information from SolarNetwork developers.

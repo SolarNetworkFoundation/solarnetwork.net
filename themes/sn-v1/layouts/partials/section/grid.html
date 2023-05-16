@@ -1,0 +1,33 @@
+{{/*
+  Renders inner content as HTML.
+
+  Expects a dict parameter with the following items:
+
+   * id         (optional) - section id attribute value
+   * class      (optional) - additional CSS class for section
+   * title      (optional) - the section title
+   * subtitle   (optional) - the section subtitle
+   * img                   - the image URL
+   * alt        (optional) - the image descripiton
+   * buttons    (optional) - key within page map parameter "buttons" of buttons partial map
+   * content    (optional) - the page context
+ */}}
+<section{{ if .id }} id="{{ .id }}"{{ else if .title }} id="{{ partial "hid" .title }}"{{ end }}{{ with .class }} class="{{ . }}"{{ end }}>
+  <div class="sn-container sn-grid">
+    <div class="sn-col sn-info-card">
+      {{ with .title }}
+        <h1>{{ . }}</h1>
+      {{end}}
+      {{ with .subtitle }}
+        <p class="sn-subhead">{{ . }}</p>
+      {{ end }}
+      {{ with .content }}
+        {{ . }}
+      {{ end }}
+      {{ if and (and .buttons (isset .Page.Params "buttons")) (isset .Page.Params.buttons .buttons) }}
+        {{ partial "button-bar" (dict "buttons" (index .Page.Params.buttons .buttons)) | safeHTML }}
+      {{ end }}
+    </div>
+    {{ partial "img-card" (dict "class" "sn-col" "img" .img "alt" .alt) }}
+  </div>
+</section>
