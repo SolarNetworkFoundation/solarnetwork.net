@@ -3,7 +3,7 @@
 This repository holds the source code and data for building the SolarNetwork main website. The
 website is built using [Hugo][hugo].
 
-## Adding posts
+# Adding posts
 
 Posts are written as Markdown files within **section folders** in the [content/](./content/) folder. For example
 **Case Studies** section posts are in the [content/case-studies/](./content/case-studies/) folder.
@@ -30,7 +30,7 @@ images:
 ---
 ```
 
-### Front matter to modify
+## Front matter to modify
 
 | Key | Description |
 |:----|:------------|
@@ -44,6 +44,64 @@ images:
 | `key`    | A short, unique identifier for the post. |
 | `audience` | One of `main`, `dev`, or `home` for the target audience of the post. |
 | `images.logo` | The image to show for the post on the section list page. |
+
+# Notable Shortcodes
+
+The Markdown content supports some specific **shortcodes**, which are little helper snippets for
+generating common HTML markup for the website.
+
+## `section/content`
+
+Wrap the content in a "content section". For example:
+
+```
+{{<section/content class="sn-light" caption-date="true"
+    title="Zero Energy House"
+    subtitle="Data-driven comfort">}}
+
+My post content starts here.
+
+{{</section/content>}}
+```
+
+| Parameter | Description |
+|:----------|:------------|
+| `class` | Extra CSS class(es) to add to the section. Typical values are `sn-light`, `sn-alt`, `sn-dark` |
+| `title` | The post title (optional) |
+| `subtitle` | The post subtitle (optional) |
+| `caption-date` | Set to `true` to include the post date as a caption under the subtitle. |
+
+## `quote-bar`
+
+Generate a floating aside section, for an inspirational quote. Typically includes one or more nested
+`quote` shortcodes. For example:
+
+```
+{{<quote-bar>}}
+{{<quote url="https://example.com/" cite="Sweetdance Silvergaze, Fairy">}}
+Something notable here.
+{{</quote>}}
+{{</quote-bar>}}
+```
+
+## `quote`
+
+Generate a quote element with a citation. For example:
+
+```
+{{<quote url="https://example.com/" cite="Sweetdance Silvergaze, Fairy">}}
+Something notable here.
+{{</quote>}}
+```
+
+| Parameter | Description |
+|:----------|:------------|
+| `url` | A URL to attribute the quote with. |
+| `cite` | The quoted person. |
+
+# Building the website
+
+You need [Hugo][hugo] to build the website.
 
 ## Developer server
 
