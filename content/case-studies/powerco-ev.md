@@ -14,7 +14,7 @@ menu:
 images:
   logo: /img/case-studies/powerco-logo-165x54.png
 ---
-{{<section/content class="sn-light" title="Powerco EV" subtitle="Illustrating new technologies" caption-date="true">}}
+{{<section/content class="sn-light" caption-date="true" title="Powerco EV" subtitle="Illustrating new technologies">}}
 [PowerCo](http://www.powerco.co.nz/) is one of New Zealand's largest transmission companies,
 spanning two large regions of the North Island.  They see the huge potential for electric vehicles
 on their network, and also see renewable distributed generation coming online in a big way. They

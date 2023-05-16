@@ -13,7 +13,7 @@ menu:
 images:
   logo: /img/case-studies/nzbus-logo-222x103.png
 ---
-{{<section/content class="sn-light" title="New Zealand's first electric bus depot" subtitle="OSCP-based load control for EV chargers" caption-date="true">}}
+{{<section/content class="sn-light" caption-date="true" title="New Zealand's first electric bus depot" subtitle="OSCP-based load control for EV chargers">}}
 [NZ Bus](https://www.nzbus.co.nz/) is New Zealand’s largest urban public transport business and
 operator of metropolitan bus services, and operates [New Zealand's first electric bus
 depot](https://www.1news.co.nz/2022/11/14/aucklands-eastern-bays-welcome-35-new-electric-buses/), in

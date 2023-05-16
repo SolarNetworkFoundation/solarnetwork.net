@@ -8,7 +8,7 @@
       {{ .Content }}
       <div class="sn-grid">
         {{ range .Data.Pages.ByWeight }}
-          <div class="sn-col">
+          <a class="sn-col uk-button-text" href="{{ .RelPermalink }}" style="text-decoration-line: unset">
             <div
               {{ if and (isset .Params "images") (isset .Params.images "logo") }}
                 class="sn-img-card sn-icon"
@@ -27,10 +27,10 @@
                 {{ with .Params.brief }}<h2>{{ . }}</h2>{{ end }}
               </div>
               <div>
-                <a class="uk-button uk-button-link" href="{{ .RelPermalink }}">Learn more</a>
+                <span class="uk-button uk-button-link">Learn more</span>
               </div>
             </div>
-          </div>
+          </a>
         {{ end }}
       </div>
     </div>

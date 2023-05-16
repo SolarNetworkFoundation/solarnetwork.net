@@ -15,7 +15,7 @@ images:
     url: /img/stock/camp-glenorchy.jpg
     alt: "Photograph of a cabin with solar panels, at Camp Glenorchy."
 ---
-{{<section/content class="sn-light" title="Camp Glenorchy" subtitle="Come for the beauty, come away empowered" caption-date="true">}}
+{{<section/content class="sn-light" caption-date="true" title="Camp Glenorchy" subtitle="Come for the beauty, come away empowered">}}
 
 [Camp Glenorchy](https://www.campglenorchy.co.nz/) is New Zealand’s first [Net Zero
 Energy](https://www.theheadwaters.co.nz/sustainability/energy/net-zero-energy/) accommodation, which
