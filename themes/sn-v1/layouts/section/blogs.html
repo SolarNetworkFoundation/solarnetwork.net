@@ -1,0 +1,24 @@
+{{ define "title"}}{{ .Site.Title }}{{ end }}
+{{ define "header"}}{{ partial "header" .}}{{ end }}
+{{ define "main" }}
+<section class="sn-alt sn-light">
+  <div class="sn-container sn-content">
+    <ul class="uk-list uk-list-divider">
+      {{ range .Data.Pages }}
+        <li>
+          <h3 class="uk-margin-remove-bottom">{{ with .Params.heading }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h3>
+          <p class="uk-text-meta uk-margin-remove-top">{{.Date.Format "2006-01-02"}}</p>
+          {{ .Summary }}
+          {{ if or .Truncated (isset .Params "is-subsection") }}
+          <p>
+              <a class="uk-button uk-button-text" href="{{ .RelPermalink }}">Read more</a>
+          </p>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}
+{{ define "tail" }}{{ partialCached "tail" . }}{{ end }}
+{{ define "footer" }}{{ partialCached "footer" . }}{{ end }}

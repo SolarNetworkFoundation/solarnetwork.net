@@ -103,6 +103,18 @@ Something notable here.
 
 You need [Hugo][hugo] to build the website.
 
+## `table`
+
+Generate a standard HTML table. For example:
+
+```
+{{<table>}}
+| Foo | Bar |
+|:----|:----|
+| Hello | world |
+{{</table>}}
+```
+
 ## Developer server
 
 To run the Hugo developer web server, **including** draft and future content, run `hugo`
