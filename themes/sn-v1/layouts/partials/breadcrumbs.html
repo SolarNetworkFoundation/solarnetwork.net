@@ -1,0 +1,23 @@
+<nav aria-label="Breadcrumbs" class="uk-container uk-background-secondary uk-light">
+  <ul class="uk-breadcrumb uk-padding-small uk-padding-remove-left uk-padding-remove-right uk-nav-default">
+      {{ template "breadcrumb" dict "currentPage" . "id" .File.UniqueID }}
+  </ul>
+</nav>
+
+<!-- templates -->
+{{ define "breadcrumb" }}
+    {{ if .currentPage.Parent }}
+      {{ if ne .currentPage.Parent .IsHome }}
+          {{ template "breadcrumb" dict "currentPage" .currentPage.Parent }}
+      {{ end }}
+      <li>
+          <a href="{{ .currentPage.RelPermalink }}" class="uk-button uk-button-text">
+          {{ if .currentPage.Params.nav }}
+              {{ .currentPage.Params.nav }}
+          {{ else }}
+              {{ .currentPage.Title }}
+          {{ end }}
+          </a>
+      </li>
+    {{ end }}
+{{ end }}
