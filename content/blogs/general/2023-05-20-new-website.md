@@ -23,7 +23,7 @@ which website held which information.
 Now we have merged the three websites into this website, refreshing our brand identity along the
 way into a clean, more modern look.
 
-<div class="uk-text-center uk-grid-column-large" uk-grid>
+<div class="uk-text-center uk-grid-large" uk-grid>
   <div class="uk-width-1-1">
     <div class="uk-height-small uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
       style="background-size: contain"
@@ -31,18 +31,20 @@ way into a clean, more modern look.
     </div>
   </div>
   <div class="uk-width-2-5">
-    <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
+    <div class="uk-height-small uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
       style="background-size: contain"
       data-src="/img/solarnetwork-logo-stacked.svg" uk-img>
     </div>
   </div>
   <div class="uk-width-3-5">
-    <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
+    <div class="uk-height-small uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
       style="background-size: contain"
       data-src="/img/snf-logo.svg" uk-img>
     </div>
   </div>
 </div>
+
+<div class="uk-height-small"></div>
 
 ## Colour palettes
 
@@ -51,38 +53,86 @@ websites:
 
 ### Primary colour palette
 
-<div class="uk-grid-collapse" uk-grid>
-  <div class="uk-grid-collapse uk-width-1-1 sn-color-palette" uk-grid>
-    <div class="uk-width-1-2" style="background-color: #FCFF64; min-height: 100px;"></div>
-    <div class="uk-width-1-4" style="background-color: #BDE3FF; min-height: 100px;"></div>
-    <div class="uk-width-1-4" style="background-color: #133554; min-height: 100px;"></div>
+<style>
+.sn-colour-palette {
+  --sn-swatch-height: 250px;
+  --sn-swatch-height-small: 100px;
+}
+
+.sn-colour-palette.sn-small {
+  --sn-swatch-height: 200px;
+  --sn-swatch-height-small: 100px;
+}
+
+.sn-colour-palette td {
+  height: var(--sn-swatch-height);
+}
+
+.sn-colour-palette td.sn-small {
+  --sn-swatch-height: var(--sn-swatch-height-small);
+}
+
+@media (max-width: 640px) {
+  .sn-colour-palette:not(.sn-small) td {
+    height: calc(var(--sn-swatch-height) / 2);
+  }
+  .sn-colour-palette:not(.sn-small) td.small {
+    height: calc(var(--sn-swatch-height-small) / 2);
+  }
+  .sn-colour-palette.sn-small td {
+    height: calc(var(--sn-swatch-height) * 0.8);
+  }
+  .sn-colour-palette.sn-small td.small {
+    height: calc(var(--sn-swatch-height-small) * 0.8);
+  }
+}
+</style>
+
+<table class="uk-table uk-table-justify sn-colour-palette">
+  <tbody>
+    <tr>
+      <td class="uk-width-1-2" style="background-color: #FCFF64"></td>
+      <td class="uk-width-1-4" style="background-color: #BDE3FF"></td>
+      <td class="uk-width-1-4" style="background-color: #133554"></td>
+    </tr>
+    <tr>
+      <td class="uk-width-1-2 sn-small" style="background-color: #F7C819"></td>
+      <td class="uk-width-1-4 sn-small" style="background-color: #000000"></td>
+      <td class="uk-width-1-4 sn-small" style="background-color: #FFFFFF"></td>
+    </tr>
+  </tbody>
+</table>
+
+<div uk-grid>
+  <div class="uk-width-1-2@s">
+    <h3>Developers colour palette</h3>
+    <table class="uk-table uk-table-justify sn-colour-palette sn-small">
+      <tbody>
+        <tr>
+          <td rowspan="2" class="uk-width-2-5" style="background-color: #354113"></td>
+          <td rowspan="2" class="uk-width-2-5" style="background-color: #E1FC93"></td>
+          <td class="uk-width-1-5 sn-small" style="background-color: #FCFF64"></td>
+        </tr>
+        <tr>
+          <td style="background-color: #BDE3FF; height: auto;"></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-  <div class="uk-grid-collapse uk-width-1-1 sn-color-palette" uk-grid>
-    <div class="uk-width-1-2" style="background-color: #F7C819; min-height: 100px;"></div>
-    <div class="uk-width-1-4" style="background-color: #000000; min-height: 100px;"></div>
-    <div class="uk-width-1-4" style="background-color: #FFFFFF; min-height: 100px;"></div>
-  </div>
-</div>
-
-### Developers colour palette
-
-<div class="uk-grid-collapse sn-color-palette" uk-grid>
-  <div class="uk-width-2-5" style="background-color: #354113; min-height: 200px;"></div>
-  <div class="uk-width-2-5" style="background-color: #E1FC93; min-height: 200px;"></div>
-  <div class="uk-width-1-5 sn-color-palette">
-    <div style="background-color: #FCFF64; min-height: 100px;"></div>
-    <div style="background-color: #BDE3FF; min-height: 100px;"></div>
-  </div>
-</div>
-
-### Homes colour palette
-
-<div class="uk-grid-collapse" uk-grid>
-  <div class="uk-width-2-5" style="background-color: #532E4F; min-height: 200px;"></div>
-  <div class="uk-width-2-5" style="background-color: #F8CCFF; min-height: 200px;"></div>
-  <div class="uk-width-1-5">
-    <div style="background-color: #FCFF64; min-height: 100px;"></div>
-    <div style="background-color: #BDE3FF; min-height: 100px;"></div>
+  <div class="uk-width-1-2@s">
+    <h3>Homes colour palette</h3>
+    <table class="uk-table uk-table-justify sn-colour-palette sn-small">
+      <tbody>
+        <tr>
+          <td rowspan="2" class="uk-width-2-5" style="background-color: #532E4F"></td>
+          <td rowspan="2" class="uk-width-2-5" style="background-color: #F8CCFF"></td>
+          <td class="uk-width-1-5 sn-small" style="background-color: #FCFF64"></td>
+        </tr>
+        <tr>
+          <td style="background-color: #BDE3FF; height: auto;"></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>
 
