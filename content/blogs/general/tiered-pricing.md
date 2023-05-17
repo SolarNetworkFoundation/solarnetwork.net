@@ -6,10 +6,12 @@ audience: main
 ---
 As a non-profit entity, SolarNetwork Foundation always strives to keep the costs of running the
 SolarNetwork platform as low as possible and to offer subscriptions at a fair and reasonable amount
-based directly on those costs. SolarNetwork's subscriber base is growing, and those subscribers are
-monitoring an ever-increasing amount of renewable energy assets as they expand and grow themselves.
+based directly on those costs.
 
 <!--more-->
+
+SolarNetwork's subscriber base is growing, and those subscribers are monitoring an ever-increasing
+amount of renewable energy assets as they expand and grow themselves.
 
 We are very excited to announce a new tiered subscription price structure that results in
 significant cost savings for subscribers capturing large volumes of data. Now the overall cost of

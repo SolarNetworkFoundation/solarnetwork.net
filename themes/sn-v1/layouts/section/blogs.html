@@ -1,11 +1,20 @@
-{{ define "title"}}{{ .Site.Title }}{{ end }}
+{{/*
+  Parameters:
+
+  heading       (optional) - title to use instead of .Title
+  audience      (optional) - audience style to apply, i.e. "main", "dev", or "home"
+  images.logo   (optional) - path of image to display
+  is-subsection (optional) - force "Read more" link to be included
+  hide-date:    (optional) - if set then omit the page date caption
+*/}}
+{{ define "title"}}{{ .Page.Title }}{{ end }}
 {{ define "header"}}{{ partial "header" .}}{{ end }}
 {{ define "main" }}
 {{ $page := . }}
 <section class="sn-alt sn-light">
-  <div class="sn-container sn-deck sn-learn sn-pair">
+  <div class="sn-container sn-deck sn-learn sn-pair sn-compact">
     <div class="sn-info-card">
-      <h1>News &amp; insights</h1>
+      <h1>{{ with .Params.heading }}{{ . }}{{ else }}{{ .Page.Title }}{{ end }}</h1>
       <div class="sn-grid">
         {{ range .Data.Pages }}
           {{ .Scratch.Set "p"  (dict
@@ -13,11 +22,12 @@
             "title" (cond (isset .Params "heading") .Params.heading .Title)
             "url" .RelPermalink
             "content" (.Summary |plainify)
-            "link" "Read more"
-            "caption" (cond (isset . "PublishDate")
-              (.PublishDate.Format "2 January 2006")
-              (.Date.Format "2 January 2006"))
             )}}
+          {{ if not (isset .Params "hide-date") }}
+            {{ .Scratch.SetInMap "p" "caption" (cond (isset . "PublishDate")
+              (.PublishDate.Format "2006-01-02")
+              (.Date.Format "2006-01-02")) }}
+          {{ end }}
           {{ if and (isset .Params "images") (isset .Params.images "logo") }}
             {{ .Scratch.SetInMap "p" "img" .Params.images.logo }}
           {{ end }}

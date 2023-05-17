@@ -8,5 +8,7 @@ nav: General
 is-subsection: true
 images:
   logo: /img/SN-Business-Icon.svg
+weight: 1
+hide-date: true
 ---
 General news and information about SolarNetwork Foundation and the SolarNetwork platform.

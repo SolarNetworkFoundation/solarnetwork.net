@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="300 222 443 222" width="443" height="222">
+  <defs>
+    <font-face font-family="Source Code Pro" font-size="8" panose-1="2 11 5 9 3 4 3 2 2 4" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="480" cap-height="660" ascent="984.002" descent="-273.00055" font-weight="400">
+      <font-face-src>
+        <font-face-name name="SourceCodePro-Regular"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Source Code Pro" font-size="8" panose-1="2 11 5 9 3 4 3 2 2 4" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="480" cap-height="660" ascent="984.002" descent="-273.00055" font-weight="400">
+      <font-face-src>
+        <font-face-name name="SourceCodePro-Regular"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Source Sans Pro" font-size="14" panose-1="2 11 7 3 3 4 3 2 2 4" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="480" cap-height="660" ascent="984.002" descent="-273.00055" font-weight="700">
+      <font-face-src>
+        <font-face-name name="SourceSansPro-Bold"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.2\n2021-02-12 04:33:51 +0000</metadata>
+  <g id="Canvas_1" stroke="none" fill="none" stroke-dasharray="none" stroke-opacity="1" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" x="300" y="222" width="443" height="222"/>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Group_2">
+        <g id="Graphic_6">
+          <rect x="311" y="279" width="120.59937" height="148.4" fill="#d2eaf7"/>
+          <rect x="311" y="279" width="120.59937" height="148.4" stroke="#0076bc" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+          <text transform="translate(316 284)" fill="#0076bc">
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="16.899686" y="8">agg_datum_hourly</tspan>
+          </text>
+        </g>
+        <g id="Graphic_4">
+          <rect x="313.8367" y="296.72845" width="60.36332" height="127.07155" fill="white"/>
+          <rect x="313.8367" y="296.72845" width="60.36332" height="127.07155" stroke="#0076bc" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+          <text transform="translate(318.8367 301.72845)" fill="#0076bc">
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="8">ts_start</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="18">node_id</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="28">source_id</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="38">local_date</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="48">jdata_i</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="58">jdata_a</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="68">jdata_s</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="78">jdata_t</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="88">jmeta</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="98">jdata_as</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="108">jdata_af</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="118">jdata_ad</tspan>
+          </text>
+        </g>
+        <g id="Graphic_3">
+          <rect x="374.2" y="296.72845" width="54.56332" height="127.07155" fill="white"/>
+          <rect x="374.2" y="296.72845" width="54.56332" height="127.07155" stroke="#0076bc" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+          <text transform="translate(379.2 301.72845)" fill="#0076bc">
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="8">timestamp</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="18">bigint</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="28">text</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="38">timestamp</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="48">jsonb</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="58">jsonb</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="68">jsonb</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="78">text[]</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="88">jsonb</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="98">jsonb</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="108">jsonb</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="118">jsonb</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_10">
+        <rect x="314.2" y="296.53914" width="115.19937" height="36.2" fill="#3a8eed" fill-opacity=".09765625"/>
+      </g>
+      <g id="Line_9">
+        <line x1="313.9" y1="332.23914" x2="428.4" y2="332.43914" stroke="#6d5000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      </g>
+      <g id="Group_37">
+        <g id="Graphic_40">
+          <rect x="605.969" y="279" width="126.7031" height="109.00399" fill="#d2eaf7"/>
+          <rect x="605.969" y="279" width="126.7031" height="109.00399" stroke="#0076bc" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+          <text transform="translate(610.969 284)" fill="#0076bc">
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="22.35155" y="8">agg_datm_hourly</tspan>
+          </text>
+        </g>
+        <g id="Graphic_39">
+          <rect x="608.8057" y="296.72845" width="54.56332" height="88.17354" fill="white"/>
+          <rect x="608.8057" y="296.72845" width="54.56332" height="88.17354" stroke="#0076bc" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+          <text transform="translate(613.8057 301.72845)" fill="#0076bc">
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="8">stream_id</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="18">ts_start</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="28">data_i</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="38">data_a</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="48">data_s</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="58">data_t</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="68">stat_i</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="78">read_a</tspan>
+          </text>
+        </g>
+        <g id="Graphic_38">
+          <rect x="663.769" y="296.72845" width="66.067054" height="88.17354" fill="white"/>
+          <rect x="663.769" y="296.72845" width="66.067054" height="88.17354" stroke="#0076bc" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+          <text transform="translate(668.769 301.72845)" fill="#0076bc">
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="8">uuid</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="18">timestamp</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="28">numeric[]</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="38">numeric[]</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="48">text[]</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="58">text[]</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="68">numeric[][]</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="78">numeric[][]</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_36">
+        <rect x="609.169" y="296.53914" width="120.59937" height="25.460864" fill="#3a8eed" fill-opacity=".0976562"/>
+      </g>
+      <g id="Line_35">
+        <line x1="608.869" y1="322.42056" x2="729.369" y2="322.62056" stroke="#6d5000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      </g>
+      <g id="Graphic_49">
+        <text transform="translate(388.5 238)" fill="#666">
+          <tspan font-family="Source Sans Pro" font-size="14" font-weight="700" fill="#666" x="1563194e-19" y="14">Old table design</tspan>
+        </text>
+      </g>
+      <g id="Graphic_50">
+        <text transform="translate(610.6 238)" fill="#666">
+          <tspan font-family="Source Sans Pro" font-size="14" font-weight="700" fill="#666" x="0" y="14">New table design</tspan>
+        </text>
+      </g>
+      <g id="Line_52">
+        <line x1="585" y1="233" x2="585" y2="432.687" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_55">
+        <g id="Graphic_58">
+          <rect x="448" y="279" width="120.59937" height="148.4" fill="#d2eaf7"/>
+          <rect x="448" y="279" width="120.59937" height="148.4" stroke="#0076bc" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+          <text transform="translate(453 284)" fill="#0076bc">
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="7.299686" y="8">agg_loc_datum_hourly</tspan>
+          </text>
+        </g>
+        <g id="Graphic_57">
+          <rect x="450.8367" y="296.72845" width="60.36332" height="127.07155" fill="white"/>
+          <rect x="450.8367" y="296.72845" width="60.36332" height="127.07155" stroke="#0076bc" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+          <text transform="translate(455.8367 301.72845)" fill="#0076bc">
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="8">ts_start</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="18">loc_id</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="28">source_id</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="38">local_date</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="48">jdata_i</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="58">jdata_a</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="68">jdata_s</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="78">jdata_t</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="88">jmeta</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="98">jdata_as</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="108">jdata_af</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="118">jdata_ad</tspan>
+          </text>
+        </g>
+        <g id="Graphic_56">
+          <rect x="511.2" y="296.72845" width="54.56332" height="127.07155" fill="white"/>
+          <rect x="511.2" y="296.72845" width="54.56332" height="127.07155" stroke="#0076bc" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+          <text transform="translate(516.2 301.72845)" fill="#0076bc">
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="8">timestamp</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="18">bigint</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="28">text</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="38">timestamp</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="48">jsonb</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="58">jsonb</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="68">jsonb</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="78">text[]</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="88">jsonb</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="98">jsonb</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="108">jsonb</tspan>
+            <tspan font-family="Source Code Pro" font-size="8" font-weight="400" fill="#0076bc" x="0" y="118">jsonb</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_54">
+        <rect x="451.2" y="296.53914" width="115.19937" height="36.2" fill="#3a8eed" fill-opacity=".0976562"/>
+      </g>
+      <g id="Line_53">
+        <line x1="450.9" y1="332.23914" x2="565.4" y2="332.43914" stroke="#6d5000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
+      </g>
+    </g>
+  </g>
+</svg>

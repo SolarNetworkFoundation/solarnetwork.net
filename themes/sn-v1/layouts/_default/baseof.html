@@ -29,8 +29,16 @@
   <script src="{{ "/js/uikit-icons.min.js" }}"></script>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
   <script src="{{ "/js/sn.js" }}" async></script>
+  <script type="foo">
+  section = {{ .CurrentSection.Params }}
+  </script>
 </head>
-<body{{ if (isset .Params "audience") }} class="sn-{{ .Params.audience }}"{{end}}>
+{{ if (isset .Params "audience") }}
+  {{ .Scratch.Set "audience" .Params.audience }}
+{{ else if (isset .CurrentSection.Params "audience") }}
+  {{ .Scratch.Set "audience" .CurrentSection.Params.audience }}
+{{ end }}
+<body{{ with .Scratch.Get "audience" }} class="sn-{{ . }}"{{end}}>
   {{ block "header" . }}{{ end }}
   {{ block "main" . }}{{ end }}
   {{ block "tail" . }}{{ end }}

@@ -8,5 +8,7 @@ nav: Development
 is-subsection: true
 images:
   logo: /img/SN-Developers-Icon.svg
+weight: 2
+hide-date: true
 ---
 News and information from SolarNetwork developers.
