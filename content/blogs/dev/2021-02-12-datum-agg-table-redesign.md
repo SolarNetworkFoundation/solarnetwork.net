@@ -104,7 +104,7 @@ had some notable drawbacks:
 
 To overcome these design problems, we've developed a new database design that preserves the general
 flexibility of how datum aggregates are stored but solves the design issues. Building on the
-_datum stream_ concept introduced [previously]({% post_url /news/2021-02-01-datum-table-redesign %})
+_datum stream_ concept introduced [previously]({{<ref "2021-02-01-datum-table-redesign">}})
 a new table design was devised with the following attributes:
 
  * Store the _stream ID_ instead of the object and source IDs.
