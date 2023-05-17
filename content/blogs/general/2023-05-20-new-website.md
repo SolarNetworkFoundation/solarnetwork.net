@@ -1,6 +1,7 @@
 ---
 title: New website, new look
 date: 2023-05-18
+slug: 2023-new-website
 ---
 We are excited to reveal our new SolarNetwork website! We are bringing together three different
 websites into a single cohesive one to make it much easier to find information and keep up with
