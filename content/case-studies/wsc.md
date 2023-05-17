@@ -20,7 +20,12 @@ of over 2300 students between years 9 and 13. Known historically for its co-gove
 o Waiorea and its strength in the performing arts, the College has also cultivated a deep focus on
 environmental stewardship. A new building designed to support solar modules on the roof offered the
 WSC community the opportunity to “walk the talk” of sustainability, teach science curriculum, and
-save money on energy bills. The outcome? A community-funded solar array, put to work not only for
+save money on energy bills.
+
+Supporting a community project like this perfectly aligns with SolarNetwork Foundation’s values, and
+we were keen to help out.
+
+The outcome? A community-funded solar array, put to work not only for
 power generation but for learning and teaching, using SolarNetwork.
 
 ![Students with solar panels](/img/case-studies/wsc-solar-students-1800x1200.jpg)
