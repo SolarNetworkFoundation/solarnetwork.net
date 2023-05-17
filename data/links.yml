@@ -12,7 +12,7 @@ dev-docs:
   url: https://github.com/SolarNetwork/solarnetwork/wiki/
 how-works:
   text: How it works
-  url: "#todo"
+  url: /how-it-works.html
 integrations:
   text: View integrations
   url: https://github.com/SolarNetwork/solarnetwork/wiki/Node-Supported-Devices
