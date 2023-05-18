@@ -24,6 +24,10 @@ buttons:
     - type: primary
       url:  "#todo"
       text: Start your journey here
+  resources:
+    - type: primary
+      url: /resources/blogs/announcements.html
+      text: See more
 ---
 {{<section/grid
   class="sn-hero"
@@ -153,7 +157,7 @@ buttons:
 <p>New Zealand's first net-negative energy accommodation, which means the site will on average use
 less energy than it generates.</p>
 
-<p>{{<button type="link" url="#todo">}}Learn more{{</button>}}</p>
+<p>{{<button type="link" url="/resources/case-studies/camp-glenorchy.html">}}Learn more{{</button>}}</p>
 {{</section/topic>}}
 
 {{<section/logos>}}
@@ -191,5 +195,11 @@ less energy than it generates.</p>
     management and monitoring.
 
   {{</deck-link-card>}}
+
+{{</section/deck>}}
+
+{{<section/deck class="sn-alt sn-light" deck-class="sn-learn sn-pair sn-compact" title="Latest news & insights" buttons="resources">}}
+
+  {{<latest-posts topic="resources/blogs/announce">}}
 
 {{</section/deck>}}

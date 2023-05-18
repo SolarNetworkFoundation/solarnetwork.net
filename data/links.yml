@@ -19,6 +19,9 @@ integrations:
 legal:
   text: Legal
   url: /legal.html
+resources:
+  text: Rersources
+  url: /resources.html
 subscriptions:
   text: Pricing plans
   url: /subscriptions.html

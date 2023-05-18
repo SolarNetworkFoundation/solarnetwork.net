@@ -202,7 +202,7 @@ Imagine a day in the life of SolarNetwork as used by an electric lines company t
 {{</section/basic>}}
 
 
-{{<section/deck class="sn-alt sn-light" deck-class="sn-flash" title="TODO Our products" buttons="more">}}
+{{<section/deck class="sn-alt sn-light" deck-class="sn-flash" grid-class="sn-quad" title="TODO Our products" buttons="more">}}
 
   {{<flash-card title="SolarNode" url="#todo" link="Learn more">}}
     The swiss army knife for IoT monitoring and control. The SolarNode software can be used across a

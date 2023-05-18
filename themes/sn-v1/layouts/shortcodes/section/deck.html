@@ -21,14 +21,14 @@
 <section{{ if isset .Params "id" }} id="{{ .Get "id" }}"{{ else if (isset .Params "title") }} id="{{ partial "hid" (.Get "title") }}"{{ end }}{{ with .Get "class" }} class="{{ . }}"{{ end }}>
   <div class="sn-container sn-deck{{ with .Get "deck-class" }} {{ . }}{{ end }}">
     <div class="sn-info-card">
-      {{ with .Get "title" }}
+      {{- with .Get "title" -}}
         <h1>{{ . }}</h1>
       {{end}}
       {{ with .Get "subtitle" }}
         <p class="sn-subhead">{{ . }}</p>
       {{ end }}
       <div class="sn-grid{{ with .Get "grid-class" }} {{ . }}{{ end }}">
-        {{ .Inner }}
+        {{- .Inner -}}
       </div>
       {{ if and (and (isset .Params "buttons") (isset .Page.Params "buttons")) (isset .Page.Params.buttons (.Get "buttons")) }}
         {{ partial "button-bar" (dict "buttons" (index .Page.Params.buttons (.Get "buttons"))) | safeHTML }}
