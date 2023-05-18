@@ -1,5 +1,6 @@
 ---
 title: "Air New Zealand"
+subtitle: Going beyond the energy status quo
 date: 2017-11-14T16:08:10+13:00
 draft: false
 weight: 300
@@ -15,7 +16,6 @@ images:
     url: /img/stock/kishan-modi-QCUfbE3QuCc-unsplash@0.5x.jpg
     alt: "Photograph of a hilly coast line dotted with wind turbines."
 ---
-{{<section/content class="sn-light" caption-date="true" title="Air New Zealand" subtitle="Going beyond the energy status quo">}}
 Air New Zealand [installed New Zealand's largest single solar array](https://sustainable.org.nz/sustainable-business-news/air-nz-installs-new-zealands-largest-solar-array/)
 at their Auckland Technical Operations base in 2014: 480 solar panels on the roof of
 one of the airline’s hangars, covering an area of around 750 square metres or four times the size of
@@ -53,4 +53,3 @@ generation to keep it within a safe margin of the hangar's actual power consumpt
 
 ![SolarNetwork Zero Export system in
 action](/img/case-studies/airnz-demand-balancer-in-action-712x352.png)
-{{</section/content>}}

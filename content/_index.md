@@ -130,7 +130,7 @@ buttons:
 {{<section/deck class="sn-alt sn-light" deck-class="sn-learn sn-pair">}}
 
   {{<deck-link-card class="sn-dev" title="For Developers" subtitle="Build your own products using our powerful and easy-to-use APIs."
-      img="/img/SN-Developers-Icon.svg"
+      logo="/img/SN-Developers-Icon.svg"
       alt="Diagram a grid of dots connected to a cloud floating with computer windows."
       url="/developers.html"
       link="Learn more" >}}
@@ -141,7 +141,7 @@ buttons:
   {{</deck-link-card>}}
 
   {{<deck-link-card class="sn-home" title="For Home" subtitle="Discover the benefits of solar power at home."
-      img="/img/SN-Home-Icon.svg"
+      logo="/img/SN-Home-Icon.svg"
       alt="Sun shining over a factory with solar panels, connected to a grid-scale battery, connected to an electric bus."
       url="/homes.html"
       link="Learn more" >}}

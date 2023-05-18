@@ -1,5 +1,6 @@
 ---
 title: "Camp Glenorchy"
+subtitle: Come for the beauty, come away empowered
 date: 2017-11-18T20:16:33+13:00
 draft: false
 weight: 100
@@ -7,16 +8,11 @@ brief: "Camp Glenorchy hosts earth-friendly cabins achieving zero net energy, wi
 toc: true
 key: "camp-glenorchy"
 audience: main
-menu:
-  main:
-      parent: "case-studies"
 images:
   card:
     url: /img/stock/camp-glenorchy.jpg
     alt: "Photograph of a cabin with solar panels, at Camp Glenorchy."
 ---
-{{<section/content class="sn-light" caption-date="true" title="Camp Glenorchy" subtitle="Come for the beauty, come away empowered">}}
-
 [Camp Glenorchy](https://www.campglenorchy.co.nz/) is New Zealand’s first [Net Zero
 Energy](https://www.theheadwaters.co.nz/sustainability/energy/net-zero-energy/) accommodation, which
 means the site will, on average, generate as much energy as it uses. To achieve this ambitious goal,
@@ -81,5 +77,3 @@ site resources such as energy and water by adjusting the temperature of their ro
 their shower.
 
 ![Camp Glenorchy guest app controls](/img/case-studies/cgy-guest-app-controls-1920x1200.jpg)
-
-{{</section/content>}}

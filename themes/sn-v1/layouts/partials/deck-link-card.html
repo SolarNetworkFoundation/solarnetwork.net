@@ -20,8 +20,9 @@
 {{ else }}
 <div
 {{ end }} class="sn-col{{ with .class }} {{ . }}{{ end }}">
-  {{ if .img }}
-    <img src="{{ .img }}"{{ with .alt }} alt="{{ . }}"{{ end }}>
+  {{ if or .logo .img }}
+    {{ partial "img-card" . }}
+    {{/*<img src="{{ .img }}"{{ with .alt }} alt="{{ . }}"{{ end }}>*/}}
   {{ end }}
   <div>
     <div>

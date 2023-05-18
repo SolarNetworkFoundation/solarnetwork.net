@@ -1,5 +1,7 @@
 ---
 title: "Ken Havill Centre for Learning — Western Springs College"
+heading: Ken Havill Centre for Learning at Western Springs College
+subtitle: Power for the future generations
 date: 2023-02-21T10:00:00+13:00
 draft: true
 weight: 100
@@ -14,7 +16,6 @@ menu:
 images:
   logo: /img/case-studies/wsc-logo-865x351.png
 ---
-{{<section/content class="sn-light" caption-date="true" title="Ken Havill Centre for Learning at Western Springs College" subtitle="Power for the future generations">}}
 Western Springs College is one of the largest public schools in West Auckland, with a student roll
 of over 2300 students between years 9 and 13. Known historically for its co-governance with Nga Puna
 o Waiorea and its strength in the performing arts, the College has also cultivated a deep focus on
@@ -79,4 +80,3 @@ involves battery storage, dynamic water cylinder heating, EV charging, or someth
 community to explore and learn about.
 
 ![Ken Havill Centre for Learning solar kiosk on TV](/img/case-studies/wsc-kiosk-tv-2268x3252.jpg)
-{{</section/content>}}

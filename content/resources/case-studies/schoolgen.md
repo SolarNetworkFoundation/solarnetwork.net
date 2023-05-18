@@ -1,5 +1,6 @@
 ---
 title: "School-gen"
+subtitle: Providing kids with tools for change
 date: 2017-11-08T08:50:56+13:00
 draft: false
 weight: 200
@@ -14,7 +15,6 @@ menu:
 images:
   logo: /img/case-studies/schoolgen-logo-204x94.png
 ---
-{{<section/content class="sn-light" caption-date="true" title="School-gen" subtitle="Providing kids with tools for change" >}}
 [School-gen](http://www.schoolgen.co.nz/), a division of Genesis Energy, aims to cultivate
 environmentally-aware thinking and behaviour in kids and their communities. By installing solar
 panels on schools, School-gen enables them to generate their own power and teach their students
@@ -54,4 +54,3 @@ that happens the excess energy is exported onto the grid, making the school an e
 Exported energy shows up on the chart as orange bars going _up_ from the horizontal axis.
 
 ![School-gen data visualization](/img/case-studies/schoolgen-visualization-1120x670.png)
-{{</section/content>}}

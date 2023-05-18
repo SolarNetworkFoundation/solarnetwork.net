@@ -5,11 +5,12 @@
 
    * class (optional) - additional CSS class for div
    * img              - the image URL
+   * logo             - the logo image URL, sets sn-icon class
    * alt   (optional) - the image descripiton
 
  */}}
 <div
-  class="sn-img-card{{ with .class }} {{ . }}{{ end }}"
-  style="background-image: url({{ .img }})"
+  class="sn-img-card{{ if .logo }} sn-icon{{ end }}{{ with .class }} {{ . }}{{ end }}"
+  style="background-image: url({{ if .img }}{{ .img }}{{ else }}{{ .logo }}{{ end }})"
   {{ with .alt }}title="{{ . }}"{{ end }}
 ></div>

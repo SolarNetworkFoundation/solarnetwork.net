@@ -1,5 +1,6 @@
 ---
 title: "Waste Management"
+subtitle: Direct vehicle integration
 date: 2021-09-30T10:00:00+13:00
 draft: true
 weight: 100
@@ -13,7 +14,6 @@ menu:
 images:
   logo: /img/case-studies/wmnz-logo-368x86.svg
 ---
-{{<section/content class="sn-light" caption-date="true" title="Waste Management" subtitle="Direct vehicle integration">}}
 Waste Management New Zealand is working to electrify its entire fleet of rubbish and recycling
 trucks over the next 10 years. They needed deep integration with its electric trucks to be able to
 monitor their performance, health, and operating statistics over time.
@@ -85,5 +85,3 @@ highly informative visualisations that help them monitor the performance of each
 faults quickly and easily.
 
 ![EVisi data visualization](/img/case-studies/evisi-wmnz-dashboard-1669x1021.png)
-
-{{</section/content>}}

@@ -1,5 +1,6 @@
 ---
 title: "Zero Energy House"
+subtitle: Data-driven comfort
 date: 2017-11-18T10:59:18+13:00
 draft: false
 weight: 100
@@ -13,7 +14,6 @@ menu:
 images:
   logo: /img/case-studies/zeh-logo-280x61.png
 ---
-{{<section/content class="sn-light" caption-date="true" title="Zero Energy House" subtitle="Data-driven comfort">}}
 The Zero Energy House (ZEH) is an exemplar Open Source residential building in Auckland, New
 Zealand. The owners wanted a home that was warm, healthy, and low cost to live in. The story of the
 project was told through a website, videos, and live data with the aim of inspiring and enabling
@@ -45,5 +45,3 @@ data and use it as a tool to tell the story of how a modern home can look after 
  * The success at the ZEH project lead to the further "zero energy" project work in New Zealand.
 
 ![ZEH data visualization](/img/case-studies/zeh-website-data-840x318.png)
-
-{{</section/content>}}

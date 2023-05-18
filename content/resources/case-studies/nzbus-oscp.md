@@ -1,5 +1,7 @@
 ---
 title: "NZ Bus"
+heading: New Zealand's first electric bus depot
+subtitle: OSCP-based load control for EV chargers
 date: 2023-01-30T10:00:00+13:00
 draft: true
 weight: 100
@@ -13,7 +15,6 @@ menu:
 images:
   logo: /img/case-studies/nzbus-logo-222x103.png
 ---
-{{<section/content class="sn-light" caption-date="true" title="New Zealand's first electric bus depot" subtitle="OSCP-based load control for EV chargers">}}
 [NZ Bus](https://www.nzbus.co.nz/) is New Zealand’s largest urban public transport business and
 operator of metropolitan bus services, and operates [New Zealand's first electric bus
 depot](https://www.1news.co.nz/2022/11/14/aucklands-eastern-bays-welcome-35-new-electric-buses/), in
@@ -63,5 +64,3 @@ passed to EVisi, and EVisi uses already existing SolarNetwork API methods to con
 depot's chargers as needed. A SolarNode deployed at the depot collects metered energy usage from
 on-site meters and then SolarNetwork automatically reports that usage back to Vector via the OSCP
 protocol.
-
-{{</section/content>}}

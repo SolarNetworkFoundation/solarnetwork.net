@@ -1,5 +1,6 @@
 ---
 title: "Powerco EV"
+subtitle: Illustrating new technologies
 date: 2017-11-08T08:50:56+13:00
 draft: false
 weight: 500
@@ -14,7 +15,6 @@ menu:
 images:
   logo: /img/case-studies/powerco-logo-165x54.png
 ---
-{{<section/content class="sn-light" caption-date="true" title="Powerco EV" subtitle="Illustrating new technologies">}}
 [PowerCo](http://www.powerco.co.nz/) is one of New Zealand's largest transmission companies,
 spanning two large regions of the North Island.  They see the huge potential for electric vehicles
 on their network, and also see renewable distributed generation coming online in a big way. They
@@ -40,5 +40,3 @@ to own the brand and the sales channel to the end user,  which is an important a
 SolarNetwork integrates into existing brand identities.
 
 ![EV charge station kiosk](/img/case-studies/powerco-ev-kiosk-1226x690.png)
-
-{{</section/content>}}

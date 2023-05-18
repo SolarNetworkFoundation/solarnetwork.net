@@ -1,5 +1,6 @@
 ---
 title: Project Litefoot
+subtitle: Leading edge energy tracking
 date: 2017-11-08T08:50:56+13:00
 draft: false
 weight: 150
@@ -13,8 +14,6 @@ menu:
 images:
   logo: /img/case-studies/liteclub-logo-cover-454x234.png
 ---
-{{<section/content class="sn-light" caption-date="true" title="Project Litefoot" subtitle="Leading edge energy tracking">}}
-
 Project Litefoot is an award-winning NZ based charity that uses the concept of sports-based
 competition to inspire kids to become environmental champions. They operate conservation and
 efficiency campaigns across New Zealand, helping educate children while actively improving the
@@ -51,5 +50,3 @@ Litefoot now has real-time visibility into Birkenhead FC's energy use via intera
 charts, and can download the data to use in spreadsheets or reports. By analysing the data collected
 by SolarNetwork, Litefoot is able to develop a "energy use signature" and identify different aspects
 of the club's energy use, such as refrigeration, lighting, and hot water.
-
-{{</section/content>}}

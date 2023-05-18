@@ -2,6 +2,7 @@
   Parameters:
 
   heading       (optional) - title to use instead of .Title
+  subtitle      (optional) - a subtitle
   audience      (optional) - audience style to apply, i.e. "main", "dev", or "home"
   images.logo   (optional) - path of image to display
   is-subsection (optional) - force "Read more" link to be included
@@ -21,7 +22,7 @@
             "Page" .
             "title" (cond (isset .Params "heading") .Params.heading .Title)
             "url" .RelPermalink
-            "content" (.Summary |plainify)
+            "content" (cond (isset .Params "brief") .Params.brief (.Summary |plainify))
             )}}
           {{ if not (isset .Params "hide-date") }}
             {{ .Scratch.SetInMap "p" "caption" (cond (isset . "PublishDate")
@@ -29,13 +30,22 @@
               (.Date.Format "2006-01-02")) }}
           {{ end }}
           {{ if and (isset .Params "images") (isset .Params.images "logo") }}
-            {{ .Scratch.SetInMap "p" "img" .Params.images.logo }}
+            {{ .Scratch.SetInMap "p" "logo" .Params.images.logo }}
+          {{ else if and (and (isset .Params "images") (isset .Params.images "card")) (isset .Params.images.card "url") }}
+            {{ .Scratch.SetInMap "p" "img" .Params.images.card.url }}
+            {{ if isset .Params.images.card "alt" }}
+              {{ .Scratch.SetInMap "p" "alt" .Params.images.card.alt }}
+            {{ end }}
+          {{ else if and (isset .Params "images") (isset .Params.images "logo") }}
+            {{ .Scratch.SetInMap "p" "logo" .Params.images.logo }}
           {{ end }}
           {{ if or .Truncated (isset .Params "is-subsection") }}
             {{ .Scratch.SetInMap "p" "link" "Read more" }}
           {{ end }}
           {{ if isset .Params "audience" }}
             {{ .Scratch.SetInMap "p" "class" (printf "sn-%s" .Params.audience) }}
+          {{ else if isset .CurrentSection.Params "audience" }}
+            {{ .Scratch.SetInMap "p" "class" (printf "sn-%s" .CurrentSection.Params.audience) }}
           {{ end }}
           {{ partial "deck-link-card" (.Scratch.Get "p") }}
         {{ end }}

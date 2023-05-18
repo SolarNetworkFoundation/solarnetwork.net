@@ -1,0 +1,22 @@
+{{ define "title" }}{{ .Title }}{{ end }}
+{{ define "header" }}{{ partial "header" .}}{{ end }}
+{{ define "main" }}
+<section class="sn-alt sn-light">
+  <div class="sn-container sn-content">
+    <h1>{{ if .Params.heading }}{{ .Params.heading }}{{ else }}{{ .Title }}{{ end }}</h1>
+    {{ with .Params.subtitle }}
+        <div class="uk-text-small">{{ . }}</div>
+    {{ end }}
+    <div class="sn-caption">
+      {{ with .Page.PublishDate }}
+        {{ .Format "2 January 2006" }}
+      {{ else }}
+        {{ .Page.Date.Format "2 January 2006" }}
+      {{ end }}
+    </div>
+    {{ .Content }}
+  </div>
+</section>
+{{ end }}
+{{ define "tail" }}{{ partialCached "tail" . }}{{ end }}
+{{ define "footer" }}{{ partialCached "footer" . }}{{ end }}
