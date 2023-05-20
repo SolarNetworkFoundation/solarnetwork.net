@@ -6,6 +6,7 @@ audience: main
 heading: Case Studies
 nav: Case Studies
 hide-date: true
+weight: 3
 ---
 Browse through some of our case studies that highlight how people and companies use SolarNetwork
 to solve their energy information challenges.

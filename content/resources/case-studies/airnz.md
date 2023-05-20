@@ -8,9 +8,6 @@ brief: "The operations team at Air New Zealand uses SolarNetwork for real-time P
 toc: true
 key: "airnz"
 audience: main
-menu:
-  main:
-    parent: "case-studies"
 images:
   card:
     url: /img/stock/kishan-modi-QCUfbE3QuCc-unsplash@0.5x.jpg

@@ -10,9 +10,6 @@ toc: true
 key: wsc
 nav: "Ken Havill Centre for Learning"
 audience: main
-menu:
-  main:
-      parent: "case-studies"
 images:
   logo: /img/case-studies/wsc-logo-865x351.png
 ---

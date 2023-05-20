@@ -9,9 +9,6 @@ description: Providing kids with tools for change
 toc: true
 key: schoolgen
 audience: main
-menu:
-  main:
-      parent: "case-studies"
 images:
   logo: /img/case-studies/schoolgen-logo-204x94.png
 ---

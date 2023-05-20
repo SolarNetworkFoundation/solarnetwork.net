@@ -9,9 +9,6 @@ description: Illustrating new technologies
 toc: true
 key: "powerco-ev"
 audience: main
-menu:
-  main:
-      parent: "case-studies"
 images:
   logo: /img/case-studies/powerco-logo-165x54.png
 ---

@@ -9,9 +9,6 @@ brief: "SolarNetwork Foundation partnered with EVisi to add OSCP-based load cont
 toc: true
 key: "nzbus"
 audience: main
-menu:
-  main:
-      parent: "case-studies"
 images:
   logo: /img/case-studies/nzbus-logo-222x103.png
 ---

@@ -8,9 +8,6 @@ brief: "SolarNetwork Foundation partnered with EVisi to integrate SolarNode-base
 toc: true
 key: "wmnz"
 audience: main
-menu:
-  main:
-      parent: "case-studies"
 images:
   logo: /img/case-studies/wmnz-logo-368x86.svg
 ---

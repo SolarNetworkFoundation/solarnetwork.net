@@ -22,9 +22,6 @@ brief: "SolarNetwork Foundation helped Zero Energy House integrate their buildin
 toc: true
 key: "zeh"
 audience: main
-menu:
-  main:
-      parent: "case-studies"
 images:
   logo: /img/case-studies/zeh-logo-280x61.png
 ---

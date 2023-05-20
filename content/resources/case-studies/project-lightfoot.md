@@ -8,9 +8,6 @@ brief: "Project Litefoot selected SolarNetwork to start tracking electricity use
 toc: true
 key: liteclub
 audience: main
-menu:
-  main:
-      parent: "case-studies"
 images:
   logo: /img/case-studies/liteclub-logo-cover-454x234.png
 ---
