@@ -82,8 +82,8 @@ Imagine a day in the life of SolarNetwork as used by an electric lines company t
         <ul class="uk-list">
           <li>As circumstances change, SolarNetwork helps the company manage power use and redistribute the load on the grid.</li>
           <li>Their application monitors the data collected by SolarNodes and issues instructions to the nodes through SolarNet.</li>
-          <li> When clouds roll in, the solar panels generate less energy.</li>
-          <li> Grid-scale batteries are asked to supply power, factories are asked to reduce their energy consumption temporarily, and electric vehical chargers are asked to delay charging.</li>
+          <li>When clouds roll in, the solar panels generate less energy.</li>
+          <li>Grid-scale batteries are asked to supply power, factories are asked to reduce their energy consumption temporarily, and electric vehical chargers are asked to delay charging.</li>
         </ul>
       </div>
       <lottie-player
@@ -99,7 +99,7 @@ Imagine a day in the life of SolarNetwork as used by an electric lines company t
         <ul class="uk-list">
           <li>At night, the company's power-management needs change again.</li>
           <li>Solar panels stop generating energy, but demand on the grid is reduced as factories close and people go to sleep.</li>
-          <li> The application uses SolarNet to ask grid-scale batteries to supply power to the grid, or recharge as needed.</li>
+          <li>The application uses SolarNet to ask grid-scale batteries to supply power to the grid, or recharge as needed.</li>
           <li>When the time is right, the application uses SolarNet to manage electric vehicle charging, spreading the load on the grid through the night. </li>
         </ul>
       </div>
@@ -144,7 +144,7 @@ Imagine a day in the life of SolarNetwork as used by an electric lines company t
         <ul class="uk-list">
           <li>As circumstances change, SolarNetwork helps the company manage power use and redistribute the load on the grid.</li>
           <li>Their application monitors the data collected by SolarNodes and issues instructions to the nodes through SolarNet.</li>
-          <li> When clouds roll in, the solar panels generate less energy.</li>
+          <li>When clouds roll in, the solar panels generate less energy.</li>
           <li>Grid-scale batteries are asked to supply power, factories are asked to reduce their energy consumption temporarily, and electric vehical chargers are asked to delay charging.</li>
         </ul>
       </div>
