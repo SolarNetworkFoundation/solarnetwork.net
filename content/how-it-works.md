@@ -136,7 +136,7 @@ Imagine a day in the life of SolarNetwork as used by an electric lines company t
       <div class="sn-notes">
         <ul class="uk-list">
           <li>SolarNode devices are deployed with distributed energy assets.</li>
-          <li>The ndoes collect data from the assets, and send it to SolarNet.</li>
+          <li>The nodes collect data from the assets, and send it to SolarNet.</li>
           <li>Solar panels generate energy for the electrical grid.</li>
           <li>An electric bus travels along its route, depleting its battery.</li>
         </ul>
