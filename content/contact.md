@@ -6,13 +6,13 @@ audience: main
 buttons:
   email:
     - type: default
-      url: mailto:info@solarnetwork.net?subject=Subscribe
+      url: mailto:info@solarnetwork.net?subject=I'd%20like%20to%20subscribe
       text: Subscribe
     - type: default
-      url: mailto:info@solarnetwork.net?subject=Make%20a%20donation
+      url: mailto:info@solarnetwork.net?subject=I'd%20like%20to%20make%20a%20donation
       text: Make a donation
     - type: default
-      url: mailto:info@solarnetwork.net?subject=Hey%20there
+      url: mailto:info@solarnetwork.net?subject=I%20have%20a%20question
       text: Ask us anything
   slack:
     - type: primary
