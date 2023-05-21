@@ -1,8 +1,8 @@
 ---
-title: "Publicise your energy generation"
+title: "Show the energy you generate"
 date: 2017-11-18
 draft: false
-brief: "Share your energy story with the world."
+brief: "We can help you use SolarNetwork to visualise your energy generation and all the other good work your system supports."
 toc: true
 key: "publicise-generation"
 audience: main

@@ -1,13 +1,13 @@
 ---
-title: "Investigate how you use energy"
+title: "Understand how you use energy"
 date: 2017-11-18
 draft: false
-brief: "What is using all my energy?"
+brief: "We can audit your energy use to help you plan for change, and to understand the effects of any changes you make."
 toc: true
 key: "power-audit"
 audience: main
 hide-date: true
-weight: 200
+weight: 1
 ---
 ## How am I using power?
 

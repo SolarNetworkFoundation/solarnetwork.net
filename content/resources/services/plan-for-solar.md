@@ -2,12 +2,12 @@
 title: "Plan for solar"
 date: 2017-11-18
 draft: false
-brief: "Should I get solar panels? If so, how?"
+brief: "We can advise you on whether, when, and how to integrate solar into your energy mix."
 toc: true
 key: "plan-for-solar"
 audience: main
 hide-date: true
-weight: 200
+weight: 10
 ---
 ## Be your own power station
 

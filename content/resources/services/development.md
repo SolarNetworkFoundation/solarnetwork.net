@@ -1,8 +1,8 @@
 ---
-title: "SolarNetwork integration"
+title: "Integrate with your existing systems"
 date: 2017-11-18
 draft: false
-brief: "Get SolarNetwork integration and custom development support straight from the experts."
+brief: "We can develop custom software solutions to help you use SolarNetwork in ways that work for you."
 toc: true
 key: "solarnetwork-development"
 audience: main

@@ -1,8 +1,8 @@
 ---
-title: "Education"
+title: "Learn from the data you collect"
 date: 2017-11-18
 draft: false
-brief: "Energy education needs great energy tools. We have them."
+brief: "We can empower educators with data from SolarNetwork to make the study of energy relevant, flexible, and fun."
 toc: true
 key: "education"
 audience: main

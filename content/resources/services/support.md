@@ -1,8 +1,8 @@
 ---
-title: "SolarNetwork support"
+title: "Design and maintain your SolarNetwork system"
 date: 2017-11-18
 draft: false
-brief: "Get SolarNetwork support straight from the experts."
+brief: "We can get you up and running with SolarNetwork, and keep your nodes operating long term."
 toc: true
 key: "solarnetwork-support"
 audience: main
