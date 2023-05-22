@@ -11,8 +11,26 @@
    * url      (optional) - link URL
    * link     (optional) - link text
  */}}
-{{ if .Inner }}
-{{ partial "flash-card" (merge .Params (dict "Page" .Page "content" .InnerDeindent)) }}
-{{ else }}
-{{ partial "flash-card" (merge .Params (dict "Page" .Page)) }}
-{{ end }}
+<div class="sn-col{{ with .Get "class" }} {{ . }}{{ end }}">
+  {{ if isset .Params "img" }}
+    <img src="{{ .Get "img" }}"{{ with .Get "alt" }} alt="{{ . }}"{{ end }}>
+  {{ end }}
+  <div>
+    {{ with .Get "title" }}
+      <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
+    {{ end }}
+    {{ with .Get "subtitle" }}
+      <h3>{{ . }}</h3>
+    {{ end }}
+  </div>
+  <div>
+    {{ with .InnerDeindent }}
+      {{ . | $.Page.RenderString (dict "display" "block") }}
+    {{ end }}
+    {{ if .Get "url" }}
+      <div>
+        <a class="uk-button uk-button-link" href="{{ .Get "url" }}">{{ .Get "link" }}</a>
+      </div>
+    {{ end }}
+  </div>
+</div>
