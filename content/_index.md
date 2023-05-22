@@ -10,9 +10,9 @@ buttons:
       link: how-works
   deck:
     - type: primary
-      url:  "#todo"
+      url:  "/resources.html"
       text: Learn more
-  features:
+  features_todo:
     - type: primary
       url:  "#todo"
       text: Explore all features
