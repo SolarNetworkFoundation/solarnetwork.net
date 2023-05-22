@@ -22,7 +22,7 @@ buttons:
       link: integrations
   start:
     - type: primary
-      url:  "#todo"
+      url:  "/quick-start.html"
       text: Start your journey here
   resources:
     - type: primary

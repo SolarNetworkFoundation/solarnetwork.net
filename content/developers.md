@@ -12,7 +12,7 @@ buttons:
   deck:
     - type: primary
       link:  how-works
-  features:
+  features_todo:
     - type: primary
       url:  "#todo"
       text: Explore all features

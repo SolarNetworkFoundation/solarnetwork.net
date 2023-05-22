@@ -176,31 +176,3 @@ Imagine a day in the life of SolarNetwork as used by an electric lines company t
   </ul>
 </div>
 {{</section/basic>}}
-
-
-<!-- TODO
-{{<section/deck class="sn-alt sn-light" deck-class="sn-flash" grid-class="sn-quad" title="Our products" buttons="more">}}
-
-  {{<flash-card title="SolarNode" url="#todo" link="Learn more">}}
-    The swiss army knife for IoT monitoring and control. The SolarNode software can be used across a
-    whole host of energy outputs: in buildings, vehicles, and even EV chargers.
-  {{</flash-card>}}
-
-  {{<flash-card title="SolarNet" url="#todo" link="Learn more">}}
-    A secure and scalable cloud platform for storing and sharing solar energy data from multiple
-    SolarNode devices. With SolarNet you can instruct and administer nodes remotely, no matter your
-    distance.
-  {{</flash-card>}}
-
-  {{<flash-card title="SolarQuery" url="https://github.com/SolarNetwork/solarnetwork/wiki/SolarQuery-API" link="Learn more">}}
-    The SolarQuery API consolidates all of your data from multiple sources and allows you to access
-    and query the data from in a single and simplified data set.
-  {{</flash-card>}}
-
-  {{<flash-card title="SolarQuant" url="#todo" link="Learn more">}}
-    An experimental machine learning platform that aims to allow for flexible implementations of
-    machine learning to be applied to SolarNetwork data streams.
-  {{</flash-card>}}
-
-{{</section/deck>}}
--->
