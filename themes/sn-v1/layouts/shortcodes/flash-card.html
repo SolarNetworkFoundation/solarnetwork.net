@@ -17,13 +17,13 @@
   {{ end }}
   <div>
     {{ with .Get "title" }}
-      <h2 id="{{ partial "hid" . }}">{{ . }}</h2>
-    {{ end }}
-    {{ with .Get "subtitle" }}
-      <h3>{{ . }}</h3>
+      <h3 id="{{ partial "hid" . }}">{{ . }}</h3>
     {{ end }}
   </div>
   <div>
+    {{ with .Get "subtitle" }}
+      <div class="uk-text-large">{{ . }}</div>
+    {{ end }}
     {{ with .InnerDeindent }}
       {{ . | $.Page.RenderString (dict "display" "block") }}
     {{ end }}
@@ -31,6 +31,9 @@
       <div>
         <a class="uk-button uk-button-link" href="{{ .Get "url" }}">{{ .Get "link" }}</a>
       </div>
+    {{ end }}
+    {{ if and .Params (and (and (isset .Params "buttons") (isset .Page.Params "buttons")) (isset .Page.Params.buttons (.Get "buttons"))) }}
+      {{ partial "button-bar" (dict "buttons" (index .Page.Params.buttons (.Get "buttons"))) | safeHTML }}
     {{ end }}
   </div>
 </div>
