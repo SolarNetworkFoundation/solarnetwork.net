@@ -8,12 +8,12 @@ buttons:
     - type: default
       link: contact
     - type: primary
-      url: "#todo"
+      url: "/quick-start.html"
       text: Set up guide
   deck:
     - type: primary
       link: how-works
-  features:
+  features_todo:
     - type: primary
       url:  "#todo"
       text: Explore all features
