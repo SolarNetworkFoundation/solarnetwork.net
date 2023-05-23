@@ -26,6 +26,7 @@ buttons:
       url: https://solarnetwork.github.io/solarnode-handbook/
     - text: SolarNetwork Wiki
       link: dev-docs
+    - link: contact
 ---
 {{<section/column class="sn-alt" title="How to set up your first SolarNode">}}
 Use our simple set up guide to start using SolarNetwork.
@@ -35,20 +36,21 @@ Use our simple set up guide to start using SolarNetwork.
 
   {{<flash-card title="Step 1" subtitle="Purchase a Raspberry Pi">}}
     SolarNode can run on a variety of small computer devices, but we recommend getting started with
-    a [Raspberry Pi](https://www.raspberrypi.com/) model 3B+ or 4B. These are reasonably inexpensive
-    and can be purchased from a variety of computer retailers and are well supported.
+    a [Raspberry Pi](https://www.raspberrypi.com/) model 3B+ or 4B. These are reasonably inexpensive,
+    can be purchased from a variety of computer retailers, and are well supported.
 
-    You'll also need a 2GB or larger SD card. This may come with the Raspberry Pi, but if not they
+    You'll also need a 2 GB or larger SD card. This may come with the Raspberry Pi, but if not they
     can usually be purchased from the same retailer.
   {{</flash-card>}}
 
   {{<flash-card title="Step 2" subtitle="Purchase equipment to monitor" buttons="equip">}}
     SolarNode supports a variety of sensors, meters, and other equipment. You may need to purchase
-    additional hardware depending on the parameters you want to monitor.
+    additional hardware depending on what you would like to monitor.
   {{</flash-card>}}
 
   {{<flash-card title="Step 3" subtitle="Install the SolarNode software on your Raspberry Pi" buttons="download">}}
-    SolarNodeOS is a complete operating system tailor made for SolarNode. You need to download
+    SolarNodeOS is a complete operating system tailor-made for SolarNode. To use your Raspberry Pi
+    as as SolarNode you'll need to download
     SolarNodeOS and copy it to your SD card. Use a tool like [Etcher](https://www.balena.io/etcher)
     or [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to copy the image to your SD card.
   {{</flash-card>}}
@@ -56,7 +58,7 @@ Use our simple set up guide to start using SolarNetwork.
   {{<flash-card title="Step 4" subtitle="Connect sensors and hardware">}}
     Connect the sensors and hardware to your Raspberry Pi, following the manufacturer's
     instructions. Depending on the sensors you've selected, this may involve wiring and other
-    installation steps.
+    installation steps. You may need help from an electrician.
   {{</flash-card>}}
 
   {{<flash-card title="Step 5" subtitle="Register your SolarNode with your SolarNetwork account" buttons="associate">}}
@@ -68,7 +70,7 @@ Use our simple set up guide to start using SolarNetwork.
   {{<flash-card title="Finish" subtitle="Well done getting your first SolarNode up and running!" buttons="next">}}
    While the SolarNode web interface provides comprehensive monitoring features, you may prefer to
    develop a custom app that presents the data in a different format or integrates with other
-   systems. Check out these resources for inspiration:
+   systems. Check out these resources for help and inspiration:
   {{</flash-card>}}
 
 {{</section/deck>}}
