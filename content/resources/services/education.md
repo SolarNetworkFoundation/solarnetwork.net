@@ -8,9 +8,12 @@ key: "education"
 audience: main
 hide-date: true
 weight: 500
+buttons:
+  main:
+    - text: Ready to start?
+    - link: contact
+      type: primary
 ---
-## Knowledge is power
-
 Energy management is becoming a vital part of the way our earth runs. While it certainly is a long
 journey, we are moving as a society toward more renewable, sustainable economy as the same time as
 we are growing as a population. Everything we do here onward is going to have an energy component to
@@ -31,7 +34,8 @@ students, and give them the experience of a lifetime.
 
 ## Start today
 
-There are many schools out there today that employ SolarNetwork to measure their solar generation
-and their power consumption in real time. Take a look at what they are doing, and build on it. The
-energy data laboratory of the future is available right now, and to get started all you need is a
-SolarNode.
+Many schools already employ SolarNetwork to measure their solar generation and their power
+consumption in real time. Take a look at what they are doing, and build on it. The energy data
+laboratory of the future is available right now, and to get started all you need is a SolarNode.
+
+{{<button-bar buttons="main"/>}}

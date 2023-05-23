@@ -8,6 +8,11 @@ key: "power-audit"
 audience: main
 hide-date: true
 weight: 1
+buttons:
+  main:
+    - text: Ready for an energy audit?
+    - link: contact
+      type: primary
 ---
 We can help you understand where you use energy, plan for changes like adding a solar system, and the effects of any changes you make.
 
@@ -40,10 +45,7 @@ Using SolarNetwork, not only can you measure your whole building's energy use, y
 With an energy audit, SolarNetwork Foundation can use the data you collect in SolarNetwork to help you discover patterns in your energy use . We can use that information to help you make informed decisions to lower your power bill, make better use of
 renewable energy, and share your experience with others.
 
-{{<button-bar>}}
-{{<button text="Ready for an energy audit?"/>}}
-{{<button type="primary" link="contact"/>}}
-{{</button-bar>}}
+{{<button-bar buttons="main"/>}}
 
 ## Here's an example of what we're talking about
 

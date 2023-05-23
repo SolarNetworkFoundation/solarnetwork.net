@@ -8,18 +8,22 @@ key: "solarnetwork-development"
 audience: main
 hide-date: true
 weight: 100
+buttons:
+  main:
+    - text: Ready to start?
+    - link: contact
+      type: primary
 ---
-## Make your energy app a reality
+Got an idea for a great new energy application, or looking to integrate SolarNetwork into your
+organisation? Get help directly from the SolarNetwork experts at SolarNetwork Foundation. We offer
+custom development services to help you at any stage of your SolarNetwork journey.
 
-TODO Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed potestne rerum maior esse dissensio?
-Quia nec honesto quic quam honestius nec turpi turpius. Sin aliud quid voles, postea. Efficiens dici
-potest. Primum cur ista res digna odio est, nisi quod est turpis? Duo Reges: constructio interrete.
-Si enim ad populum me vocas, eum. Virtutibus igitur rectissime mihi videris et ad consuetudinem
-nostrae orationis vitia posuisse contraria.
+Working closely with you to understand your requirements, we can:
 
-## Get coding
-
- * Talk to new hardware from a [SolarNode](https://github.com/SolarNetwork/solarnetwork-node)
- * Build web apps with [JavaScript](https://github.com/SolarNetwork/sn-api-core-js)
- * Get inspired by some [example charts](https://github.com/SolarNetwork/solarnetwork-sites/tree/master/charts)
+ * Develop a SolarNode plugin to integrate with a new device, sensor, or service you are using
+ * Develop a new feature in SolarNet
+ * Build SolarNetwork apps with the SolarNetwork API
+ * Provide support and advice to your own development team
 {.uk-list .uk-list-disc}
+
+{{<button-bar buttons="main"/>}}

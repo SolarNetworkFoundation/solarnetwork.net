@@ -8,11 +8,37 @@ key: "solarnetwork-support"
 audience: main
 hide-date: true
 weight: 100
+buttons:
+  plan:
+    - text: Ready to plan?
+    - link: contact
+      type: primary
+  support:
+    - text: Ready for some support?
+    - link: contact
+      type: primary
 ---
-## Lorem ipsum dolor sit amet
+Deploying a successful SolarNetwork-based system will benefit from a bit of up-front planning.
+SolarNetwork Foundation can help you:
 
-TODO Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed potestne rerum maior esse dissensio?
-Quia nec honesto quic quam honestius nec turpi turpius. Sin aliud quid voles, postea. Efficiens dici
-potest. Primum cur ista res digna odio est, nisi quod est turpis? Duo Reges: constructio interrete.
-Si enim ad populum me vocas, eum. Virtutibus igitur rectissime mihi videris et ad consuetudinem
-nostrae orationis vitia posuisse contraria.
+* understand best practises for supporting SolarNode infrastructure
+* model your long-term SolarNetwork costs, and how to keep them minimised
+* design a standardised data taxonomy that best supports your organisation's needs
+* standardise your organisation's SolarNode settings and plugins into a customised SolarNodeOS,
+  making your node deployment and maintenance process easier in the long term
+* implement software automation and operational tools that support your SolarNetwork infrastructure
+* design data retention policies
+
+{{<button-bar buttons="plan"/>}}
+
+## Keep your SolarNetwork infrastructure running smoothly
+
+SolarNodes are designed require a minimum amount of ongoing operational maintenance, but like any
+IT infrastructure they do require some maintenance to keep them running optimally. SolarNetwork
+Foundation can help you:
+
+* package and deploy SolarNode software updates
+* troubleshoot SolarNode operational issues
+* train your operations team to manage these tasks themselves
+
+{{<button-bar buttons="support"/>}}
