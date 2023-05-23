@@ -11,9 +11,12 @@
         Our charitable aim is to protect the environment through supporting energy education and
         using technology to help people understand energy conservation and renewable energy.
       </p>
+      {{/* Omit link to self */}}
+      {{ if not (eq .RelPermalink "/about.html") }}
       <p>
         {{ partial "button" (dict "type" "link" "url" "/about.html" "text" "Learn more") }}
       </p>
+      {{ end }}
     </div>
   </div>
 </section>
@@ -22,9 +25,15 @@
   <div class="sn-container sn-col">
     <h1>Ready to revolutionise your energy management?</h1>
     <p>Take control of your energy usage and costs with our powerful platform.</p>
-    {{ partial "button-bar" (dict "buttons" (slice
-        (dict "type" "default" "link" "contact")
-        (dict "type" "primary" "link" "how-works")
-    ))}}
+    {{/* Omit link to self */}}
+    {{ $data := newScratch }}
+    {{ $data.Set "buttons" slice }}
+    {{ if not (eq .RelPermalink "/contact.html") }}
+      {{ $data.Add "buttons" (dict "type" "default" "link" "contact") }}
+    {{ end }}
+    {{ if not (eq .RelPermalink "/how-it-works.html") }}
+      {{ $data.Add "buttons" (dict "type" "primary" "link" "how-works") }}
+    {{ end }}
+    {{ partial "button-bar" (dict "buttons" ($data.Get "buttons")) }}
   </div>
 </section>
