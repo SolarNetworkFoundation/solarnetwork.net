@@ -2,7 +2,7 @@
 title: "Plan for solar"
 date: 2017-11-18
 draft: false
-brief: "We can advise you on whether, when, and how to integrate solar into your energy mix."
+brief: "We can advise you on whether, when, and how to integrate solar into your energy mix, and how to use SolarNetwork for maximum benefit."
 toc: true
 key: "plan-for-solar"
 audience: main
@@ -26,7 +26,7 @@ A bit of pre-planning goes a long way when it comes to getting the maximum benef
 
 ## Design the best system
 
-When you have decided that solar is right for you, we can plan a best-fit system using SolarNetwork. We'll produce a report that details:
+When you have decided that solar is right for you, we can plan a best-fit system using SolarNetwork to track and manage your power use and generation. We'll produce a report that details:
 
  * the impact different-sized solar power systems would have on your power bill
  * how a battery system could be used to store solar-generated energy for night-time use
