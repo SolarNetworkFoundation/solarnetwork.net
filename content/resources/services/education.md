@@ -10,32 +10,26 @@ hide-date: true
 weight: 500
 buttons:
   main:
-    - text: Ready to start?
-    - link: contact
+    - text: Want more inspiration?
+    - link: case-studies
       type: primary
+    - text: or
+    - link: contact
 ---
-Energy management is becoming a vital part of the way our earth runs. While it certainly is a long
-journey, we are moving as a society toward more renewable, sustainable economy as the same time as
-we are growing as a population. Everything we do here onward is going to have an energy component to
-its design. No longer will energy use for an activity, a product design, a campaign be a secondary
-afterthought - it will be built into the requirement from the get go. This means that our future
-engineers, architects, procurement teams and politicians need tools to understand energy flows.
+SolarNewtork Foundation is committed to supporting the educational use of SolarNetwork.
 
-## Build SolarNetwork into your science curriculum
+We understand that good information about energy use is increasingly central to decision making in all parts of society. We also know that researchers of all ages, from children through to professionals and academics, rely on good energy data to make informed choices and imagine future initiatives.
 
-There is no better time than the present to get started on a compelling science curriculum that
-involves energy data. Students need to have access to the kind of energy and energy planning systems
-that the future will need. This future is going to be about distruibuted generation, mobile apps,
-real-time analytics, tight integration with building management systems and appliances. It is going
-to need tools that supply decision makers with up to the minute optimisation schemes, energy
-forecasts that take local weather into account and local clean generation of renewable energy from
-solar and wind.  What a perfect time to start the experiments, put the tools in the hands of your
-students, and give them the experience of a lifetime.
+Our current and future engineers, scientists, architects, business people, and politicians need tools to understand energy flows; all of us benefit from a better understanding of how the energy we rely on is generated and used.
+
+## Build SolarNetwork into your research platform
+
+SolarNetwork Foundation is ready to support researchers and educators to make use of the data collected in SolarNetwork. Schools, universities, and research institutes can benefit from any of the services SolarNetwork Foundation offers to collect and manage their own energy data. In addition, anyone can make use of publicly available data already in SolarNetwork as the basis for further inquiry.
+
+SolarNetwork's rich ecosystem includes data about energy generation and use, weather and forecasting, energy market pricing, real-time power grid demand, and electric vehicle use.
 
 ## Start today
 
-Many schools already employ SolarNetwork to measure their solar generation and their power
-consumption in real time. Take a look at what they are doing, and build on it. The energy data
-laboratory of the future is available right now, and to get started all you need is a SolarNode.
+Many schools, businesses, and research organisations already use SolarNetwork to measure their solar generation and power consumption. Take a look at what they are doing, and we'll help you build on it.
 
 {{<button-bar buttons="main"/>}}
