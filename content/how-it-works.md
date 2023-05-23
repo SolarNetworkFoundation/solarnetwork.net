@@ -46,10 +46,15 @@ control, and optimise their energy ecosystem in real-time.
 
 {{<section/basic class="sn-alt sn-light" container-class="sn-info-card sn-how" title="A Day in the Life of SolarNetwork">}}
 <p>
-  Our platform works night and day, gathering data from SolarNode devices. Nodes are deployed on energy generating assets like solar arrays or wind farms, storage devices like batteries, and consumers like homes and electric vehicles. As power is transferred between generators and consumers, the nodes collect data and send it to SolarNet, allowing your own applications to track and manage the flows of energy.
+  Our platform works night and day, gathering data from SolarNode devices. Nodes are deployed on
+  energy generating assets like solar arrays or wind farms, storage devices like batteries, and
+  energy consumers like homes and electric vehicles. As power is transferred between generators and
+  consumers, the nodes collect data and send it to SolarNet, allowing your own applications to track
+  and manage the flows of energy.
 </p>
 <p>
-Imagine a day in the life of SolarNetwork as used by an electric lines company that needs to manage the load on the grid.
+Imagine a day in the life of SolarNetwork as used by an electric lines company that needs to manage
+the load on the grid.
 </p>
 
 <div class="uk-visible@l">

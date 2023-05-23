@@ -48,8 +48,8 @@ buttons:
 <p>
   SolarNetwork provides developers with the tools to quickly and easily build effective
   solar energy applications tailored to their needs. Whether that is EV charger management,
-  or an automated grid demand response, our API integration capabilities mean our users can
-  build a solution that simplifies their entire energy ecosystem.
+  or automated grid demand response, our API integration capabilities mean our users can
+  build a solution that simplifies their energy ecosystem.
 </p>
 
 {{</section/grid>}}
@@ -112,8 +112,8 @@ buttons:
       img="/img/SN-DEV-Security.svg"
       alt="Diagram of padlock surrounded by orbiting dots." >}}
 
-    Our platform is built to handle large amounts of data and users, ensuring that your solar energy
-    applications are reliable and scalable.
+    Security has been designed into the platform from the beginning. We take the security
+    of both the platform, and your data, very seriously.
 
   {{</deck-card>}}
 
@@ -124,33 +124,34 @@ buttons:
   buttons="cards">}}
 
   {{<column class="sn-info-card" title="Solar Inverters" >}}
-    SolarNetwork supports a wide range of solar inverters, allowing customers to monitor and manage
+    SolarNetwork supports a wide range of solar inverters, allowing users to monitor and manage
     their solar power generation systems.
   {{</column>}}
 
   {{<column class="sn-info-card" title="Battery Systems Storage" >}}
-    SolarNetwork can integrate with battery storage systems, such as Tesla Powerwall and LG Chem, to
-    provide customers with insights into their energy usage and storage.
+    SolarNetwork can integrate with battery storage systems to
+    provide users with insights into their energy usage and storage.
   {{</column>}}
 
-  {{<column class="sn-info-card" title="Smart Meters" >}}
-    SolarNetwork can connect to smart meters, providing customers with real-time data on their
+  {{<column class="sn-info-card" title="Power Meters" >}}
+    SolarNetwork can connect to power meters, providing users with real-time data on their
     energy consumption and enabling them to optimise their energy usage.
   {{</column>}}
 
-  {{<column class="sn-info-card" title="Weather Stations" >}}
-    SolarNetwork can integrate with weather stations, allowing customers to monitor environmental
-    conditions and optimise their energy usage accordingly.
+  {{<column class="sn-info-card" title="Weather Stations and Services" >}}
+    SolarNetwork can integrate with weather stations or online services, allowing users to monitor
+    environmental conditions and optimise their energy usage accordingly.
   {{</column>}}
 
   {{<column class="sn-info-card" title="Electric Vehicle Chargers" >}}
-    SolarNetwork can connect to electric vehicle chargers, enabling customers to manage and monitor
+    SolarNetwork can connect to electric vehicle chargers, enabling users to manage and monitor
     their charging schedules and usage.
   {{</column>}}
 
   {{<column class="sn-info-card" title="Building Automation Systems" >}}
     SolarNetwork supports integration with popular commercial building automation systems, such as
-    Loxone and BACnet, allowing users to control their appliances and lighting remotely.
+    Loxone and BACnet, allowing users to control a wide variety of appliances and building services
+    remotely like lighting and temperature.
   {{</column>}}
 
 {{</section/deck>}}
@@ -216,7 +217,7 @@ less energy than it generates.</p>
     Business around the world are using SolarNetwork to build web apps and sites that track and
     transform their energy ecosystem to reduce their carbon footprint. If you are involved in your
     organisation's technical team and keen to see how your hardware system could be optimised
-    through SolarNetwork integration click the button below to get in touch.
+    through SolarNetwork integration, we are happy to talk it over with you.
 
   {{</deck-link-card>}}
 

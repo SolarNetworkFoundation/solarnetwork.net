@@ -5,7 +5,7 @@ publishdate: 2023-05-01
 audience: main
 buttons:
   more:
-    - text: Interested in finding out more?
+    - text: How are organisations using SolarNetwork?
     - type: primary
       link: case-studies
 ---

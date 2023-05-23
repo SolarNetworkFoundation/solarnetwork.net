@@ -9,6 +9,7 @@ toc: true
 key: "airnz"
 audience: main
 images:
+  logo: /img/case-studies/airnz-logo-524x92.svg
   card:
     url: /img/stock/kishan-modi-QCUfbE3QuCc-unsplash@0.5x.jpg
     alt: "Photograph of a hilly coast line dotted with wind turbines."
