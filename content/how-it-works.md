@@ -105,7 +105,7 @@ the load on the grid.
           <li>At night, the company's power-management needs change again.</li>
           <li>Solar panels stop generating energy, but demand on the grid is reduced as factories close and people go to sleep.</li>
           <li>The application uses SolarNet to ask grid-scale batteries to supply power to the grid, or recharge as needed.</li>
-          <li>When the time is right, the application uses SolarNet to manage electric vehicle charging, spreading the load on the grid through the night. </li>
+          <li>The application also uses SolarNet to manage electric vehicle charging to make sure the load on the grid is spread over time. </li>
         </ul>
       </div>
       <lottie-player
@@ -167,7 +167,7 @@ the load on the grid.
           <li>At night, the company's power-management needs change again.</li>
           <li>Solar panels stop generating energy, but demand on the grid is reduced as factories close and people go to sleep.</li>
           <li>The application uses SolarNet to ask grid-scale batteries to supply power to the grid, or recharge as needed.</li>
-          <li>When the time is right, the application uses SolarNet to manage electric vehicle charging, spreading the load on the grid through the night. </li>
+          <li>The application also uses SolarNet to manage electric vehicle charging to make sure the load on the grid is spread over time. </li>
         </ul>
       </div>
       <lottie-player
