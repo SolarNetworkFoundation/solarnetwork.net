@@ -2,7 +2,7 @@
 title: "Waste Management"
 subtitle: Direct vehicle integration
 date: 2021-09-30T10:00:00+13:00
-draft: true
+draft: false
 weight: 100
 brief: "SolarNetwork Foundation partnered with EVisi to integrate SolarNode-based monitoring and control in a fleet of electric rubbish trucks."
 toc: true

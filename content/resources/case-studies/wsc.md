@@ -3,7 +3,7 @@ title: "Ken Havill Centre for Learning — Western Springs College"
 heading: Ken Havill Centre for Learning at Western Springs College
 subtitle: Power for the future generations
 date: 2023-02-21T10:00:00+13:00
-draft: true
+draft: false
 weight: 100
 brief: "SolarNetwork Foundation helped Western Springs College visualise real-time building energy use with a 50 kW solar array."
 toc: true

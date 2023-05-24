@@ -3,7 +3,7 @@ title: "NZ Bus"
 heading: New Zealand's first electric bus depot
 subtitle: OSCP-based load control for EV chargers
 date: 2023-01-30T10:00:00+13:00
-draft: true
+draft: false
 weight: 100
 brief: "SolarNetwork Foundation partnered with EVisi to add OSCP-based load control capabilities to the chargers at New Zealand's first electric bus depot."
 toc: true
@@ -49,11 +49,13 @@ meet the needs of the OSCP integration in the NZ Bus project.
 
 ## The result
 
+<!--
 {{<quote-bar>}}
 {{< quote url="https://www.evisi.co/" cite="Chris Olson, EVisi Founder" >}}
   <p>Quote here...</p>
 {{< /quote >}}
 {{</quote-bar>}}
+-->
 
 SolarNetwork Foundation developed an OSCP "Flexibility Provider" feature for the SolarNetwork
 platform that provides the integration with Vector's load control system. The OSCP messages are
