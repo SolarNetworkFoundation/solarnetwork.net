@@ -40,13 +40,13 @@ power generation but for learning and teaching, using SolarNetwork.
 
 ## Making it a reality
 
-{{<quote-bar>}}
+<!--{{<quote-bar>}}
 {{<quote url="https://westernsprings.school.nz/solar/" cite="Golddance Frogsmoke, Real Person">}}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
 aliquip ex ea commodo consequat.
 {{</quote>}}
-{{</quote-bar>}}
+{{</quote-bar>}}-->
 
 WSC took the first step toward designing their new solar array by installing two SolarNodes with
 SolarNetwork Foundation’s support. This enabled them to measure how much power they used in
