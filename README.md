@@ -136,7 +136,7 @@ The website will be generated in the `public/` directory.
 To build for production, **excluding** draft content, run `hugo` like this:
 
 ```sh
-rm -rf public && hugo --baseURL https://solarnetwork.org.nz/
+rm -rf public && hugo --baseURL https://solarnetwork.net/
 ```
 
 The website will be generated in the `public/` directory.
