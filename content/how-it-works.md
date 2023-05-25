@@ -53,7 +53,7 @@ control, and optimise their energy ecosystem in real-time.
   and manage the flows of energy.
 </p>
 <p>
-Imagine a day in the life of SolarNetwork as used by an electric company that needs to manage
+Imagine a day in the life of SolarNetwork as used by a power company that needs to manage
 the load on the grid.
 </p>
 
