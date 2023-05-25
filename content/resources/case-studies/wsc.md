@@ -14,7 +14,7 @@ images:
   logo: /img/case-studies/wsc-logo-865x351.png
 ---
 Western Springs College is one of the largest public schools in West Auckland, with a student roll
-of over 1800 students between years 9 and 13. Known historically for its co-governance with Ngã Puna
+of over 1800 students between years 9 and 13. Known historically for its co-governance with Ngā Puna
 O Waiōrea and its strength in the performing arts, the College has also cultivated a deep focus on
 environmental stewardship. A new building designed to support solar modules on the roof offered the
 WSC community the opportunity to “walk the talk” of sustainability, teach science curriculum, and
