@@ -61,7 +61,7 @@ buttons:
     img="/img/SN-CTO-Simple-Start.svg"
     alt="Diagram of a circle flying out of an open box." >}}
 
-    Keen to get up and running? We make it easy to start collecting, visualising and analysing
+    Keen to get up and running? We make it easy to start collecting, visualising, and analysing
     energy data right away.
 
   {{</deck-card>}}
@@ -93,7 +93,7 @@ buttons:
     alt="Diagram of concentric circles split into quadrants." >}}
 
     SolarNetwork can be easily integrated with visualisation web apps like Grafana. This allows
-    users to quickly generate reports that capture the energy consumption, production and savings of
+    users to quickly generate reports that capture the energy consumption, production, and savings of
     their organisation.
 
   {{</deck-card>}}
