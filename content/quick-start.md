@@ -12,7 +12,7 @@ buttons:
     - text: Ask for help
       link: contact
   download:
-    - text: Download SolarNodeOS for Raspberry Pi
+    - text: Download SolarNodeOS
       type: primary
       url: https://sourceforge.net/projects/solarnetwork/files/solarnode/pi/solarnodeos-deb11-raspi-2GB-20230428.img.xz/download
   associate:
