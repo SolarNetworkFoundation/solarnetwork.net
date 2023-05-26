@@ -29,9 +29,6 @@
   <script src="{{ "/js/uikit-icons.min.js" }}"></script>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
   <script src="{{ "/js/sn.js" }}" async></script>
-  <script type="foo">
-  section = {{ .CurrentSection.Params }}
-  </script>
 </head>
 {{ if (isset .Params "audience") }}
   {{ .Scratch.Set "audience" .Params.audience }}
