@@ -19,6 +19,9 @@ integrations:
 legal:
   text: Legal
   url: /legal.html
+login:
+  text: Login
+  url: https://data.solarnetwork.net/solaruser/u/sec/home
 resources:
   text: Rersources
   url: /resources.html

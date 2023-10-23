@@ -17,9 +17,12 @@
             {{ end }}
           {{ end }}
         </ul>
-        <div class="uk-navbar-item uk-visible@l sn-buttons">
+        <div class="uk-navbar-item sn-buttons">
           {{/* partial "button" (dict "type" "default" "link" "demo") */}}
           {{ partial "button" (dict "type" "primary sn-main" "link" "contact") }}
+        </div>
+        <div class="uk-navbar-item sn-login">
+          {{ partial "button" (dict "type" "default" "link" "login") }}
         </div>
         <a
           class="uk-navbar-toggle uk-navbar-toggle-animate uk-hidden@m"
@@ -41,6 +44,7 @@
           <div class="sn-row sn-buttons">
             {{/* partial "button" (dict "type" "default" "link" "demo") */}}
             {{ partial "button" (dict "type" "primary sn-main" "link" "contact") }}
+            {{ partial "button" (dict "type" "default" "link" "login") }}
           </div>
         </nav>
       </div>
