@@ -14,7 +14,7 @@ buttons:
   download:
     - text: Download SolarNodeOS
       type: primary
-      url: https://sourceforge.net/projects/solarnetwork/files/solarnode/pi/solarnodeos-deb11-raspi-2GB-20230604.img.xz/download
+      url: https://sourceforge.net/projects/solarnetwork/files/solarnode/pi/solarnodeos-deb11-raspi-2GB-20231029.img.xz/download
   associate:
     - text: For detailed instructions
     - text: See the SolarNode Handbook
