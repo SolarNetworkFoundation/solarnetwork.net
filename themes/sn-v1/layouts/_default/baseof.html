@@ -30,6 +30,15 @@
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
   <script src="{{ "/js/sn.js" }}" async></script>
 </head>
+{{ if eq .Site.BaseURL "https://solarnetwork.net/" }}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F6JZ43EJ4P"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-F6JZ43EJ4P');
+  </script>
+{{ end }}
 {{ if (isset .Params "audience") }}
   {{ .Scratch.Set "audience" .Params.audience }}
 {{ else if (isset .CurrentSection.Params "audience") }}
