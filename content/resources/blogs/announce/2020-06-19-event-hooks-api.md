@@ -12,7 +12,7 @@ events happening in SolarNetwork.
 
 This feature is essentially "push notifications" for SolarNetwork.
 
-![SolarUser node event hook UI]({{site.baseurl}}/img/news/solaruser-node-event-hook-ui.png)
+<img alt="SolarUser node event hook UI" src="/img/news/solaruser-node-event-hook-ui.png" width="737">
 
 ## Events
 
