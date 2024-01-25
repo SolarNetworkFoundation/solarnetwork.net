@@ -12,11 +12,11 @@ exports][ad-hoc-export-submit] for more than a year. Now we've added an easy-to-
 Just fill in
 a simple form to pick the date range, nodes, sources, and aggregate level you want to export:
 
-![SolarUser ad hoc export form]({{site.baseurl}}/img/news/solaruser-adhoc-datum-export-create.png)
+<img alt="SolarUser ad hoc export form" src="/img/news/solaruser-adhoc-datum-export-create.png" width="815">
 
 Once submitted, the export jobs show up with status information:
 
-![SolarUser ad hoc exports]({{site.baseurl}}/img/news/solaruser-adhoc-datum-exports.png)
+<img alt="SolarUser ad hoc exports" src="/img/news/solaruser-adhoc-datum-exports.png" width="800">
 
 {{<shoutout img="/img/news/ecogy-logo-248.png" name="Ecogy Energy" url="https://www.ecogyenergy.com/"/>}}
 
