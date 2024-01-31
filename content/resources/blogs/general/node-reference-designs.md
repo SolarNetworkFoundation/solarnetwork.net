@@ -27,7 +27,7 @@ load or solar array. The PZEM kWh meter has a split-core current transformer tha
 of current, voltage, powerFactor, frequency, but only in one direction. Using WiFi connectivity this
 SolarNode implementation makes it easy to position anywhere in range of your WiFi access point.
 
-<img alt="SolarNode Mini schematic" src="/img/news/solarnode-ref-design-mini@2x.png" width="613">
+<img alt="SolarNode Mini schematic" src="/img/news/solarnode-ref-design-mini@2x.png" width="550">
 
 ### SolarNode Mini applications
 
