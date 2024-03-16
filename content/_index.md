@@ -76,7 +76,7 @@ buttons:
 
 {{</section/deck>}}
 
-{{<section/deck class="sn-alt sn-light" title="Powerful energy data for your business" buttons="features">}}
+{{<section/deck class="sn-alt sn-light" title="Powerful energy data for your organisation" buttons="features">}}
 
   {{<deck-card title="Build"
     img="/img/SN-CTO-Scale.svg"
