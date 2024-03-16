@@ -156,7 +156,7 @@ buttons:
       url="/partners.html"
       link="Learn more" >}}
 
-    Our partners offer a range of services and solutions to help you on your energy transformation journey.
+    Our partners use SolarNetwork to offer a range of services and solutions to help you on your energy transformation journey.
 
   {{</deck-link-card>}}
 
