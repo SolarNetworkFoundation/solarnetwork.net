@@ -6,7 +6,8 @@ audience: dev
 buttons:
   hero:
     - type: default
-      link: contact
+      url: "/quick-start.html"
+      text: Quick start
     - type: primary
       link: dev-docs
   deck:
