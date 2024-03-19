@@ -12,7 +12,7 @@ buttons:
 {{<section/grid
   class="sn-hero"
   title="Our partners can help deliver a SolarNetwork solution for you."
-  subtitle="Browse our growing list of partners, or reach out to become a partner yourself."
+  subtitle="Browse our list of partners, or reach out to become a partner yourself."
   buttons="hero"
   img="/img/SN-Home-Icon.svg"
   alt="Diagram of house with solar panels on roof, an electric car plugged into a charger, and a shining sun." />}}
@@ -66,6 +66,42 @@ buttons:
     We specialise in a range of technologies including photovoltaics, battery storage, EV charging, thermal storage, and demand control technologies.
 
     re/volve energy's focus is to determine the right solution for each project, reducing long run costs and carbon emissions.
+
+  {{</deck-link-card>}}
+
+{{</section/deck>}}
+
+{{<section/column class="sn-dark" title="SolarNetwork is free and open-source" buttons="start">}}
+
+  SolarNetwork is an open-source solution that allows anyone to monitor and optimise their solar
+  energy usage without investing in expensive hardware or software, no matter what stage of the
+  journey they are at.
+
+{{</section/column>}}
+
+{{<section/deck class="sn-alt sn-light" deck-class="sn-learn sn-pair">}}
+
+  {{<deck-link-card class="sn-main" title="Build, Report, Manage" subtitle="Sustainable business just got a little simpler."
+      logo="/img/SN-Business-Icon.svg"
+      alt="Sun shining over a factory with solar panels, connected to a grid-scale battery, connected to an electric bus."
+      url="/"
+      link="Learn more" >}}
+
+    Organisations around the world are using SolarNetwork to build apps, generate reports, and manage sites
+    that track and transform their energy ecosystem to reduce their carbon footprint. If you are involved in your
+    organisation's technical team and keen to see how your systems could be optimised
+    through SolarNetwork integration, we are happy to talk it over with you.
+
+  {{</deck-link-card>}}
+
+  {{<deck-link-card class="sn-dev" title="For Developers" subtitle="Build your own products using our powerful and easy-to-use APIs."
+      logo="/img/SN-Developers-Icon.svg"
+      alt="Diagram a grid of dots connected to a cloud floating with computer windows."
+      url="/developers.html"
+      link="Learn more" >}}
+
+    Integrate SolarNetwork's open-source API into your existing applications for seamless energy
+    management and monitoring.
 
   {{</deck-link-card>}}
 
