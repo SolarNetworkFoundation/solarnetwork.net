@@ -1,4 +1,9 @@
 current:
+  - level: Ar
+    supporters:
+      - name: Re/volve Energy
+        url: https://www.revolveenergy.co/
+        img: /img/logos/revolve-energy-logo-square-white.png
   - level: O
     supporters:
       - name: Ecogy Energy

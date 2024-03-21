@@ -10,7 +10,11 @@ buttons:
       url:  "/donate.html"
       text: Pledge your support
 ---
-{{<section/column title="Friends of SolarNetwork" subtitle="Thank you to our generous supporters."/>}}
+{{<section/column title="Friends of SolarNetwork" subtitle="Thank you to our generous supporters.">}}
+
+These [donations](/donate.html) have made a real difference to keeping SolarNetwork Foundation going.
+
+{{</section/column>}}
 
 {{<supporters>}}
 
