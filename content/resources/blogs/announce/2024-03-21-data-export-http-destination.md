@@ -1,6 +1,6 @@
 ---
 title: HTTP datum export feature added
-date: 2024-03-21
+date: 2024-03-20
 tags: solarnet, api, dev, data
 category: news
 ---
