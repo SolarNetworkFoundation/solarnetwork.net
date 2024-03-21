@@ -24,9 +24,26 @@ buttons:
       alt="Ecogy Energy logo"
       url="https://ecogyenergy.com/"
       link="Visit partner"
-      tags="PV,System design,Asset management" >}}
+      tags="PV,System Design,Asset Management,Development Services" >}}
 
-    TODO
+    Ecogy Energy is a developer, financier and operator of commercial scale distributed energy
+    resources. Our team of industry experts work with local organizations to design and install
+    renewable energy generating systems, creating new revenue streams and reducing operating expenses.
+    Our valuable partners include non-profits, places of worship, small businesses and large
+    corporations.
+
+  {{</deck-link-card>}}
+
+  {{<deck-link-card class="sn-main" title="Ecosuite"
+      logo="/img/logos/ecosuite-logo-black.png"
+      alt="Ecosuite logo"
+      url="https://ecosuite.io/"
+      link="Visit partner"
+      tags="SaaS,Pipeline Management,Portfolio Financing,Asset Performance and Control,Forecasting,Demand Response" >}}
+
+    Ecosuite is a digital ecosystem for managing diverse distributed energy portfolios with award
+    winning open-source foundations and AI technology. Our collaboration tools massively increase
+    deployment and operational efficiencies by reducing data communication and transactional frictions.
 
   {{</deck-link-card>}}
 
@@ -57,7 +74,7 @@ buttons:
       alt="Re/volve Energy logo"
       url="https://www.revolveenergy.co/"
       link="Visit partner"
-      tags="PV,Data visualization,Metering systems,Community energy,Demand side energy controls,Feasibility,Design" >}}
+      tags="PV,Data Visualization,Metering Systems,Community Energy,Demand Side Energy Controls,Feasibility,Design" >}}
 
     re/volve energy is an award winning energy consultancy. We are committed to the transition to a zero carbon future.
 
