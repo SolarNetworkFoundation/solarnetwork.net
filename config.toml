@@ -38,10 +38,10 @@ uglyURLs = true
   pageRef = "/partners"
 
 [[menu.main]]
-  name = "Subscriptions"
+  name = "Services"
   weight = 300
-  identifier = "subscriptions"
-  pageRef = "/subscriptions"
+  identifier = "services"
+  pageRef = "/services"
 
 [[menu.main]]
   name = "Resources"
