@@ -48,13 +48,13 @@ buttons:
   {{</deck-link-card>}}
 
   {{<deck-link-card class="sn-main" title="EVisi"
-      logo="/img/logos/evisi-logo-bw-195.png"
+      logo="/img/logos/evisi-logo-bw.svg"
       alt="EVisi logo"
       url="https://www.evisi.co/"
       link="Visit partner"
-      tags="EV,Charge optimisation" >}}
+      tags="OCPP,EV Charger Management,Energy Management" >}}
 
-    TODO
+    EVisi provides fleet electric vehicle charger management software to enable automated, optimised, scalable operation of commercial EV charge sites.
 
   {{</deck-link-card>}}
 
