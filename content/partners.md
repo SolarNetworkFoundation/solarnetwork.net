@@ -58,17 +58,6 @@ buttons:
 
   {{</deck-link-card>}}
 
-  {{<deck-link-card class="sn-main" title="Greenstage Power"
-      logo="/img/logos/greenstage-power-logo-bw.png"
-      alt="Greenstage Power logo"
-      url="https://greenstage.co.nz/power.html"
-      link="Visit partner"
-      tags="PV" >}}
-
-    TODO
-
-  {{</deck-link-card>}}
-
   {{<deck-link-card class="sn-main" title="Re/volve Energy"
       logo="/img/logos/revolve-energy-logo-black.svg"
       alt="Re/volve Energy logo"

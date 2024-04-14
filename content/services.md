@@ -17,27 +17,63 @@ buttons:
       text: SolarNetwork platform costs
 ---
 {{<section/column title="Services" buttons="explorer">}}
-SolarNetwork Foundation offers a range of consulting services to help you understand how SolarNetwork can work for you.
+SolarNetwork Foundation offers a range of consulting services to help you understand how SolarNetwork can work for you
+as well as onging support for your SolarNetwork integration.
 Visit the [subscriptions](/subscriptions.html) page for information on SolarNetwork platform costs.
 {{</section/column>}}
 
 {{<section/deck class="sn-alt sn-light" deck-class="sn-cards" grid-class="sn-dark" buttons="consult"
   title="We offer a range of consulting services to help you understand how SolarNetwork can work for you.">}}
 
-  {{<column class="sn-info-card" title="Developer Jumpstart" >}}
-    TODO
+  {{<column class="sn-info-card" title="Experiment" subtitle="Start collecting data quickly.">}}
+
+    We will hold a brief consulation to identify your goals and requirements, and then
+    assit you in acquiring a SolarNode device to start collecting data. We will provide your
+    team the information they need to get the SolarNode deployed and then
+    access the data and integrate it into your system.
+
   {{</column>}}
 
-  {{<column class="sn-info-card" title="Strategy Session" >}}
-    TODO
+  {{<column class="sn-info-card" title="Learn" subtitle="Understand the data and how to access it.">}}
+
+    Deepen your knowlege of SolarNetwork with one of our flexible training packages:
+
+    * Developer Jumpstart - multi-day developer training
+    * Strategy Session - plot out your SolarNetwork integration and operational needs
+
+    We can also identify partners that can help you achieve your goals.
+
   {{</column>}}
 
-  {{<column class="sn-info-card" title="Energy Audit" >}}
-    TODO
+  {{<column class="sn-info-card" title="Architect" subtitle="Design SolarNetwork into your app.">}}
+
+    Hands-on collaboration with your team to design your SolarNetwork, leveraging our
+    SolarNetwork expertise to maximise the potential of your project.
+
   {{</column>}}
 
-  {{<column class="sn-info-card" title="Custom Development" >}}
-    TODO
+  {{<column class="sn-info-card" title="Develop" subtitle="Collaborative custom development.">}}
+
+    We can work with you to develop a custom SolarNode device integration or extend the
+    SolarNetwork API to support your SolarNetwork, at a reasonable hourly rate.
+
+  {{</column>}}
+
+  {{<column class="sn-info-card" title="Operate" subtitle="Support and maintain your SolarNetwork." >}}
+
+    We can support the ongoing maintenance and operation of your SolarNetwork with a
+    flexible support package that helps with things like keeping your deployed SolarNodes
+    up-to-date and troubleshooting issues that arise.
+
+  {{</column>}}
+
+  {{<column class="sn-info-card" title="Contribute" subtitle="Give back to the SolarNetwork community." >}}
+
+    If you would like to contribute back to the SolarNetwork community, we can help you:
+
+    * Accept open-source software contributions into SolarNetwork
+    * Publish a SolarNetwork case study of your project
+
   {{</column>}}
 
 {{</section/deck>}}

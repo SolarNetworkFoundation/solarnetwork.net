@@ -18,12 +18,19 @@ buttons:
       text: Explore all features
   pricing:
     - type: primary
-      link: subscriptions
-      text: See our pricing
+      url: /services.html
+      text: See our services
   resources:
     - type: primary
       url: /resources/blogs/general.html
       text: See more
+  work-with:
+    - type: primary
+      url: /services.html
+      text: See our services
+    - type: default
+      url: /partners.html
+      text: See our partners
 ---
 {{<section/grid
   class="sn-hero"
@@ -109,7 +116,7 @@ buttons:
 
 {{</section/deck>}}
 
-{{<section/column class="sn-alt sn-dark" title="How we can work with you">}}
+{{<section/column class="sn-alt sn-dark" title="How we can work with you" buttons="work-with">}}
 
   The SolarNetwork platform is supported and hosted by the SolarNetwork Foundation.
   We are a partnership-based organisation, with collaboration at our core. Our goal
@@ -142,9 +149,10 @@ buttons:
 {{<section/column class="sn-alt sn-dark" title="Flexible pricing to fit your business needs" buttons="pricing">}}
 
   Our goal is to support free use of SolarNetwork for those who only generate small amounts of data.
-  Organisations pay through subscription plans which maintain the services we provide, and
-  tax-deductible donations bolster our services. All of our profits support helping people transform
-  their energy ecosystem for a more sustainable future.
+  We offer SolarNetwork support services for organisations that can be tailored to your specific
+  needs, and offer SolarNetwork platform subscription plans based on your platform usage. We also
+  accept tax-deductible donations to bolster our services. All of our profits support helping people
+  transform their energy ecosystem for a more sustainable future.
 
 {{</section/column>}}
 

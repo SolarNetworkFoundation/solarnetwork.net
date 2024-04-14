@@ -8,6 +8,9 @@ buttons:
     - text: More about SolarNode
       type: primary
       url: /solarnode.html
+    - text: Get started
+      type: secondary
+      url: /quick-start.html
   more:
     - text: Interested in finding out more?
     - type: primary
