@@ -9,7 +9,7 @@ buttons:
       type: primary
       url: /solarnode.html
     - text: Get started
-      type: secondary
+      type: default
       url: /quick-start.html
   more:
     - text: Interested in finding out more?
