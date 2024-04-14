@@ -4,6 +4,10 @@ date: 2023-05-01
 publishdate: 2023-05-01
 audience: main
 buttons:
+  main:
+    - text: More about SolarNode
+      type: primary
+      url: /solarnode.html
   more:
     - text: Interested in finding out more?
     - type: primary
@@ -14,7 +18,7 @@ SolarNetwork is an open source energy management platform that enables our users
 control, and optimise their energy ecosystem in real-time.
 {{</section/column>}}
 
-{{<section/deck class="sn-alt sn-dark" deck-class="sn-icon">}}
+{{<section/deck class="sn-alt sn-dark" deck-class="sn-icon" buttons="main">}}
 
   {{<deck-card title="SolarNode"
     img="/img/how-it-works/solarnode-icon.svg"
