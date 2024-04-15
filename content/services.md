@@ -28,7 +28,7 @@ Visit the [subscriptions](/subscriptions.html) page for information on SolarNetw
   {{<column class="sn-info-card" title="Experiment" subtitle="Start collecting data quickly.">}}
 
     We will hold a brief consulation to identify your goals and requirements, and then
-    assit you in acquiring a SolarNode device to start collecting data. We will provide your
+    assist you in acquiring a SolarNode device to start collecting data. We will provide your
     team the information they need to get the SolarNode deployed and then
     access the data and integrate it into your system.
 
