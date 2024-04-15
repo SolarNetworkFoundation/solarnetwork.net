@@ -1,27 +1,35 @@
 ---
 title: SolarNetwork - Resources
-heading: Here are some resources to help you keep on top of the ins and outs of SolarNetwork.
 date: 2023-05-01
 heading: Resources
 nav: Resources
 audience: main
 hide-date: true
 ---
-{{<section/column title="Resources"/>}}
-
 {{<section/deck class="sn-alt sn-light" deck-class="sn-learn sn-cards" grid-class="sn-dark"
     title="Here are some resources to help you keep on top of the ins and outs of SolarNetwork.">}}
-  {{<deck-link-card title="News & insights"
-      url="/blogs.html"
-      link="Learn more">}}
-    Keep on top of the latest SolarNetwork charity work, general information, product updates,
-    and more.
+  {{<deck-link-card title="SolarNode Handbook"
+      url="https://solarnetwork.github.io/solarnode-handbook/"
+      link="Go to the Handbook">}}
+    Comprehensive information for SolarNode users and developers.
   {{</deck-link-card>}}
 
-  {{<deck-link-card title="Case studies"
-      url="/case-studies.html"
-      link="Learn more">}}
-    Take a look at some projects we're proud to have been involved with.
+  {{<deck-link-card title="Wiki Documentation"
+      url="https://github.com/SolarNetwork/solarnetwork/wiki/"
+      link="Go to the Wiki">}}
+    Technical and developer-focused SolarNetwork and SolarNode documentation.
+  {{</deck-link-card>}}
+
+  {{<deck-link-card title="API Explorer"
+      url="https://go.solarnetwork.net/node-dashboard/"
+      link="Go to the Node Dashboard">}}
+    Interactively explore the SolarNetwork API in your browser.
+  {{</deck-link-card>}}
+
+  {{<deck-link-card title="SolarNode Dashboard"
+      url="https://go.solarnetwork.net/node-dashboard/"
+      link="Go to the Node Dashboard">}}
+    A basic customizable chart dashboard for your data.
   {{</deck-link-card>}}
 
 {{</section/deck>}}
