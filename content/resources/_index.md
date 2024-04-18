@@ -21,8 +21,8 @@ hide-date: true
   {{</deck-link-card>}}
 
   {{<deck-link-card title="API Explorer"
-      url="https://go.solarnetwork.net/node-dashboard/"
-      link="Go to the Node Dashboard">}}
+      url="https://go.solarnetwork.net/dev/api/"
+      link="Go to the API Explorer">}}
     Interactively explore the SolarNetwork API in your browser.
   {{</deck-link-card>}}
 
