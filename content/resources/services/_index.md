@@ -1,10 +1,10 @@
 ---
-title: SolarNetwork - Services
+title: SolarNetwork Foundation - How We Can Help
 date: 2023-05-01
 publishdate: 2023-05-01
 audience: main
 heading: We can help you…
-nav: Services
+nav: How we can help
 hide-date: true
 weight: 1
 ---

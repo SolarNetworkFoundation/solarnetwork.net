@@ -27,21 +27,21 @@ uglyURLs = true
 
 [[menu.main]]
   name = "For Developers"
-  weight = 200
+  weight = 500
   identifier = "developers"
   pageRef = "/developers"
 
 [[menu.main]]
-  name = "For Homes"
-  weight = 300
+  name = "Partners"
+  weight = 200
   identifier = "homes"
-  pageRef = "/homes"
+  pageRef = "/partners"
 
 [[menu.main]]
-  name = "Subscriptions"
-  weight = 500
-  identifier = "subscriptions"
-  pageRef = "/subscriptions"
+  name = "Services"
+  weight = 300
+  identifier = "services"
+  pageRef = "/services"
 
 [[menu.main]]
   name = "Resources"

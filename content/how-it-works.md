@@ -4,6 +4,13 @@ date: 2023-05-01
 publishdate: 2023-05-01
 audience: main
 buttons:
+  main:
+    - text: More about SolarNode
+      type: primary
+      url: /solarnode.html
+    - text: Get started
+      type: default
+      url: /quick-start.html
   more:
     - text: Interested in finding out more?
     - type: primary
@@ -14,7 +21,7 @@ SolarNetwork is an open source energy management platform that enables our users
 control, and optimise their energy ecosystem in real-time.
 {{</section/column>}}
 
-{{<section/deck class="sn-alt sn-dark" deck-class="sn-icon">}}
+{{<section/deck class="sn-alt sn-dark" deck-class="sn-icon" buttons="main">}}
 
   {{<deck-card title="SolarNode"
     img="/img/how-it-works/solarnode-icon.svg"
@@ -181,3 +188,33 @@ the load on the grid.
   </ul>
 </div>
 {{</section/basic>}}
+
+{{<section/content class="sn-alt" title="Example: a live-data kiosk or dashboard">}}
+
+You'd like to display your energy use and generation in an accessible way on your own website, a
+large-screen kiosk in your office, and your mobile app.
+
+<img src="/img/how-it-works/sn-ref-integration-dashboard.svg" alt="SolarNetwork architecture diagram for a dashboard app" width="914" height="355" />
+
+* Deploy SolarNode devices at your energy-consuming and energy-producing sites
+* The nodes collect the data and send it to both SolarNet and [SolarFlux](https://github.com/SolarNetwork/solarnetwork/wiki/SolarFlux-API)
+  (SolarNetwork's real-time data service)
+* With the help of our [partners](/partners.md) you develop a HTML dashboard site that integrates with SolarFlux
+  to receive live data updates and SolarNet to pull out historic data
+* Your HTML dashboard can be displayed on your website, kiosk, and mobile app
+
+{{</section/content>}}
+
+{{<section/content class="sn-light" title="Example: EV charger management">}}
+
+You'd like to manage EV chargers for a corporate fleet of EVs and optimize their charging.
+
+<img src="/img/how-it-works/sn-ref-integration-ev-charging.svg" alt="SolarNetwork architecture diagram for EV chargers" width="914" height="355" />
+
+* Deploy [OCPP](https://openchargealliance.org/)-enabled EV chargers and configure them to connect to
+ [SolarOCPP](https://github.com/SolarNetwork/solarnetwork/wiki/OCPP) (SolarNetwork's OCPP integration service)
+* With the help of our [partners](/partners.md) you deploy an EV management application that works with SolarNetwork to
+  enable you to monitor and control all your chargers
+
+{{</section/content>}}
+

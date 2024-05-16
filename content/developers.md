@@ -6,7 +6,8 @@ audience: dev
 buttons:
   hero:
     - type: default
-      link: contact
+      url: "/quick-start.html"
+      text: Quick start
     - type: primary
       link: dev-docs
   deck:
@@ -208,27 +209,26 @@ less energy than it generates.</p>
 
 {{<section/deck class="sn-alt sn-light" deck-class="sn-learn sn-pair">}}
 
-  {{<deck-link-card class="sn-main" title="For Business" subtitle="Sustainable business just got a little simpler."
+  {{<deck-link-card class="sn-main" title="Build, Report, Manage" subtitle="Sustainable business just got a little simpler."
       logo="/img/SN-Business-Icon.svg"
       alt="Sun shining over a factory with solar panels, connected to a grid-scale battery, connected to an electric bus."
       url="/"
       link="Learn more" >}}
 
-    Business around the world are using SolarNetwork to build web apps and sites that track and
-    transform their energy ecosystem to reduce their carbon footprint. If you are involved in your
-    organisation's technical team and keen to see how your hardware system could be optimised
+    Organisations around the world are using SolarNetwork to build apps, generate reports, and manage sites
+    that track and transform their energy ecosystem to reduce their carbon footprint. If you are involved in your
+    organisation's technical team and keen to see how your systems could be optimised
     through SolarNetwork integration, we are happy to talk it over with you.
 
   {{</deck-link-card>}}
 
-  {{<deck-link-card class="sn-home" title="For Home" subtitle="Discover the benefits of solar power at home."
+  {{<deck-link-card class="sn-home" title="Partners" subtitle="Explore our service and solution partners."
       logo="/img/SN-Home-Icon.svg"
       alt="Sun shining over a factory with solar panels, connected to a grid-scale battery, connected to an electric bus."
-      url="/homes.html"
+      url="/partners.html"
       link="Learn more" >}}
 
-    Our platform offers a range of features and benefits designed specifically for individuals who
-    are interested in exploring solar energy solutions for their homes.
+    Our partners use SolarNetwork to offer a range of services and solutions to help you on your energy transformation journey.
 
   {{</deck-link-card>}}
 
