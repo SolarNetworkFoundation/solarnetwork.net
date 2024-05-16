@@ -11,6 +11,7 @@
    * url        (optional) - link URL
    * link       (optional) - link text
    * caption    (optional) - if present, add a header caption
+   * tags       (optional) - if present, a comma-delimited list of tags to render
    * content    (optional) - the page context
    * Page                 - the page
  */}}
@@ -34,6 +35,11 @@
       {{ end }}
       {{ with .caption }}
         <p class="uk-text-meta uk-margin-remove-top">{{ . }}</p>
+      {{ end }}
+      {{ with .tags }}
+        {{ range split . "," }}
+          <span class="uk-label">{{ . }}</span>
+        {{ end }}
       {{ end }}
       {{ with .content }}
         {{ . | $page.RenderString (dict "display" "block") }}

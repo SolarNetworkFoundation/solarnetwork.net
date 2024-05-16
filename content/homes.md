@@ -173,15 +173,15 @@ less energy than it generates.</p>
 
 {{<section/deck class="sn-alt sn-light" deck-class="sn-learn sn-pair">}}
 
-  {{<deck-link-card class="sn-main" title="For Business" subtitle="Sustainable business just got a little simpler."
+  {{<deck-link-card class="sn-main" title="Build, Report, Manage" subtitle="Sustainable business just got a little simpler."
       logo="/img/SN-Business-Icon.svg"
       alt="Sun shining over a factory with solar panels, connected to a grid-scale battery, connected to an electric bus."
       url="/"
       link="Learn more" >}}
 
-    Business around the world are using SolarNetwork to build web apps and sites that track and
-    transform their energy ecosystem to reduce their carbon footprint. If you are involved in your
-    organisation's technical team and keen to see how your hardware system could be optimised
+    Organisations around the world are using SolarNetwork to build apps, generate reports, and manage sites
+    that track and transform their energy ecosystem to reduce their carbon footprint. If you are involved in your
+    organisation's technical team and keen to see how your systems could be optimised
     through SolarNetwork integration, we are happy to talk it over with you.
 
   {{</deck-link-card>}}

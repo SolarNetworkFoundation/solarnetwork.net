@@ -18,17 +18,24 @@ buttons:
       text: Explore all features
   pricing:
     - type: primary
-      link: subscriptions
-      text: See our pricing
+      url: /services.html
+      text: See our services
   resources:
     - type: primary
       url: /resources/blogs/general.html
       text: See more
+  work-with:
+    - type: primary
+      url: /services.html
+      text: See our services
+    - type: default
+      url: /partners.html
+      text: See our partners
 ---
 {{<section/grid
   class="sn-hero"
-  title="Your energy environment made simple."
-  subtitle="Improve every element of your energy usage with our powerful platform."
+  title="Energy data at your fingertips."
+  subtitle="Put your data to work with our powerful platform."
   buttons="hero"
   img="/img/SN-Business-Icon.svg"
   alt="Sun shining over a factory with solar panels, connected to a grid-scale battery, connected to an electric bus." />}}
@@ -39,75 +46,92 @@ buttons:
   alt="Field filled with solar panels." >}}
 
   <p>
-    SolarNetwork is an open-source platform helping individuals and organisations to track and
-    transform their energy circulation so they can take meaningful action that supports a
-    sustainable future.
+    SolarNetwork is an open-source platform providing stable, neutral data-wrangling infrastructure
+    so you can build modern energy apps, report on energy use and generation, and manage your energy assets.
   </p>
 
 {{</section/grid>}}
 
-{{<section/deck class="sn-alt sn-dark" title="Simplify your energy management with SolarNetwork" buttons="deck">}}
+{{<section/deck class="sn-alt sn-dark" title="How SolarNetwork helps you put your data to work">}}
 
-  {{<deck-card title="A single solution"
+  {{<deck-card title="Collects"
+    img="/img/SN-CTO-Simple-Start.svg"
+    alt="Diagram of a circle flying into an open box." >}}
+
+    Before you can do anything, you need data. SolarNetwork already knows how to collect data
+    from a large variety of devices and systems, and it is easy to add support for new integrations.
+
+  {{</deck-card>}}
+
+  {{<deck-card title="Collates"
     img="/img/SN-CTO-Single-Solution.svg"
     alt="Diagram of light bulb with branching paths underneath." >}}
 
-    Have lots of need-to-knows? Build a customised solution that monitors and manages all your
-    energy devices from a single and easy to use platform.
+    Data from different sources can present in different ways. SolarNetwork pulls your data
+    together and puts it into a simple and cohesive form.
 
   {{</deck-card>}}
 
-  {{<deck-card title="Simple to start"
-    img="/img/SN-CTO-Simple-Start.svg"
-    alt="Diagram of a circle flying out of an open box." >}}
-
-    Keen to get up and running? We make it easy to start collecting, visualising, and analysing
-    energy data right away.
-
-  {{</deck-card>}}
-
-  {{<deck-card title="Lost cost, high value"
+  {{<deck-card title="Empowers"
     img="/img/SN-CTO-Simple-Low-High.svg"
     alt="Diagram of a hollow cylinder under a downward-pointing arrow." >}}
 
-    Our software is 100% open-source, free to download and use. It occupies the sweet spot between
-    affordability and incredible capabilities.
+    Useful data is accessible data. SolarNetwork makes your data easily available for your
+    apps, reports, and operations, whether you need the fine details or a high-level overview.
 
   {{</deck-card>}}
 
 {{</section/deck>}}
 
-{{<section/deck class="sn-alt sn-light" title="Powerful energy management for your business" buttons="features">}}
+{{<section/deck class="sn-alt sn-light" title="Powerful energy data for your organisation" buttons="features">}}
 
-  {{<deck-card title="Scales to every size"
+  {{<deck-card title="Build"
     img="/img/SN-CTO-Scale.svg"
     alt="Diagram of concentric circles with 4 arrows pointing outwards." >}}
 
-    Integrating with an existing system or starting from scratch? We offer a wide range of hardware
-    support that configures to the needs of your business - no matter how big or small.
+    You’ve got a great idea for an Energy 2.0 application, but to make it work you need data from
+    lots of different sources. SolarNetwork is a cloud-based platform that can take care of the data-wrangling for you,
+    so you can get back to working on your great idea, not the details of data infrastructure.
 
   {{</deck-card>}}
 
-  {{<deck-card title="Simplify your data"
+  {{<deck-card title="Report"
     img="/img/SN-CTO-Simplify.svg"
     alt="Diagram of concentric circles split into quadrants." >}}
 
-    SolarNetwork can be easily integrated with visualisation web apps like Grafana. This allows
-    users to quickly generate reports that capture the energy consumption, production, and savings of
-    their organisation.
+    You need to report on your organisation's energy use and generation. SolarNetwork makes it easy
+    to pull the data you need into your reporting system, regardless of the number of
+    data sources or complexity of information involved.
 
   {{</deck-card>}}
 
-  {{<deck-card title="Keep your solar data secure"
+  {{<deck-card title="Manage"
     img="/img/SN-CTO-Data-Security.svg"
     alt="Diagram of padlock surrounded by orbiting arrows." >}}
 
-    What you share is up to you. Your solar energy data is protected with robust security measures
-    and access controls that support multiple sites.
+    You manage energy assets distributed across many sites. SolarNetwork makes monitoring data
+    from your assets readily available and provides you with the means to control their operation.
 
   {{</deck-card>}}
 
 {{</section/deck>}}
+
+{{<section/column class="sn-alt sn-dark" title="How we can work with you" buttons="work-with">}}
+
+  The SolarNetwork platform is supported and hosted by the SolarNetwork Foundation.
+  We are a partnership-based organisation, with collaboration at our core. Our goal
+  is to act as a neutral broker in the renewable energy ecosystem by building core data infrastructure.
+
+<div style="text-align: start">
+
+  We can:
+  * advise you on how and where SolarNetwork can work for you
+  * help you find SolarNetwork solutions through our existing partners
+  * partner with you to develop your own solutions using SolarNetwork
+
+</div>
+
+{{</section/column>}}
 
 {{<section/topic title="Case Study" subtitle="Camp Glenorchy"
   class="sn-alt"
@@ -125,13 +149,24 @@ buttons:
 {{<section/column class="sn-alt sn-dark" title="Flexible pricing to fit your business needs" buttons="pricing">}}
 
   Our goal is to support free use of SolarNetwork for those who only generate small amounts of data.
-  Organisations pay through subscription plans which maintain the services we provide, and
-  tax-deductible donations bolster our services. All of our profits support helping people transform
-  their energy ecosystem for a more sustainable future.
+  We offer SolarNetwork support services for organisations that can be tailored to your specific
+  needs, and offer SolarNetwork platform subscription plans based on your platform usage. We also
+  accept tax-deductible donations to bolster our services. All of our profits support helping people
+  transform their energy ecosystem for a more sustainable future.
 
 {{</section/column>}}
 
 {{<section/deck class="sn-alt sn-light" deck-class="sn-learn sn-pair">}}
+
+  {{<deck-link-card class="sn-home" title="Partners" subtitle="Explore our service and solution partners."
+      logo="/img/SN-Home-Icon.svg"
+      alt="Sun shining over a factory with solar panels, connected to a grid-scale battery, connected to an electric bus."
+      url="/partners.html"
+      link="Learn more" >}}
+
+    Our partners use SolarNetwork to offer a range of services and solutions to help you on your energy transformation journey.
+
+  {{</deck-link-card>}}
 
   {{<deck-link-card class="sn-dev" title="For Developers" subtitle="Build your own products using our powerful and easy-to-use APIs."
       logo="/img/SN-Developers-Icon.svg"
@@ -141,17 +176,6 @@ buttons:
 
     Integrate SolarNetwork's open-source API into your existing applications for seamless energy
     management and monitoring.
-
-  {{</deck-link-card>}}
-
-  {{<deck-link-card class="sn-home" title="For Home" subtitle="Discover the benefits of solar power at home."
-      logo="/img/SN-Home-Icon.svg"
-      alt="Sun shining over a factory with solar panels, connected to a grid-scale battery, connected to an electric bus."
-      url="/homes.html"
-      link="Learn more" >}}
-
-    Our platform offers a range of features and benefits designed specifically for individuals who
-    are interested in exploring solar energy solutions for their homes.
 
   {{</deck-link-card>}}
 

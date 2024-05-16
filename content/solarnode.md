@@ -51,6 +51,17 @@ buttons:
     <img alt="M-Bus logo" src="/img/solarnode/mbus-logo.svg">
   {{</column>}}
 
+  {{<column class="sn-info-card" title="Building Automation Systems" >}}
+
+    SolarNetwork supports integration with popular commercial building automation systems, such as
+    Loxone and BACnet, allowing users to control a wide variety of appliances and building services
+    remotely like lighting and temperature.
+
+    <img alt="BACnet logo" src="/img/solarnode/bacnet-logo.svg">
+    <img alt="Loxone logo" src="/img/solarnode/loxone-logo.svg">
+
+  {{</column>}}
+
   {{<column class="sn-info-card" title="DNP3" >}}
     SolarNode supports DNP3, allowing you to integrate SolarNode with utilities.
 
@@ -73,21 +84,17 @@ buttons:
 
   {{</column>}}
 
-  {{<column class="sn-info-card" title="Building Automation Systems" >}}
-
-    SolarNetwork supports integration with popular commercial building automation systems, such as
-    Loxone and BACnet, allowing users to control a wide variety of appliances and building services
-    remotely like lighting and temperature.
-
-    <img alt="BACnet logo" src="/img/solarnode/bacnet-logo.svg">
-    <img alt="Loxone logo" src="/img/solarnode/loxone-logo.svg">
-
-  {{</column>}}
-
   {{<column class="sn-info-card" title="GPIO" >}}
     SolarNode can read and write to GPIO, so you can connect sensors or control switches.
 
     <img alt="GPIO logo" src="/img/solarnode/gpio.png">
+
+  {{</column>}}
+
+  {{<column class="sn-info-card" title="…and so much more." >}}
+    SolarNode supports many more devices and services.
+
+    <a class="uk-button uk-button-default" href="https://github.com/SolarNetwork/solarnetwork/wiki/Node-Supported-Devices">View integrations</a>
 
   {{</column>}}
 

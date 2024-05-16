@@ -16,6 +16,7 @@
   <div class="sn-container sn-deck sn-learn sn-pair sn-compact">
     <div class="sn-info-card">
       <h1>{{ with .Params.heading }}{{ . }}{{ else }}{{ .Page.Title }}{{ end }}</h1>
+      {{ .Content }}
       <div class="sn-grid">
         {{ range .Data.Pages }}
           {{ .Scratch.Set "p"  (dict
