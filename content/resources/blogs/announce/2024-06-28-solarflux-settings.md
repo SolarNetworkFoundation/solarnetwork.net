@@ -24,9 +24,8 @@ stream-specific rules for fine-grained control.
 
 ## Robust management API
 
-The new [SolarUser SolarFlux API][solaruser-flux-api] provides a complete API for managing DIN
-endpoints within your SolarNetwork account. Each endpoint is independently configured with
-authorization and transform settings.
+The new [SolarUser SolarFlux API][solaruser-flux-api] provides a complete API for managing both
+your default publish settings as well as stream-level rules.
 
 <img alt="A table of the SolarUser SolarFlux API endpoints" src="/img/news/solaruser-solarflux-api-table@2x.png" width="858">
 
