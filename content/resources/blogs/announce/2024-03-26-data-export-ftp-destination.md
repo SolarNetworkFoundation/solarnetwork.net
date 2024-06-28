@@ -20,7 +20,7 @@ The updated SolarUser Datum Export API has been updated to include details on th
 
 ## Get started with FTP datum export in SolarNetwork
 
-This feature is avaialble now to all SolarNetwork subscribers. If you are interested in using
+This feature is available now to all SolarNetwork subscribers. If you are interested in using
 SolarNetwork's FTP data export support, check out our [Datum Export
 documentation][solaruser-export] and <a
 href="mailto:info@solarnetwork.net?subject=Getting%20started%20with%20datum%20export">reach out to
