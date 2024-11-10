@@ -3,4 +3,5 @@
 *.lock
 *.swp
 node_modules
+package-lock.json
 public

@@ -29,11 +29,12 @@ By subscribing to SolarNetwork you gain access to the following SolarNetwork fea
 | Priority support | Support straight from the SolarNetwork experts. |
 | Bulk import      | [Import CSV data](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-Datum-Import-API) into SolarNetwork. |
 | Bulk export      | [Export CSV data](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-Datum-Export-API) out of SolarNetwork, on an automated schedule or as a one-off. |
-| Event hooks      | Integrate with external applications based on [events](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-Event-Hook-API) happening within SolarNetwork. |
-| OCPP integration | Integrate electric vehicle charging stations with your SolarNetwork account via the Open Charge Point Protocol from the [Open Charge Alliance](https://www.openchargealliance.org/). SolarNetwork acts as an OCPP [Central Service](https://github.com/SolarNetwork/solarnetwork/wiki/OCPP) and offers a [robust API](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-OCPP-API) to manage the integration. |
-| OSCP integration | Receive load control signals from an [Open Smart Charging Protocol](https://www.openchargealliance.org/protocols/oscp-20/) Capacity Provider. SolarNetwork acts as an OSCP [Flexibility Provider](https://github.com/SolarNetwork/solarnetwork/wiki/OSCP) and offers a [robust API](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-OSCP-API) to integrate your own Capacity Optimizer service. |
-| DNP3 integration | Integrate with [Distributed Network Protocol](https://en.wikipedia.org/wiki/DNP3) Control Center applications by way of a fully managed [DNP3 Remote Substation (Outstation)](https://github.com/SolarNetwork/solarnetwork/wiki/DNP3) instance. A single Outstation can expose data and control points across any node associated with your SolarNetwork account. SolarNetwork provides a [robust API](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-DNP3-API) for managing DNP3 configuration. |
-| Custom HTTP integration | Deploy [custom HTTP data integration URLs](https://github.com/SolarNetwork/solarnetwork/wiki/Datum-Input-Endpoint) that can convert and import arbitrary data formats into SolarNetwork, without using a SolarNode device to collect the data. |
+| Custom HTTP integration | Deploy [custom HTTP data integration URLs]({{<ref "2024-03-05-din">}}) that can convert and import arbitrary data formats into SolarNetwork, without using a SolarNode device to collect the data. |
+| Cloud integration | Acquire data from [external device cloud services]({{<ref "2024-11-06-cloud-integrations">}}), without using a SolarNode device to collect the data. |
+| DNP3 integration | Integrate with [Distributed Network Protocol](https://en.wikipedia.org/wiki/DNP3) Control Center applications by way of a fully managed [DNP3 Remote Substation (Outstation)]({{<ref "2023-08-20-dnp3">}}) instance. A single Outstation can expose data and control points across any node associated with your SolarNetwork account. SolarNetwork provides a [robust API](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-DNP3-API) for managing DNP3 configuration. |
+| Event hooks      | Integrate with external applications based on [events]({{<ref "2020-06-19-event-hooks-api">}}) happening within SolarNetwork. |
+| OCPP integration | Integrate electric vehicle charging stations with your SolarNetwork account via the Open Charge Point Protocol from the [Open Charge Alliance](https://www.openchargealliance.org/). SolarNetwork acts as an OCPP [Central Service]({{<ref "2022-05-16-ocpp-ui">}}) and offers a [robust API](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-OCPP-API) to manage the integration. |
+| OSCP integration | Receive load control signals from an [Open Smart Charging Protocol](https://www.openchargealliance.org/protocols/oscp-20/) Capacity Provider. SolarNetwork acts as an OSCP [Flexibility Provider]({{<ref "2023-02-14-oscp-ui">}}) and offers a [robust API](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-OSCP-API) to integrate your own Capacity Optimizer service. |
 {{</table>}}
 
 <sup>*</sup>Other subscriber-only features will be added over time.
@@ -61,7 +62,7 @@ To understand the SolarNetwork subscription costs, the following terms are used:
 {{<section/content class="sn-light" title="Subscription pricing" buttons="explorer">}}
 
 Once you sign up for a SolarNetwork subscription, you will be billed _monthly_ based on your usage
-across all nodes in your account, in the following categories:
+across all nodes in your account in several categories of use. The **core** usage categories are:
 
  1. **Properties Posted** — the total number of properties uploaded to SolarNetwork across all
     datum for all sources for all nodes in your account.
@@ -69,15 +70,16 @@ across all nodes in your account, in the following categories:
  3. **Datum Days Stored** — number of datum stored in SolarNetwork, across all sources and nodes in
     your account, calculated _each day_ and summed for the month.
 
-Each category has a tiered pricing structure, where the rate decreases as the usage volume increases.
-Subscriptions are billed _per month per account_ so tiers are applied on the sum total of all nodes
-in each account.
+Each category has a tiered pricing structure, where the rate decreases as the usage volume
+increases. Subscriptions are billed _per month per account_ so tiers are applied on the sum total of
+all nodes in each account. Use the **Simulate costs** button below to view all usage categories and
+their associated price schedules.
 
 {{</section/content>}}
 
-{{<section/content class="sn-light" title="Pricing details">}}
+{{<section/content class="sn-light" title="Core pricing overview">}}
 
-The following sections detail the pricing tiers for each subscription category.
+The following sections detail the pricing tiers for the core subscription categories.
 
 ## Properties Posted
 
@@ -86,10 +88,10 @@ This price is calculated from the number of properties posted into SolarNetwork 
 {{<table>}}
 | Tier Start  | Tier Rate       | Tier Maximum | Tier Maximum Cost |
 |-------------|-----------------|--------------|-------------------|
-| > 0           | $5 / million    | 500,000     | $ 2.50   |
-| > 500,000     | $3 / million    | 9,500,000   | $ 28.50  |
-| > 10,000,000  | $0.80 / million | 490,000,000 | $ 392.00 |
-| > 500,000,000 | $0.20 / million | -           | -        |
+| > 0           | $5.75 / million | 500,000     | $ 2.88   |
+| > 500,000     | $3.45 / million | 9,500,000   | $ 32.78  |
+| > 10,000,000  | $0.92 / million | 490,000,000 | $ 450.80 |
+| > 500,000,000 | $0.23 / million | -           | -        |
 {{</table>}}
 
 ## Datum Queried
@@ -104,10 +106,10 @@ raw datum that span 24 hours would return 24 datum that count towards the total.
 {{<table>}}
 | Tier Start  | Tier Rate       | Tier Maximum | Tier Maximum Cost |
 |-------------|-----------------|--------------|-------------------|
-| > 0              | $1 / 10 million    | 10,000,000     | $ 1.00   |
-| > 1,000,000      | $0.40 / 10 million | 990,000,000    | $ 39.60  |
-| > 100,000,000    | $0.04 / 10 million | 99,000,000,000 | $ 396.00 |
-| > 10,000,000,000 | $0.01 / 10 million | -              | -        |
+| > 0              | $1.15 / 10 million | 10,000,000     | $ 1.15   |
+| > 1,000,000      | $0.46 / 10 million | 990,000,000    | $ 45.54  |
+| > 100,000,000    | $0.05 / 10 million | 99,000,000,000 | $ 495.00 |
+| > 10,000,000,000 | $0.02 / 10 million | -              | -        |
 {{</table>}}
 
 ## Datum Days Stored
@@ -120,10 +122,10 @@ aggregate datum are counted in this total as well.
 {{<table>}}
 | Tier Start  | Tier Rate       | Tier Maximum | Tier Maximum Cost |
 |-------------|-----------------|--------------|-------------------|
-| > 0               | $5 / 100 million    | 10,000,000     | $ 0.50   |
-| > 10,000,000      | $1 / 100 million    | 990,000,000    | $ 9.90   |
-| > 1,000,000,000   | $0.30 / 100 million | 99,000,000,000 | $ 297.00 |
-| > 100,000,000,000 | $0.20 / 100 million | -              | -        |
+| > 0               | $5.75 / 100 million | 10,000,000     | $ 0.58   |
+| > 10,000,000      | $1.15 / 100 million | 990,000,000    | $ 11.39  |
+| > 1,000,000,000   | $0.35 / 100 million | 99,000,000,000 | $ 341.55 |
+| > 100,000,000,000 | $0.23 / 100 million | -              | -        |
 {{</table>}}
 
 {{</section/content>}}
@@ -142,8 +144,8 @@ source once per minute. Over one 30-day month that would equate to:
 {{<table>}}
 | Tier      | Calculation | Cost |
 |-----------|-------------|------|
-| 1         | 86,400 × $5 ÷ 1,000,000 | $0.43 |
-| **Total** |  | **$0.43** |
+| 1         | 86,400 × $5.75 ÷ 1,000,000 | $0.50 |
+| **Total** |  | **$0.50** |
 {{</table>}}
 
 ## Datum Queried
@@ -167,8 +169,8 @@ Over the course of a 30 day month that would equate to:
 {{<table>}}
 | Tier      | Calculation | Cost |
 |-----------|-------------|------|
-| 1         | 600,480 × $1 ÷ 10,000,000 | $0.06 |
-| **Total** |  | **$0.06** |
+| 1         | 600,480 × $1.15 ÷ 10,000,000 | $0.07 |
+| **Total** |  | **$0.07** |
 {{</table>}}
 
 ## Datum Days Stored
@@ -187,9 +189,9 @@ for _d_ = 1..30: _d_ = _d<sub>prev</sub>_ + 534,737 + (_d_ × 1,465) = **16,723,
 {{<table>}}
 | Tier      | Calculation | Cost |
 |-----------|-------------|------|
-| 1         | 10,000,000 × $5 ÷ 100,000,000 | $0.50 |
-| 2         | 6,723,335 × $1 ÷ 100,000,000  | $0.07 |
-| **Total** |  | **$0.57** |
+| 1         | 10,000,000 × $5.75 ÷ 100,000,000 | $0.58 |
+| 2         | 6,723,335 × $1.15 ÷ 100,000,000  | $0.08 |
+| **Total** |  | **$0.66** |
 {{</table>}}
 
 ## Overall cost
@@ -200,10 +202,10 @@ previous examples would be:
 {{<table>}}
 | Subscription | Cost |
 |--------------|------|
-| Properties Posted | $0.43 |
-| Datum Queried     | $0.06 |
-| Datum Days Stored | $0.57 |
-| **Total**         | **$1.06** |
+| Properties Posted | $0.50 |
+| Datum Queried     | $0.07 |
+| Datum Days Stored | $0.66 |
+| **Total**         | **$1.23** |
 {{</table>}}
 
 {{</section/content>}}
