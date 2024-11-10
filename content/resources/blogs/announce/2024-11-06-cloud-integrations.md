@@ -38,6 +38,7 @@ This feature is available now to all SolarNetwork subscribers. If you do not see
 for the service you would like to integrate with, [reach out to us](mailto:info@solarnetwork.net?subject=Cloud%20Integrations%20request) and we'll be happy to discuss what it would take to add
 support for that service.
 
+{{<shoutout img="/img/news/ecosuite-logo-icon-40.svg" name="Ecosuite" url="https://ecosuite.io/"/>}}
 
 [c2c]: https://github.com/SolarNetwork/solarnetwork/wiki/Cloud-Integrations
 [solaruser-c2c-api]: https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-Cloud-Integrations-API
