@@ -34,7 +34,9 @@ following services:
 
 ## Get started now
 
-This feature is available now to all SolarNetwork subscribers.
+This feature is available now to all SolarNetwork subscribers. If you do not see a cloud integration
+for the service you would like to integrate with, [reach out to us](mailto:info@solarnetwork.net?subject=Cloud%20Integrations%20request) and we'll be happy to discuss what it would take to add
+support for that service.
 
 
 [c2c]: https://github.com/SolarNetwork/solarnetwork/wiki/Cloud-Integrations
