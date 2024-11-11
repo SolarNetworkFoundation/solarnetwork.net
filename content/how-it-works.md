@@ -84,7 +84,6 @@ the load on the grid.
       <dotlottie-player
         src="/img/lotties/Desktop_FullSun_1440x1148.lottie"
         background="transparent"
-        style="width: 100%; height: 100%"
         speed="1"
         loop
         autoplay
