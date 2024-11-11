@@ -81,13 +81,13 @@ the load on the grid.
           <li>SolarNetwork helps the company keep track of how much energy is generated and used.</li>
         </ul>
       </div>
-      <lottie-player
-        src="/img/lotties/Desktop_FullSun_1440x1148.json"
+      <dotlottie-player
+        src="/img/lotties/Desktop_FullSun_1440x1148.lottie"
         background="transparent"
         speed="1"
         loop
         autoplay
-      ></lottie-player>
+      ></dotlottie-player>
     </li>
     <li class="sn-row">
       <div class="sn-notes">
@@ -98,13 +98,13 @@ the load on the grid.
           <li>Grid-scale batteries are asked to supply power, factories are asked to reduce their energy consumption temporarily, and electric vehical chargers are asked to delay charging.</li>
         </ul>
       </div>
-      <lottie-player
-        src="/img/lotties/Desktop_PartialSun_1440x1148.json"
+      <dotlottie-player
+        src="/img/lotties/Desktop_PartialSun_1440x1148.lottie"
         background="transparent"
         speed="1"
         loop
         autoplay
-      ></lottie-player>
+      ></dotlottie-player>
     </li>
     <li class="sn-row">
       <div class="sn-notes">
@@ -115,13 +115,13 @@ the load on the grid.
           <li>The application also uses SolarNet to manage electric vehicle charging to make sure the load on the grid is spread over time. </li>
         </ul>
       </div>
-      <lottie-player
-        src="/img/lotties/Desktop_Night_1440x1148.json"
+      <dotlottie-player
+        src="/img/lotties/Desktop_Night_1440x1148.lottie"
         background="transparent"
         speed="1"
         loop
         autoplay
-      ></lottie-player>
+      ></dotlottie-player>
     </li>
   </ul>
 </div>
@@ -143,13 +143,13 @@ the load on the grid.
           <li>SolarNetwork helps the company keep track of how much energy is generated and used.</li>
         </ul>
       </div>
-      <lottie-player
-        src="/img/lotties/Mobile_FullSun_320x684.json"
+      <dotlottie-player
+        src="/img/lotties/Mobile_FullSun_320x684.lottie"
         background="transparent"
         speed="1"
         loop
         autoplay
-      ></lottie-player>
+      ></dotlottie-player>
     </li>
     <li class="sn-row">
       <div class="sn-notes">
@@ -160,13 +160,13 @@ the load on the grid.
           <li>Grid-scale batteries are asked to supply power, factories are asked to reduce their energy consumption temporarily, and electric vehical chargers are asked to delay charging.</li>
         </ul>
       </div>
-      <lottie-player
-        src="/img/lotties/Mobile_PartialSun_320x684.json"
+      <dotlottie-player
+        src="/img/lotties/Mobile_PartialSun_320x684.lottie"
         background="transparent"
         speed="1"
         loop
         autoplay
-      ></lottie-player>
+      ></dotlottie-player>
     </li>
     <li class="sn-row">
       <div class="sn-notes">
@@ -177,13 +177,13 @@ the load on the grid.
           <li>The application also uses SolarNet to manage electric vehicle charging to make sure the load on the grid is spread over time.</li>
         </ul>
       </div>
-      <lottie-player
-        src="/img/lotties/Mobile_Night_320x684.json"
+      <dotlottie-player
+        src="/img/lotties/Mobile_Night_320x684.lottie"
         background="transparent"
         speed="1"
         loop
         autoplay
-      ></lottie-player>
+      ></dotlottie-player>
     </li>
   </ul>
 </div>
