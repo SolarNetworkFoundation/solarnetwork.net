@@ -7,19 +7,20 @@ buttons:
   consult:
     - type: primary
       link: contact
-  donate:
-    - text: "Want to sign up?"
-    - type: primary
-      link: contact
-  explorer:
+  services:
     - type: primary
       url:  /subscriptions.html
       text: SolarNetwork platform costs
+    - type: primary
+      url:  /support.html
+      text: Support options
 ---
-{{<section/column title="Services" buttons="explorer">}}
-SolarNetwork Foundation offers a range of consulting services to help you understand how SolarNetwork can work for you
-as well as onging support for your SolarNetwork integration.
-Visit the [subscriptions](/subscriptions.html) page for information on SolarNetwork platform costs.
+{{<section/column title="Services" buttons="services">}}
+SolarNetwork Foundation offers a range of consulting services to help you understand how
+the platform can work for you as well as onging support for your SolarNetwork integration. Visit
+[Subscriptions](/subscriptions.html) for information on SolarNetwork platform costs, or
+[Support](/support.html) for professional support options.
+
 {{</section/column>}}
 
 {{<section/deck class="sn-alt sn-light" deck-class="sn-cards" grid-class="sn-dark" buttons="consult"

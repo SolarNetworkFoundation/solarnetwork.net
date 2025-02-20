@@ -4,7 +4,7 @@ date: 2023-05-01
 publishdate: 2023-05-01
 audience: main
 buttons:
-  donate:
+  signup:
     - text: "Want to sign up?"
     - type: primary
       link:  contact
@@ -15,7 +15,7 @@ buttons:
 ---
 {{<section/column title="Subscriptions"/>}}
 
-{{<section/content class="sn-light" buttons="donate">}}
+{{<section/content class="sn-light" buttons="signup">}}
 
 SolarNetwork Foundation offers subscriptions to the SolarNetwork platform which are based on the
 amount of data collected into and queried out of the platform.
