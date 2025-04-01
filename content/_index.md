@@ -18,8 +18,8 @@ buttons:
       text: Explore all features
   pricing:
     - type: primary
-      url: /services.html
-      text: See our services
+      url: /pricing.html
+      text: See our pricing
   resources:
     - type: primary
       url: /resources/blogs/general.html

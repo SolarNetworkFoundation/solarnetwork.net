@@ -1,5 +1,5 @@
 ---
-title: SolarNetwork - Subscriptions
+title: SolarNetwork - Platform Pricing
 date: 2023-05-01
 publishdate: 2023-05-01
 audience: main
@@ -7,38 +7,20 @@ buttons:
   signup:
     - text: "Want to sign up?"
     - type: primary
-      link:  contact
+      text: See pricing
+      url: /pricing.html
   explorer:
     - type: primary
       url:  "https://go.solarnetwork.net/subscription-price-explorer/"
       text: Simulate costs
 ---
-{{<section/column title="Subscriptions"/>}}
+{{<section/column title="Platform pricing"/>}}
 
 {{<section/content class="sn-light" buttons="signup">}}
 
-SolarNetwork Foundation offers subscriptions to the SolarNetwork platform which are based on the
-amount of data collected into and queried out of the platform.
-
-By subscribing to SolarNetwork you gain access to the following SolarNetwork features:
-{.uk-text-large}
-
-{{<table>}}
-| Feature | Description |
-|:--------|:------------|
-| Priority support | Support straight from the SolarNetwork experts. |
-| Bulk import      | [Import CSV data](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-Datum-Import-API) into SolarNetwork. |
-| Bulk export      | [Export CSV data](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-Datum-Export-API) out of SolarNetwork, on an automated schedule or as a one-off. |
-| Custom HTTP integration | Deploy [custom HTTP data integration URLs]({{<ref "2024-03-05-din">}}) that can convert and import arbitrary data formats into SolarNetwork, without using a SolarNode device to collect the data. |
-| Cloud integration | Acquire data from [external device cloud services]({{<ref "2024-11-06-cloud-integrations">}}), without using a SolarNode device to collect the data. |
-| DNP3 integration | Integrate with [Distributed Network Protocol](https://en.wikipedia.org/wiki/DNP3) Control Center applications by way of a fully managed [DNP3 Remote Substation (Outstation)]({{<ref "2023-08-20-dnp3">}}) instance. A single Outstation can expose data and control points across any node associated with your SolarNetwork account. SolarNetwork provides a [robust API](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-DNP3-API) for managing DNP3 configuration. |
-| Event hooks      | Integrate with external applications based on [events]({{<ref "2020-06-19-event-hooks-api">}}) happening within SolarNetwork. |
-| OCPP integration | Integrate electric vehicle charging stations with your SolarNetwork account via the Open Charge Point Protocol from the [Open Charge Alliance](https://www.openchargealliance.org/). SolarNetwork acts as an OCPP [Central Service]({{<ref "2022-05-16-ocpp-ui">}}) and offers a [robust API](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-OCPP-API) to manage the integration. |
-| OSCP integration | Receive load control signals from an [Open Smart Charging Protocol](https://www.openchargealliance.org/protocols/oscp-20/) Capacity Provider. SolarNetwork acts as an OSCP [Flexibility Provider]({{<ref "2023-02-14-oscp-ui">}}) and offers a [robust API](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-OSCP-API) to integrate your own Capacity Optimizer service. |
-{{</table>}}
-
-<sup>*</sup>Other subscriber-only features will be added over time.
-{.uk-text-small}
+SolarNetwork Foundation offers a usage-based pricing model for the SolarNetwork platform which is
+based on how much you utilise the platform. For example you pay for the amount of data collected into
+and queried out of the platform.
 
 {{</section/content>}}
 

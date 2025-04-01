@@ -30,7 +30,7 @@ than _50% cost savings_ for SolarNetwork subscribers overall!
 | Datum stored      | $0.40 / million    | $0.20 / million    | $0.05 / million    | $0.006 / million   |
 {{</table>}}
 
- See the [subscriptions page](/subscriptions.html) for more details.
+ See the [platform pricing page](/platform-pricing.html) for more details.
 
 ## What subscribers are saying
 

@@ -25,6 +25,6 @@ login:
 resources:
   text: Rersources
   url: /resources.html
-subscriptions:
-  text: Pricing plans
-  url: /subscriptions.html
+pricing:
+  text: Pricing
+  url: /pricing.html
