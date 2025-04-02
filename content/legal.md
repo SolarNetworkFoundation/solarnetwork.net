@@ -15,7 +15,7 @@ waste and increasing energy efficiency.
 
 SolarNetwork is free to use for personal hobby use. If you would like to use SolarNetwork for
 commercial purposes, please contact info@solarnetwork.net to engage SNF in purchasing a low-cost
-paid [subscription](/subscriptions.html) based on your SolarNetwork usage (you only pay for what you
+[package](/pricing.html) based on your SolarNetwork usage (you only pay for what you
 use). Subscribers gain access to additional features like CSV data import and export.
 
 SNF does not collect data other than what you explicitly add to SolarNetwork. SNF does not share any
