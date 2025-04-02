@@ -1,5 +1,5 @@
 ---
-title: SolarNetwork - Pricing
+title: SolarNetwork - Subscription Pricing
 date: 2025-04-01
 publishdate: 2025-04-01
 audience: main
@@ -15,10 +15,10 @@ buttons:
     - type: primary
       link:  contact
     - type: default
-      text: See platform costs
+      text: See platform usage costs
       url: /platform-pricing.html
 ---
-{{<section/column title="Pricing" buttons="services">}}
+{{<section/column title="Subscription pricing" buttons="services">}}
 {{</section/column>}}
 
 {{<section/deck class="sn-alt sn-light" deck-class="sn-learn sn-pair sn-extra" buttons="signup"
@@ -66,10 +66,10 @@ buttons:
     * **Support:** 2h email/Slack consulting
     * **Issue response time:** 1 business day
 
-  <span class="uk-text-large">[Platform usage](/platform-pricing.html) + **$350** <span class="uk-text-muted">/ month</span></span>
+  <span class="uk-text-large">[Platform usage](/platform-pricing.html) + **$350<sup>†</sup>** <span class="uk-text-muted">/ month</span></span>
   {.uk-text-center}
 
-  5-10% discount available for [long-term subscriptions](#long-term-subscription-discounts)
+  <sup>†</sup> 5-10% discount available for [long-term subscriptions](#long-term-subscription-discounts)
 
   {{</deck-link-card>}}
 
@@ -85,10 +85,10 @@ buttons:
     * **Issue response time:** 1 business day
     * **Expert training:** 2h
 
-  <span class="uk-text-large">[Platform usage](/platform-pricing.html) + **$900** <span class="uk-text-muted">/ month</span></span>
+  <span class="uk-text-large">[Platform usage](/platform-pricing.html) + **$900<sup>†</sup>** <span class="uk-text-muted">/ month</span></span>
   {.uk-text-center}
 
-  5-10% discount available for [long-term subscriptions](#long-term-subscription-discounts)
+  <sup>†</sup> 5-10% discount available for [long-term subscriptions](#long-term-subscription-discounts)
 
   {{</deck-link-card>}}
 
@@ -104,10 +104,10 @@ buttons:
     * **Issue response time:** 12 business hours
     * **Expert training:** 4h
 
-  <span class="uk-text-large">[Platform usage](/platform-pricing.html) + **$1600** <span class="uk-text-muted">/ month</span></span>
+  <span class="uk-text-large">[Platform usage](/platform-pricing.html) + **$1600<sup>†</sup>** <span class="uk-text-muted">/ month</span></span>
   {.uk-text-center}
 
-  5-10% discount available for [long-term subscriptions](#long-term-subscription-discounts)
+  <sup>†</sup> 5-10% discount available for [long-term subscriptions](#long-term-subscription-discounts)
 
   {{</deck-link-card>}}
 
@@ -135,7 +135,7 @@ buttons:
 
 {{<section/deck class="sn-alt" deck-class="sn-learn sn-pair sn-compact" buttons="contact"
   title="Long-term subscription discounts"
-  subtitle="Pay up front for longer-term support for a discounted price. All consulting and training hours apply to the whole term. Choose one of the monthly support packages and then add on one of these long-term options:">}}
+  subtitle="Pay up front for longer-term support for a discounted price. Discounts do not apply to platform usage costs. All consulting and training hours apply to the whole term. Choose one of the monthly support packages and then add on one of these long-term options:">}}
 
   {{<deck-card class="sn-main" title="Quarterly" subtitle="3 month term">}}
 
@@ -162,7 +162,6 @@ buttons:
   {{</deck-card>}}
 
 {{</section/deck>}}
-
 
 {{<section/content class="sn-light">}}
 

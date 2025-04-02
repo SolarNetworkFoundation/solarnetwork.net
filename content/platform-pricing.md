@@ -1,5 +1,5 @@
 ---
-title: SolarNetwork - Platform Pricing
+title: SolarNetwork - Platform Usage Costs
 date: 2023-05-01
 publishdate: 2023-05-01
 audience: main
@@ -7,14 +7,17 @@ buttons:
   signup:
     - text: "Want to sign up?"
     - type: primary
-      text: See pricing
+      text: See subscriptions
       url: /pricing.html
+    - type: default
+      url:  "https://go.solarnetwork.net/subscription-price-explorer/"
+      text: Simulate usage costs
   explorer:
     - type: primary
       url:  "https://go.solarnetwork.net/subscription-price-explorer/"
-      text: Simulate costs
+      text: Simulate usage costs
 ---
-{{<section/column title="Platform pricing"/>}}
+{{<section/column title="Platform usage costs"/>}}
 
 {{<section/content class="sn-light" buttons="signup">}}
 
@@ -26,7 +29,7 @@ and queried out of the platform.
 
 {{<section/content class="sn-alt" title="SolarNetwork terminology">}}
 
-To understand the SolarNetwork subscription costs, the following terms are used:
+To understand the SolarNetwork platform costs, the following terms are used:
 {.uk-text-large}
 
 {{<table>}}
@@ -41,10 +44,11 @@ To understand the SolarNetwork subscription costs, the following terms are used:
 
 {{</section/content>}}
 
-{{<section/content class="sn-light" title="Subscription pricing" buttons="explorer">}}
+{{<section/content class="sn-light" title="Usage pricing" buttons="explorer">}}
 
-Once you sign up for a SolarNetwork subscription, you will be billed _monthly_ based on your usage
-across all nodes in your account in several categories of use. The **core** usage categories are:
+Once you sign up for a SolarNetwork subscription, you will be billed _monthly_ based on your
+platform usage across all nodes in your account in several categories of use. The **core** usage
+categories are:
 
  1. **Properties Posted** — the total number of properties uploaded to SolarNetwork across all
     datum for all sources for all nodes in your account.
@@ -54,14 +58,14 @@ across all nodes in your account in several categories of use. The **core** usag
 
 Each category has a tiered pricing structure, where the rate decreases as the usage volume
 increases. Subscriptions are billed _per month per account_ so tiers are applied on the sum total of
-all nodes in each account. Use the **Simulate costs** button below to view all usage categories and
+all nodes in each account. Use the **Simulate usage costs** button below to view all usage categories and
 their associated price schedules.
 
 {{</section/content>}}
 
-{{<section/content class="sn-light" title="Core pricing overview">}}
+{{<section/content class="sn-light" title="Core usage pricing overview">}}
 
-The following sections detail the pricing tiers for the core subscription categories.
+The following sections detail the pricing tiers for the core usage categories.
 
 ## Properties Posted
 
@@ -112,9 +116,9 @@ aggregate datum are counted in this total as well.
 
 {{</section/content>}}
 
-{{<section/content class="sn-alt" title="Pricing example">}}
+{{<section/content class="sn-alt" title="Usage pricing example">}}
 
-The following sections illustrate how the SolarNetwork subscription costs are calculated.
+The following sections illustrate how the SolarNetwork platform costs are calculated.
 
 ## Properties Posted
 
@@ -178,7 +182,7 @@ for _d_ = 1..30: _d_ = _d<sub>prev</sub>_ + 534,737 + (_d_ × 1,465) = **16,723,
 
 ## Overall cost
 
-The overall monthly subscription cost for properties posted, datum queried, and datum stored for the
+The overall monthly platform cost for properties posted, datum queried, and datum stored for the
 previous examples would be:
 
 {{<table>}}
