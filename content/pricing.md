@@ -139,24 +139,24 @@ buttons:
 
   {{<deck-card class="sn-main" title="Quarterly" subtitle="3 month term">}}
 
-    * **Email/Slack consulting:** 3x selected monthly package
-    * **Expert training:** 3x selected monthly package
+    * **Email/Slack consulting:** 3× selected monthly package
+    * **Expert training:** 3× selected monthly package
     * 5% discount
 
   {{</deck-card>}}
 
   {{<deck-card class="sn-main" title="Semi-annually" subtitle="6 month term">}}
 
-    * **Email/Slack consulting:** 6x selected monthly package
-    * **Expert training:** 6x selected monthly package
+    * **Email/Slack consulting:** 6× selected monthly package
+    * **Expert training:** 6× selected monthly package
     * 7% discount
 
   {{</deck-card>}}
 
   {{<deck-card class="sn-main" title="Annually" subtitle="12 month term">}}
 
-    * **Email/Slack consulting:** 12x selected monthly package
-    * **Expert training:** 12x selected monthly package
+    * **Email/Slack consulting:** 12× selected monthly package
+    * **Expert training:** 12× selected monthly package
     * 10% discount
 
   {{</deck-card>}}
