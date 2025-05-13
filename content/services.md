@@ -1,5 +1,5 @@
 ---
-title: SolarNetwork Foundation - Services
+title: SolarNetwork Foundation - Consulting Services
 date: 2024-03-01
 publishdate: 2024-03-01
 audience: main
@@ -7,23 +7,22 @@ buttons:
   consult:
     - type: primary
       link: contact
-  donate:
-    - text: "Want to sign up?"
+  pricing:
+    - type: text
+      text: Looking for platform costs?
     - type: primary
-      link: contact
-  explorer:
-    - type: primary
-      url:  /subscriptions.html
-      text: SolarNetwork platform costs
+      url:  /pricing.html
+      text: See pricing
 ---
-{{<section/column title="Services" buttons="explorer">}}
-SolarNetwork Foundation offers a range of consulting services to help you understand how SolarNetwork can work for you
-as well as onging support for your SolarNetwork integration.
-Visit the [subscriptions](/subscriptions.html) page for information on SolarNetwork platform costs.
+{{<section/column title="Consulting Services" buttons="pricing">}}
+SolarNetwork Foundation offers a range of consulting services to help you understand how
+the platform can work for you as well as onging support for your SolarNetwork integration.
+See our [example scenarios]({{< ref "/resources/services" >}}) to give you more
+of an idea of how we can help.
+
 {{</section/column>}}
 
-{{<section/deck class="sn-alt sn-light" deck-class="sn-cards" grid-class="sn-dark" buttons="consult"
-  title="We offer a range of consulting services to help you understand how SolarNetwork can work for you.">}}
+{{<section/deck class="sn-alt sn-light" deck-class="sn-cards" grid-class="sn-dark" buttons="consult" >}}
 
   {{<column class="sn-info-card" title="Experiment" subtitle="Start collecting data quickly.">}}
 

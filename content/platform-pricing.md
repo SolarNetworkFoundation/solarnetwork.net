@@ -1,50 +1,35 @@
 ---
-title: SolarNetwork - Subscriptions
+title: SolarNetwork - Platform Usage Costs
 date: 2023-05-01
 publishdate: 2023-05-01
 audience: main
 buttons:
-  donate:
+  signup:
     - text: "Want to sign up?"
     - type: primary
-      link:  contact
+      text: See subscriptions
+      url: /pricing.html
+    - type: default
+      url:  "https://go.solarnetwork.net/subscription-price-explorer/"
+      text: Simulate usage costs
   explorer:
     - type: primary
       url:  "https://go.solarnetwork.net/subscription-price-explorer/"
-      text: Simulate costs
+      text: Simulate usage costs
 ---
-{{<section/column title="Subscriptions"/>}}
+{{<section/column title="Platform usage costs"/>}}
 
-{{<section/content class="sn-light" buttons="donate">}}
+{{<section/content class="sn-light" buttons="signup">}}
 
-SolarNetwork Foundation offers subscriptions to the SolarNetwork platform which are based on the
-amount of data collected into and queried out of the platform.
-
-By subscribing to SolarNetwork you gain access to the following SolarNetwork features:
-{.uk-text-large}
-
-{{<table>}}
-| Feature | Description |
-|:--------|:------------|
-| Priority support | Support straight from the SolarNetwork experts. |
-| Bulk import      | [Import CSV data](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-Datum-Import-API) into SolarNetwork. |
-| Bulk export      | [Export CSV data](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-Datum-Export-API) out of SolarNetwork, on an automated schedule or as a one-off. |
-| Custom HTTP integration | Deploy [custom HTTP data integration URLs]({{<ref "2024-03-05-din">}}) that can convert and import arbitrary data formats into SolarNetwork, without using a SolarNode device to collect the data. |
-| Cloud integration | Acquire data from [external device cloud services]({{<ref "2024-11-06-cloud-integrations">}}), without using a SolarNode device to collect the data. |
-| DNP3 integration | Integrate with [Distributed Network Protocol](https://en.wikipedia.org/wiki/DNP3) Control Center applications by way of a fully managed [DNP3 Remote Substation (Outstation)]({{<ref "2023-08-20-dnp3">}}) instance. A single Outstation can expose data and control points across any node associated with your SolarNetwork account. SolarNetwork provides a [robust API](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-DNP3-API) for managing DNP3 configuration. |
-| Event hooks      | Integrate with external applications based on [events]({{<ref "2020-06-19-event-hooks-api">}}) happening within SolarNetwork. |
-| OCPP integration | Integrate electric vehicle charging stations with your SolarNetwork account via the Open Charge Point Protocol from the [Open Charge Alliance](https://www.openchargealliance.org/). SolarNetwork acts as an OCPP [Central Service]({{<ref "2022-05-16-ocpp-ui">}}) and offers a [robust API](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-OCPP-API) to manage the integration. |
-| OSCP integration | Receive load control signals from an [Open Smart Charging Protocol](https://www.openchargealliance.org/protocols/oscp-20/) Capacity Provider. SolarNetwork acts as an OSCP [Flexibility Provider]({{<ref "2023-02-14-oscp-ui">}}) and offers a [robust API](https://github.com/SolarNetwork/solarnetwork/wiki/SolarUser-OSCP-API) to integrate your own Capacity Optimizer service. |
-{{</table>}}
-
-<sup>*</sup>Other subscriber-only features will be added over time.
-{.uk-text-small}
+SolarNetwork Foundation offers a usage-based pricing model for the SolarNetwork platform which is
+based on how much you utilise the platform. For example you pay for the amount of data collected into
+and queried out of the platform.
 
 {{</section/content>}}
 
 {{<section/content class="sn-alt" title="SolarNetwork terminology">}}
 
-To understand the SolarNetwork subscription costs, the following terms are used:
+To understand the SolarNetwork platform costs, the following terms are used:
 {.uk-text-large}
 
 {{<table>}}
@@ -59,10 +44,11 @@ To understand the SolarNetwork subscription costs, the following terms are used:
 
 {{</section/content>}}
 
-{{<section/content class="sn-light" title="Subscription pricing" buttons="explorer">}}
+{{<section/content class="sn-light" title="Usage pricing" buttons="explorer">}}
 
-Once you sign up for a SolarNetwork subscription, you will be billed _monthly_ based on your usage
-across all nodes in your account in several categories of use. The **core** usage categories are:
+Once you sign up for a SolarNetwork subscription, you will be billed _monthly_ based on your
+platform usage across all nodes in your account in several categories of use. The **core** usage
+categories are:
 
  1. **Properties Posted** — the total number of properties uploaded to SolarNetwork across all
     datum for all sources for all nodes in your account.
@@ -72,14 +58,14 @@ across all nodes in your account in several categories of use. The **core** usag
 
 Each category has a tiered pricing structure, where the rate decreases as the usage volume
 increases. Subscriptions are billed _per month per account_ so tiers are applied on the sum total of
-all nodes in each account. Use the **Simulate costs** button below to view all usage categories and
+all nodes in each account. Use the **Simulate usage costs** button below to view all usage categories and
 their associated price schedules.
 
 {{</section/content>}}
 
-{{<section/content class="sn-light" title="Core pricing overview">}}
+{{<section/content class="sn-light" title="Core usage pricing overview">}}
 
-The following sections detail the pricing tiers for the core subscription categories.
+The following sections detail the pricing tiers for the core usage categories.
 
 ## Properties Posted
 
@@ -130,9 +116,9 @@ aggregate datum are counted in this total as well.
 
 {{</section/content>}}
 
-{{<section/content class="sn-alt" title="Pricing example">}}
+{{<section/content class="sn-alt" title="Usage pricing example">}}
 
-The following sections illustrate how the SolarNetwork subscription costs are calculated.
+The following sections illustrate how the SolarNetwork platform costs are calculated.
 
 ## Properties Posted
 
@@ -196,7 +182,7 @@ for _d_ = 1..30: _d_ = _d<sub>prev</sub>_ + 534,737 + (_d_ × 1,465) = **16,723,
 
 ## Overall cost
 
-The overall monthly subscription cost for properties posted, datum queried, and datum stored for the
+The overall monthly platform cost for properties posted, datum queried, and datum stored for the
 previous examples would be:
 
 {{<table>}}
