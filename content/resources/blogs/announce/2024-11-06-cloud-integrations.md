@@ -18,12 +18,12 @@ than if a SolarNode had collected the data.
 There are quite a lot of device clouds out in the wild. Right now we have added support for the
 following services:
 
-  * [eGauge](eGauge-Cloud-Integrations)
-  * [Locus Energy](Locus-Energy-Cloud-Integrations) (AlsoEnergy)
-  * [OpenWeatherMap](OpenWeatherMap-Cloud-Integrations)
-  * [SolarEdge](SolarEdge-Cloud-Integrations)
-  * [Solcast](Solcast-Cloud-Integrations)
-  * [SolrenView](SolrenView-Cloud-Integrations) (Solectria)
+  * [eGauge](https://github.com/SolarNetwork/solarnetwork/wiki/eGauge-Cloud-Integrations)
+  * [Locus Energy](https://github.com/SolarNetwork/solarnetwork/wiki/Locus-Energy-Cloud-Integrations) (AlsoEnergy)
+  * [OpenWeatherMap](https://github.com/SolarNetwork/solarnetwork/wiki/OpenWeatherMap-Cloud-Integrations)
+  * [SolarEdge](https://github.com/SolarNetwork/solarnetwork/wiki/SolarEdge-Cloud-Integrations)
+  * [Solcast](https://github.com/SolarNetwork/solarnetwork/wiki/Solcast-Cloud-Integrations)
+  * [SolrenView](https://github.com/SolarNetwork/solarnetwork/wiki/SolrenView-Cloud-Integrations) (Solectria)
 
 
   See the [Cloud Integrations guide][c2c] for more information. SolarNetwork provides a [Cloud
