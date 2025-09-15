@@ -1,10 +1,10 @@
-{{/*
+<!--
   Named parameters:
 
    * img (optional) - URL of image to display
    * alt (optional) - image alt value
 
- */}}
+-->
 <div class="sn-row sn-shoutout">
   {{ if isset .Params  "img" }}
     <img src="{{ .Get "img" }}"{{ if isset .Params "alt" }} alt="{{ .Get "alt" }}"{{ else if isset .Params "name" }} alt="{{ .Get "name" }} logo"{{ end }} >
