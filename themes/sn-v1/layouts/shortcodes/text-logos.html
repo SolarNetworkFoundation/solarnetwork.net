@@ -5,7 +5,7 @@
    * key                 - site data key of text-logo partial map
 
  */}}
-{{ range $i, $v := index site.Data (.Get "data") (.Get "key") }}
+{{ range $i, $v := index hugo.Data (.Get "data") (.Get "key") }}
   {{ partial "text-logo" $v }}
 {{ end }}
 

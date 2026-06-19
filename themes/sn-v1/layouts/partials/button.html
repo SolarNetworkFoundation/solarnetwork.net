@@ -12,8 +12,8 @@
  */}}
 {{ $data := newScratch }}
 {{ $data.Set "p" . }}
-{{ if and .link (index site.Data.links .link) }}
-  {{ $data.Set "p" (merge (index site.Data.links .link) .) }}
+{{ if and .link (index hugo.Data.links .link) }}
+  {{ $data.Set "p" (merge (index hugo.Data.links .link) .) }}
 {{ end }}
 {{ with $data.Get "p" }}
   {{ if .url }}
